@@ -1,9 +1,14 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+
+import HomePage from "components/pages/HomePage"
 
 function App() {
   return (
-    <>
-      <h1 className="text-2xl text-center">Inventory Management System</h1>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </Router>
   )
 }
 
