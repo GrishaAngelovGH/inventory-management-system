@@ -19,6 +19,32 @@ exports[`should render component 1`] = `
           Inventory Management System
         </h1>
       </div>
+      <div
+        class="h-[300px] bg-slate-300 flex"
+      >
+        <div
+          class="w-3/6 p-4 text-center flex flex-col justify-center"
+        >
+          <h1
+            class="text-3xl"
+          >
+            Effortless Inventory, Seamless Operations—Your Smarter Way to Manage Stock
+          </h1>
+          <p
+            class="text-xl pt-4 text-justify"
+          >
+            Transform the way you manage your inventory with our powerful, easy-to-use system. Gain real-time insights, optimize stock levels, and streamline processes—all in one place. Your path to smarter inventory starts here.
+          </p>
+        </div>
+        <div
+          class="w-3/6"
+        >
+          <img
+            class="w-full h-full opacity-75"
+            src="/im-1.jpg"
+          />
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
@@ -35,6 +61,32 @@ exports[`should render component 1`] = `
       >
         Inventory Management System
       </h1>
+    </div>
+    <div
+      class="h-[300px] bg-slate-300 flex"
+    >
+      <div
+        class="w-3/6 p-4 text-center flex flex-col justify-center"
+      >
+        <h1
+          class="text-3xl"
+        >
+          Effortless Inventory, Seamless Operations—Your Smarter Way to Manage Stock
+        </h1>
+        <p
+          class="text-xl pt-4 text-justify"
+        >
+          Transform the way you manage your inventory with our powerful, easy-to-use system. Gain real-time insights, optimize stock levels, and streamline processes—all in one place. Your path to smarter inventory starts here.
+        </p>
+      </div>
+      <div
+        class="w-3/6"
+      >
+        <img
+          class="w-full h-full opacity-75"
+          src="/im-1.jpg"
+        />
+      </div>
     </div>
   </div>,
   "debug": [Function],
