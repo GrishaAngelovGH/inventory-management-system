@@ -45,6 +45,24 @@ exports[`should render HomePage component 1`] = `
           />
         </div>
       </div>
+      <div
+        class="h-[300px] bg-[url('/im-2.jpg')] bg-cover flex justify-center items-center"
+      >
+        <div
+          class="w-4/6 backdrop-blur-md p-5 rounded-md"
+        >
+          <h1
+            class="text-3xl text-center"
+          >
+            Take the First Step Towards Smarter Inventory
+          </h1>
+          <p
+            class="mt-5 text-xl text-justify"
+          >
+            Discover the tools you need to optimize and grow your business. Whether you're a small startup or an established enterprise, our system adapts to your needs. Try it risk-free today and see the impact it can have on your operations!
+          </p>
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
@@ -86,6 +104,24 @@ exports[`should render HomePage component 1`] = `
           class="w-full h-full opacity-75"
           src="/im-1.jpg"
         />
+      </div>
+    </div>
+    <div
+      class="h-[300px] bg-[url('/im-2.jpg')] bg-cover flex justify-center items-center"
+    >
+      <div
+        class="w-4/6 backdrop-blur-md p-5 rounded-md"
+      >
+        <h1
+          class="text-3xl text-center"
+        >
+          Take the First Step Towards Smarter Inventory
+        </h1>
+        <p
+          class="mt-5 text-xl text-justify"
+        >
+          Discover the tools you need to optimize and grow your business. Whether you're a small startup or an established enterprise, our system adapts to your needs. Try it risk-free today and see the impact it can have on your operations!
+        </p>
       </div>
     </div>
   </div>,

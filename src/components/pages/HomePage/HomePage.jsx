@@ -17,11 +17,26 @@ const IntroductionSection = () => (
   </div>
 )
 
+const DiscoverSection = () => (
+  <div className="h-[300px] bg-[url('/im-2.jpg')] bg-cover flex justify-center items-center">
+    <div className="w-4/6 backdrop-blur-md p-5 rounded-md">
+      <h1 className="text-3xl text-center">Take the First Step Towards Smarter Inventory</h1>
+
+      <p className="mt-5 text-xl text-justify">
+        Discover the tools you need to optimize and grow your business.
+        Whether you're a small startup or an established enterprise, our system adapts to your needs.
+        Try it risk-free today and see the impact it can have on your operations!
+      </p>
+    </div>
+  </div>
+)
+
 const HomePage = () => {
   return (
     <>
       <HeadingTitle />
       <IntroductionSection />
+      <DiscoverSection />
     </>
   )
 }
