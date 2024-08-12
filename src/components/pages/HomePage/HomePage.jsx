@@ -45,6 +45,21 @@ const SeamlessIntegrationSection = () => (
   </div>
 )
 
+const BoostProductivitySection = () => (
+  <div className="md:h-[300px] bg-[url('/im-4.png')] bg-cover flex justify-center items-center">
+    <div className="w-4/6 backdrop-blur-xl p-5 rounded-md text-white">
+      <h1 className="text-xl lg:text-3xl text-center">Boost Your Productivity</h1>
+
+      <p className="mt-5 text-xl text-justify">
+
+        Spend less time managing inventory and more time growing your business.
+        Our intuitive dashboard, smart alerts, and automation features let you focus
+        on what truly matters.
+      </p>
+    </div>
+  </div>
+)
+
 const HomePage = () => {
   return (
     <>
@@ -52,6 +67,7 @@ const HomePage = () => {
       <IntroductionSection />
       <DiscoverSection />
       <SeamlessIntegrationSection />
+      <BoostProductivitySection />
     </>
   )
 }

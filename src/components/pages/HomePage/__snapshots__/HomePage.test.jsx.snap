@@ -81,6 +81,24 @@ exports[`should render HomePage component 1`] = `
           </p>
         </div>
       </div>
+      <div
+        class="md:h-[300px] bg-[url('/im-4.png')] bg-cover flex justify-center items-center"
+      >
+        <div
+          class="w-4/6 backdrop-blur-xl p-5 rounded-md text-white"
+        >
+          <h1
+            class="text-xl lg:text-3xl text-center"
+          >
+            Boost Your Productivity
+          </h1>
+          <p
+            class="mt-5 text-xl text-justify"
+          >
+            Spend less time managing inventory and more time growing your business. Our intuitive dashboard, smart alerts, and automation features let you focus on what truly matters.
+          </p>
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
@@ -157,6 +175,24 @@ exports[`should render HomePage component 1`] = `
           class="mt-5 text-xl text-justify"
         >
           Our system works harmoniously with your favorite tools and platforms. Whether it's accounting software, e-commerce platforms, or point-of-sale systems, we've got you covered for a unified workflow.
+        </p>
+      </div>
+    </div>
+    <div
+      class="md:h-[300px] bg-[url('/im-4.png')] bg-cover flex justify-center items-center"
+    >
+      <div
+        class="w-4/6 backdrop-blur-xl p-5 rounded-md text-white"
+      >
+        <h1
+          class="text-xl lg:text-3xl text-center"
+        >
+          Boost Your Productivity
+        </h1>
+        <p
+          class="mt-5 text-xl text-justify"
+        >
+          Spend less time managing inventory and more time growing your business. Our intuitive dashboard, smart alerts, and automation features let you focus on what truly matters.
         </p>
       </div>
     </div>
