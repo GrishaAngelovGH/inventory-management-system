@@ -51,10 +51,23 @@ const BoostProductivitySection = () => (
       <h1 className="text-xl lg:text-3xl text-center">Boost Your Productivity</h1>
 
       <p className="mt-5 text-xl text-justify">
-
         Spend less time managing inventory and more time growing your business.
         Our intuitive dashboard, smart alerts, and automation features let you focus
         on what truly matters.
+      </p>
+    </div>
+  </div>
+)
+
+const DataDrivenDecisionsSection = () => (
+  <div className="md:h-[300px] bg-[url('/im-5.jpg')] bg-cover flex justify-center items-center">
+    <div className="w-4/6 backdrop-blur-xl p-5 rounded-md">
+      <h1 className="text-xl lg:text-3xl text-center">Data-Driven Decisions</h1>
+
+      <p className="mt-5 text-xl text-justify">
+        Access powerful analytics and detailed reporting to uncover trends,
+        monitor performance, and forecast demand.
+        Make informed decisions with confidence and precision.
       </p>
     </div>
   </div>
@@ -68,6 +81,7 @@ const HomePage = () => {
       <DiscoverSection />
       <SeamlessIntegrationSection />
       <BoostProductivitySection />
+      <DataDrivenDecisionsSection />
     </>
   )
 }
