@@ -63,6 +63,24 @@ exports[`should render component 1`] = `
           </p>
         </div>
       </div>
+      <div
+        class="md:h-[300px] bg-[url('/im-3.jpg')] bg-cover flex justify-center items-center"
+      >
+        <div
+          class="w-4/6 backdrop-blur-xl p-5 rounded-md text-white"
+        >
+          <h1
+            class="text-xl lg:text-3xl text-center"
+          >
+            Seamless Integration
+          </h1>
+          <p
+            class="mt-5 text-xl text-justify"
+          >
+            Our system works harmoniously with your favorite tools and platforms. Whether it's accounting software, e-commerce platforms, or point-of-sale systems, we've got you covered for a unified workflow.
+          </p>
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
@@ -121,6 +139,24 @@ exports[`should render component 1`] = `
           class="mt-5 text-xl text-justify"
         >
           Discover the tools you need to optimize and grow your business. Whether you're a small startup or an established enterprise, our system adapts to your needs. Try it risk-free today and see the impact it can have on your operations!
+        </p>
+      </div>
+    </div>
+    <div
+      class="md:h-[300px] bg-[url('/im-3.jpg')] bg-cover flex justify-center items-center"
+    >
+      <div
+        class="w-4/6 backdrop-blur-xl p-5 rounded-md text-white"
+      >
+        <h1
+          class="text-xl lg:text-3xl text-center"
+        >
+          Seamless Integration
+        </h1>
+        <p
+          class="mt-5 text-xl text-justify"
+        >
+          Our system works harmoniously with your favorite tools and platforms. Whether it's accounting software, e-commerce platforms, or point-of-sale systems, we've got you covered for a unified workflow.
         </p>
       </div>
     </div>

@@ -31,12 +31,27 @@ const DiscoverSection = () => (
   </div>
 )
 
+const SeamlessIntegrationSection = () => (
+  <div className="md:h-[300px] bg-[url('/im-3.jpg')] bg-cover flex justify-center items-center">
+    <div className="w-4/6 backdrop-blur-xl p-5 rounded-md text-white">
+      <h1 className="text-xl lg:text-3xl text-center">Seamless Integration</h1>
+
+      <p className="mt-5 text-xl text-justify">
+        Our system works harmoniously with your favorite tools and platforms.
+        Whether it's accounting software, e-commerce platforms, or point-of-sale systems,
+        we've got you covered for a unified workflow.
+      </p>
+    </div>
+  </div>
+)
+
 const HomePage = () => {
   return (
     <>
       <HeadingTitle />
       <IntroductionSection />
       <DiscoverSection />
+      <SeamlessIntegrationSection />
     </>
   )
 }
