@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const HeadingTitle = () => (
   <div className="bg-blue-400 p-1 flex items-center">
     <img src="/inventory-management.png" width={50} height={50} />
@@ -64,25 +66,34 @@ const DataDrivenDecisionsSection = () => (
     <div className="w-4/6 backdrop-blur-xl p-5 rounded-md">
       <h1 className="text-xl lg:text-3xl text-center">Data-Driven Decisions</h1>
 
-      <p className="mt-5 text-xl text-justify">
+      <div className="mt-5 text-xl text-justify">
         Access powerful analytics and detailed reporting to uncover trends,
         monitor performance, and forecast demand.
         Make informed decisions with confidence and precision.
-      </p>
+
+        <div className="flex justify-center">
+          <Link
+            to="/dashboard"
+            className="bg-orange-500 text-white rounded-full p-2 block mt-5 w-[200px] text-center text-xl hover:scale-125 duration-500"
+          >
+            Try Our Demo
+          </Link>
+        </div>
+      </div>
     </div>
   </div>
 )
 
 const HomePage = () => {
   return (
-    <>
+    <div className="cursor-default">
       <HeadingTitle />
       <IntroductionSection />
       <DiscoverSection />
       <SeamlessIntegrationSection />
       <BoostProductivitySection />
       <DataDrivenDecisionsSection />
-    </>
+    </div>
   )
 }
 

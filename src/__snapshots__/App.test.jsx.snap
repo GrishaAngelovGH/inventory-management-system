@@ -6,6 +6,138 @@ exports[`should render component 1`] = `
   "baseElement": <body>
     <div>
       <div
+        class="cursor-default"
+      >
+        <div
+          class="bg-blue-400 p-1 flex items-center"
+        >
+          <img
+            height="50"
+            src="/inventory-management.png"
+            width="50"
+          />
+          <h1
+            class="text-3xl flex-1 text-center text-blue-950"
+          >
+            Inventory Management System
+          </h1>
+        </div>
+        <div
+          class="md:h-[300px] bg-slate-300 flex"
+        >
+          <div
+            class="w-3/6 p-4 text-center flex flex-col justify-center"
+          >
+            <h1
+              class="md:text-xl lg:text-3xl"
+            >
+              Effortless Inventory, Seamless Operations—Your Smarter Way to Manage Stock
+            </h1>
+            <p
+              class="md:text-xl pt-4 text-justify"
+            >
+              Transform the way you manage your inventory with our powerful, easy-to-use system. Gain real-time insights, optimize stock levels, and streamline processes—all in one place. Your path to smarter inventory starts here.
+            </p>
+          </div>
+          <div
+            class="w-3/6"
+          >
+            <img
+              class="w-full h-full opacity-75"
+              src="/im-1.jpg"
+            />
+          </div>
+        </div>
+        <div
+          class="md:h-[300px] bg-[url('/im-2.jpg')] bg-cover flex justify-center items-center"
+        >
+          <div
+            class="w-4/6 backdrop-blur-md p-5 rounded-md"
+          >
+            <h1
+              class="text-xl lg:text-3xl text-center"
+            >
+              Take the First Step Towards Smarter Inventory
+            </h1>
+            <p
+              class="mt-5 text-xl text-justify"
+            >
+              Discover the tools you need to optimize and grow your business. Whether you're a small startup or an established enterprise, our system adapts to your needs. Try it risk-free today and see the impact it can have on your operations!
+            </p>
+          </div>
+        </div>
+        <div
+          class="md:h-[300px] bg-[url('/im-3.jpg')] bg-cover flex justify-center items-center"
+        >
+          <div
+            class="w-4/6 backdrop-blur-xl p-5 rounded-md text-white"
+          >
+            <h1
+              class="text-xl lg:text-3xl text-center"
+            >
+              Seamless Integration
+            </h1>
+            <p
+              class="mt-5 text-xl text-justify"
+            >
+              Our system works harmoniously with your favorite tools and platforms. Whether it's accounting software, e-commerce platforms, or point-of-sale systems, we've got you covered for a unified workflow.
+            </p>
+          </div>
+        </div>
+        <div
+          class="md:h-[300px] bg-[url('/im-4.png')] bg-cover flex justify-center items-center"
+        >
+          <div
+            class="w-4/6 backdrop-blur-xl p-5 rounded-md text-white"
+          >
+            <h1
+              class="text-xl lg:text-3xl text-center"
+            >
+              Boost Your Productivity
+            </h1>
+            <p
+              class="mt-5 text-xl text-justify"
+            >
+              Spend less time managing inventory and more time growing your business. Our intuitive dashboard, smart alerts, and automation features let you focus on what truly matters.
+            </p>
+          </div>
+        </div>
+        <div
+          class="md:h-[300px] bg-[url('/im-5.jpg')] bg-cover flex justify-center items-center"
+        >
+          <div
+            class="w-4/6 backdrop-blur-xl p-5 rounded-md"
+          >
+            <h1
+              class="text-xl lg:text-3xl text-center"
+            >
+              Data-Driven Decisions
+            </h1>
+            <div
+              class="mt-5 text-xl text-justify"
+            >
+              Access powerful analytics and detailed reporting to uncover trends, monitor performance, and forecast demand. Make informed decisions with confidence and precision.
+              <div
+                class="flex justify-center"
+              >
+                <a
+                  class="bg-orange-500 text-white rounded-full p-2 block mt-5 w-[200px] text-center text-xl hover:scale-125 duration-500"
+                  href="/dashboard"
+                >
+                  Try Our Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="cursor-default"
+    >
+      <div
         class="bg-blue-400 p-1 flex items-center"
       >
         <img
@@ -110,126 +242,22 @@ exports[`should render component 1`] = `
           >
             Data-Driven Decisions
           </h1>
-          <p
+          <div
             class="mt-5 text-xl text-justify"
           >
             Access powerful analytics and detailed reporting to uncover trends, monitor performance, and forecast demand. Make informed decisions with confidence and precision.
-          </p>
+            <div
+              class="flex justify-center"
+            >
+              <a
+                class="bg-orange-500 text-white rounded-full p-2 block mt-5 w-[200px] text-center text-xl hover:scale-125 duration-500"
+                href="/dashboard"
+              >
+                Try Our Demo
+              </a>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="bg-blue-400 p-1 flex items-center"
-    >
-      <img
-        height="50"
-        src="/inventory-management.png"
-        width="50"
-      />
-      <h1
-        class="text-3xl flex-1 text-center text-blue-950"
-      >
-        Inventory Management System
-      </h1>
-    </div>
-    <div
-      class="md:h-[300px] bg-slate-300 flex"
-    >
-      <div
-        class="w-3/6 p-4 text-center flex flex-col justify-center"
-      >
-        <h1
-          class="md:text-xl lg:text-3xl"
-        >
-          Effortless Inventory, Seamless Operations—Your Smarter Way to Manage Stock
-        </h1>
-        <p
-          class="md:text-xl pt-4 text-justify"
-        >
-          Transform the way you manage your inventory with our powerful, easy-to-use system. Gain real-time insights, optimize stock levels, and streamline processes—all in one place. Your path to smarter inventory starts here.
-        </p>
-      </div>
-      <div
-        class="w-3/6"
-      >
-        <img
-          class="w-full h-full opacity-75"
-          src="/im-1.jpg"
-        />
-      </div>
-    </div>
-    <div
-      class="md:h-[300px] bg-[url('/im-2.jpg')] bg-cover flex justify-center items-center"
-    >
-      <div
-        class="w-4/6 backdrop-blur-md p-5 rounded-md"
-      >
-        <h1
-          class="text-xl lg:text-3xl text-center"
-        >
-          Take the First Step Towards Smarter Inventory
-        </h1>
-        <p
-          class="mt-5 text-xl text-justify"
-        >
-          Discover the tools you need to optimize and grow your business. Whether you're a small startup or an established enterprise, our system adapts to your needs. Try it risk-free today and see the impact it can have on your operations!
-        </p>
-      </div>
-    </div>
-    <div
-      class="md:h-[300px] bg-[url('/im-3.jpg')] bg-cover flex justify-center items-center"
-    >
-      <div
-        class="w-4/6 backdrop-blur-xl p-5 rounded-md text-white"
-      >
-        <h1
-          class="text-xl lg:text-3xl text-center"
-        >
-          Seamless Integration
-        </h1>
-        <p
-          class="mt-5 text-xl text-justify"
-        >
-          Our system works harmoniously with your favorite tools and platforms. Whether it's accounting software, e-commerce platforms, or point-of-sale systems, we've got you covered for a unified workflow.
-        </p>
-      </div>
-    </div>
-    <div
-      class="md:h-[300px] bg-[url('/im-4.png')] bg-cover flex justify-center items-center"
-    >
-      <div
-        class="w-4/6 backdrop-blur-xl p-5 rounded-md text-white"
-      >
-        <h1
-          class="text-xl lg:text-3xl text-center"
-        >
-          Boost Your Productivity
-        </h1>
-        <p
-          class="mt-5 text-xl text-justify"
-        >
-          Spend less time managing inventory and more time growing your business. Our intuitive dashboard, smart alerts, and automation features let you focus on what truly matters.
-        </p>
-      </div>
-    </div>
-    <div
-      class="md:h-[300px] bg-[url('/im-5.jpg')] bg-cover flex justify-center items-center"
-    >
-      <div
-        class="w-4/6 backdrop-blur-xl p-5 rounded-md"
-      >
-        <h1
-          class="text-xl lg:text-3xl text-center"
-        >
-          Data-Driven Decisions
-        </h1>
-        <p
-          class="mt-5 text-xl text-justify"
-        >
-          Access powerful analytics and detailed reporting to uncover trends, monitor performance, and forecast demand. Make informed decisions with confidence and precision.
-        </p>
       </div>
     </div>
   </div>,
