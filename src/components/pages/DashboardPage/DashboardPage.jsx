@@ -1,6 +1,10 @@
+import Layout from "components/Layout"
+
 const DashboardPage = () => {
   return (
-    <div>DashboardPage</div>
+    <Layout sidebar={<div>Sidebar</div>}>
+      <div>DashboardPage</div>
+    </Layout>
   )
 }
 
