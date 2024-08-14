@@ -1,8 +1,9 @@
 import Layout from "components/Layout"
+import Sidebar from "components/Sidebar"
 
 const DashboardPage = () => {
   return (
-    <Layout sidebar={<div>Sidebar</div>}>
+    <Layout sidebar={<Sidebar />}>
       <div>DashboardPage</div>
     </Layout>
   )
