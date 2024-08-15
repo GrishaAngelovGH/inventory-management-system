@@ -12,14 +12,14 @@ const RightChevron = () => (
 
 const Sidebar = ({ open, onToggle }) => {
   return (
-    <div className="h-full bg-slate-600 text-white p-1 text-center relative">
-      <div className="border-2 rounded-md border-blue-100 p-1">Inventory Management</div>
+    <div className={`h-full bg-slate-600 text-white p-1 text-center relative ${open ? 'w-[200px]' : 'w-[60px]'} duration-500`}>
+      {open && (<div className="border-2 rounded-md border-blue-100 p-1">Inventory Management</div>)}
 
       <div
-        className="w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[90%] top-[50%] cursor-pointer"
+        className="w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
         onClick={onToggle}
       >
-        {open ? <RightChevron /> : <LeftChevron />}
+        {open ? <LeftChevron /> : <RightChevron />}
       </div>
     </div>
   )
