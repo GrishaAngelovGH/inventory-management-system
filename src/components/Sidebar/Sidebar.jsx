@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom"
+
 const LeftChevron = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
     <path d="M28 12 L18 24 L28 36" />
@@ -11,9 +13,27 @@ const RightChevron = () => (
 )
 
 const Sidebar = ({ open, onToggle }) => {
+  const items = [
+    { icon: "home-icon.png", title: "Home", path: "/" },
+    { icon: "dashboard-icon.png", title: "Dashboard", path: "/dashboard" },
+  ]
+
   return (
     <div className={`h-full bg-slate-600 text-white p-1 text-center relative ${open ? 'w-[200px]' : 'w-[60px]'} duration-500`}>
-      {open && (<div className="border-2 rounded-md border-blue-100 p-1">Inventory Management</div>)}
+      <div className={`flex flex-col ${open ? "items-start" : "items-center"}`}>
+        {
+          items.map((v, i) => (
+            <NavLink
+              key={i}
+              to={v.path}
+              className={({ isActive }) => `${isActive ? "text-slate-400" : "text-white"} flex items-center gap-2 mt-4 ${open ? 'ms-6' : 'ms-0'}`}
+            >
+              <img src={v.icon} className="w-[20px] h-[20px]" />
+              {open && (<span>{v.title}</span>)}
+            </NavLink>
+          ))
+        }
+      </div>
 
       <div
         className="w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"

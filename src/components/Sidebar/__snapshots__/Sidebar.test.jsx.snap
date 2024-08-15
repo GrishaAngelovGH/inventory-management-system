@@ -9,6 +9,29 @@ exports[`should render closed Sidebar component 1`] = `
         class="h-full bg-slate-600 text-white p-1 text-center relative w-[60px] duration-500"
       >
         <div
+          class="flex flex-col items-center"
+        >
+          <a
+            aria-current="page"
+            class="text-slate-400 flex items-center gap-2 mt-4 ms-0"
+            href="/"
+          >
+            <img
+              class="w-[20px] h-[20px]"
+              src="home-icon.png"
+            />
+          </a>
+          <a
+            class="text-white flex items-center gap-2 mt-4 ms-0"
+            href="/dashboard"
+          >
+            <img
+              class="w-[20px] h-[20px]"
+              src="dashboard-icon.png"
+            />
+          </a>
+        </div>
+        <div
           class="w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
         >
           <svg
@@ -34,6 +57,29 @@ exports[`should render closed Sidebar component 1`] = `
     <div
       class="h-full bg-slate-600 text-white p-1 text-center relative w-[60px] duration-500"
     >
+      <div
+        class="flex flex-col items-center"
+      >
+        <a
+          aria-current="page"
+          class="text-slate-400 flex items-center gap-2 mt-4 ms-0"
+          href="/"
+        >
+          <img
+            class="w-[20px] h-[20px]"
+            src="home-icon.png"
+          />
+        </a>
+        <a
+          class="text-white flex items-center gap-2 mt-4 ms-0"
+          href="/dashboard"
+        >
+          <img
+            class="w-[20px] h-[20px]"
+            src="dashboard-icon.png"
+          />
+        </a>
+      </div>
       <div
         class="w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
       >
@@ -118,9 +164,33 @@ exports[`should render opened Sidebar component 1`] = `
         class="h-full bg-slate-600 text-white p-1 text-center relative w-[200px] duration-500"
       >
         <div
-          class="border-2 rounded-md border-blue-100 p-1"
+          class="flex flex-col items-start"
         >
-          Inventory Management
+          <a
+            aria-current="page"
+            class="text-slate-400 flex items-center gap-2 mt-4 ms-6"
+            href="/"
+          >
+            <img
+              class="w-[20px] h-[20px]"
+              src="home-icon.png"
+            />
+            <span>
+              Home
+            </span>
+          </a>
+          <a
+            class="text-white flex items-center gap-2 mt-4 ms-6"
+            href="/dashboard"
+          >
+            <img
+              class="w-[20px] h-[20px]"
+              src="dashboard-icon.png"
+            />
+            <span>
+              Dashboard
+            </span>
+          </a>
         </div>
         <div
           class="w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
@@ -149,9 +219,33 @@ exports[`should render opened Sidebar component 1`] = `
       class="h-full bg-slate-600 text-white p-1 text-center relative w-[200px] duration-500"
     >
       <div
-        class="border-2 rounded-md border-blue-100 p-1"
+        class="flex flex-col items-start"
       >
-        Inventory Management
+        <a
+          aria-current="page"
+          class="text-slate-400 flex items-center gap-2 mt-4 ms-6"
+          href="/"
+        >
+          <img
+            class="w-[20px] h-[20px]"
+            src="home-icon.png"
+          />
+          <span>
+            Home
+          </span>
+        </a>
+        <a
+          class="text-white flex items-center gap-2 mt-4 ms-6"
+          href="/dashboard"
+        >
+          <img
+            class="w-[20px] h-[20px]"
+            src="dashboard-icon.png"
+          />
+          <span>
+            Dashboard
+          </span>
+        </a>
       </div>
       <div
         class="w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"

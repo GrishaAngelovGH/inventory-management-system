@@ -1,15 +1,24 @@
 import { render } from '@testing-library/react'
+import { MemoryRouter } from 'react-router-dom'
 
 import Sidebar from './Sidebar'
 
 test('should render opened Sidebar component', () => {
-  const view = render(<Sidebar open={true} />)
+  const view = render(
+    <MemoryRouter>
+      <Sidebar open={true} />
+    </MemoryRouter>
+  )
 
   expect(view).toMatchSnapshot()
 })
 
 test('should render closed Sidebar component', () => {
-  const view = render(<Sidebar open={false} />)
+  const view = render(
+    <MemoryRouter>
+      <Sidebar open={false} />
+    </MemoryRouter>
+  )
 
   expect(view).toMatchSnapshot()
 })
