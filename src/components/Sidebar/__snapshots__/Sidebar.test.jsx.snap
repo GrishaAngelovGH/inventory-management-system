@@ -6,7 +6,7 @@ exports[`should render closed Sidebar component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="h-full bg-slate-600 text-white p-1 text-center relative w-[60px] duration-500"
+        class="h-full bg-slate-600 text-white p-1 text-center relative min-w-[60px] duration-200"
       >
         <div
           class="flex flex-col items-center"
@@ -20,6 +20,11 @@ exports[`should render closed Sidebar component 1`] = `
               class="w-[20px] h-[20px]"
               src="home-icon.png"
             />
+            <span
+              class="hidden"
+            >
+              Home
+            </span>
           </a>
           <a
             class="text-white flex items-center gap-2 mt-4 ms-0"
@@ -29,6 +34,11 @@ exports[`should render closed Sidebar component 1`] = `
               class="w-[20px] h-[20px]"
               src="dashboard-icon.png"
             />
+            <span
+              class="hidden"
+            >
+              Dashboard
+            </span>
           </a>
         </div>
         <div
@@ -55,7 +65,7 @@ exports[`should render closed Sidebar component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="h-full bg-slate-600 text-white p-1 text-center relative w-[60px] duration-500"
+      class="h-full bg-slate-600 text-white p-1 text-center relative min-w-[60px] duration-200"
     >
       <div
         class="flex flex-col items-center"
@@ -69,6 +79,11 @@ exports[`should render closed Sidebar component 1`] = `
             class="w-[20px] h-[20px]"
             src="home-icon.png"
           />
+          <span
+            class="hidden"
+          >
+            Home
+          </span>
         </a>
         <a
           class="text-white flex items-center gap-2 mt-4 ms-0"
@@ -78,6 +93,11 @@ exports[`should render closed Sidebar component 1`] = `
             class="w-[20px] h-[20px]"
             src="dashboard-icon.png"
           />
+          <span
+            class="hidden"
+          >
+            Dashboard
+          </span>
         </a>
       </div>
       <div
@@ -161,7 +181,7 @@ exports[`should render opened Sidebar component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="h-full bg-slate-600 text-white p-1 text-center relative w-[200px] duration-500"
+        class="h-full bg-slate-600 text-white p-1 text-center relative min-w-[200px] duration-200"
       >
         <div
           class="flex flex-col items-start"
@@ -175,7 +195,9 @@ exports[`should render opened Sidebar component 1`] = `
               class="w-[20px] h-[20px]"
               src="home-icon.png"
             />
-            <span>
+            <span
+              class="block"
+            >
               Home
             </span>
           </a>
@@ -187,7 +209,9 @@ exports[`should render opened Sidebar component 1`] = `
               class="w-[20px] h-[20px]"
               src="dashboard-icon.png"
             />
-            <span>
+            <span
+              class="block"
+            >
               Dashboard
             </span>
           </a>
@@ -216,7 +240,7 @@ exports[`should render opened Sidebar component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="h-full bg-slate-600 text-white p-1 text-center relative w-[200px] duration-500"
+      class="h-full bg-slate-600 text-white p-1 text-center relative min-w-[200px] duration-200"
     >
       <div
         class="flex flex-col items-start"
@@ -230,7 +254,9 @@ exports[`should render opened Sidebar component 1`] = `
             class="w-[20px] h-[20px]"
             src="home-icon.png"
           />
-          <span>
+          <span
+            class="block"
+          >
             Home
           </span>
         </a>
@@ -242,7 +268,9 @@ exports[`should render opened Sidebar component 1`] = `
             class="w-[20px] h-[20px]"
             src="dashboard-icon.png"
           />
-          <span>
+          <span
+            class="block"
+          >
             Dashboard
           </span>
         </a>

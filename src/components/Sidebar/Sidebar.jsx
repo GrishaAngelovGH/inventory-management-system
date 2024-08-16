@@ -19,7 +19,7 @@ const Sidebar = ({ open, onToggle }) => {
   ]
 
   return (
-    <div className={`h-full bg-slate-600 text-white p-1 text-center relative ${open ? 'w-[200px]' : 'w-[60px]'} duration-500`}>
+    <div className={`h-full bg-slate-600 text-white p-1 text-center relative ${open ? 'min-w-[200px]' : 'min-w-[60px]'} duration-200`}>
       <div className={`flex flex-col ${open ? "items-start" : "items-center"}`}>
         {
           items.map((v, i) => (
@@ -29,7 +29,10 @@ const Sidebar = ({ open, onToggle }) => {
               className={({ isActive }) => `${isActive ? "text-slate-400" : "text-white"} flex items-center gap-2 mt-4 ${open ? 'ms-6' : 'ms-0'}`}
             >
               <img src={v.icon} className="w-[20px] h-[20px]" />
-              {open && (<span>{v.title}</span>)}
+
+              <span className={`${open ? "block" : "hidden"}`}>
+                {v.title}
+              </span>
             </NavLink>
           ))
         }
