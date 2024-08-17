@@ -1,5 +1,7 @@
 import SidebarLayout from "components/SidebarLayout"
 
+import WidgetGroup from "./WidgetGroup"
+
 const inventorySystem = {
   categories: [
     {
@@ -93,7 +95,9 @@ const inventorySystem = {
 const DashboardPage = () => {
   return (
     <SidebarLayout>
-      <div>DashboardPage</div>
+      <div className="p-2">
+        <WidgetGroup inventory={inventorySystem} />
+      </div>
     </SidebarLayout>
   )
 }
