@@ -125,6 +125,32 @@ exports[`should render DashboardPage component 1`] = `
                   </div>
                 </div>
               </div>
+              <div
+                class="border border-slate-400 rounded-md shadow-lg flex md:w-[250px]"
+              >
+                <div
+                  class="bg-blue-700 rounded-l-md w-1/2"
+                >
+                  <img
+                    class="w-full"
+                    src="/shopping-cart-icon.png"
+                  />
+                </div>
+                <div
+                  class="w-1/2 flex flex-col justify-center items-center text-center"
+                >
+                  <div
+                    class="text-xl"
+                  >
+                    50
+                  </div>
+                  <div
+                    class="mt-2 text-sm text-gray-500 font-bold"
+                  >
+                    Total Products
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -249,6 +275,32 @@ exports[`should render DashboardPage component 1`] = `
                   class="mt-2 text-sm text-gray-500 font-bold"
                 >
                   Total Categories
+                </div>
+              </div>
+            </div>
+            <div
+              class="border border-slate-400 rounded-md shadow-lg flex md:w-[250px]"
+            >
+              <div
+                class="bg-blue-700 rounded-l-md w-1/2"
+              >
+                <img
+                  class="w-full"
+                  src="/shopping-cart-icon.png"
+                />
+              </div>
+              <div
+                class="w-1/2 flex flex-col justify-center items-center text-center"
+              >
+                <div
+                  class="text-xl"
+                >
+                  50
+                </div>
+                <div
+                  class="mt-2 text-sm text-gray-500 font-bold"
+                >
+                  Total Products
                 </div>
               </div>
             </div>
