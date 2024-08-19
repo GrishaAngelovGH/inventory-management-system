@@ -12,7 +12,7 @@ export default defineConfig({
   resolve: {
     alias: {
       components: "/src/components",
-      services: "/services",
+      persistent: "/src/persistent",
     },
   },
 })
