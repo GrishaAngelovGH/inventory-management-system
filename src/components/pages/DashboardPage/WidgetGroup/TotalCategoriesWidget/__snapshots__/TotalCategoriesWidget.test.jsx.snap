@@ -13,7 +13,7 @@ exports[`should render TotalCategoriesWidget component 1`] = `
         >
           <img
             class="w-full"
-            src="/total-categories-icon.png"
+            src="/categories-icon.png"
           />
         </div>
         <div
@@ -42,7 +42,7 @@ exports[`should render TotalCategoriesWidget component 1`] = `
       >
         <img
           class="w-full"
-          src="/total-categories-icon.png"
+          src="/categories-icon.png"
         />
       </div>
       <div

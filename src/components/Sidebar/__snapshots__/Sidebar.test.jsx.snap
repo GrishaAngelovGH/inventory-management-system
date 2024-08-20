@@ -40,6 +40,20 @@ exports[`should render closed Sidebar component 1`] = `
               Dashboard
             </span>
           </a>
+          <a
+            class="text-white flex items-center gap-2 mt-4 ms-0"
+            href="/categories"
+          >
+            <img
+              class="w-[20px] h-[20px]"
+              src="categories-icon.png"
+            />
+            <span
+              class="hidden"
+            >
+              Categories
+            </span>
+          </a>
         </div>
         <div
           class="w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
@@ -97,6 +111,20 @@ exports[`should render closed Sidebar component 1`] = `
             class="hidden"
           >
             Dashboard
+          </span>
+        </a>
+        <a
+          class="text-white flex items-center gap-2 mt-4 ms-0"
+          href="/categories"
+        >
+          <img
+            class="w-[20px] h-[20px]"
+            src="categories-icon.png"
+          />
+          <span
+            class="hidden"
+          >
+            Categories
           </span>
         </a>
       </div>
@@ -215,6 +243,20 @@ exports[`should render opened Sidebar component 1`] = `
               Dashboard
             </span>
           </a>
+          <a
+            class="text-white flex items-center gap-2 mt-4 ms-6"
+            href="/categories"
+          >
+            <img
+              class="w-[20px] h-[20px]"
+              src="categories-icon.png"
+            />
+            <span
+              class="block"
+            >
+              Categories
+            </span>
+          </a>
         </div>
         <div
           class="w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
@@ -272,6 +314,20 @@ exports[`should render opened Sidebar component 1`] = `
             class="block"
           >
             Dashboard
+          </span>
+        </a>
+        <a
+          class="text-white flex items-center gap-2 mt-4 ms-6"
+          href="/categories"
+        >
+          <img
+            class="w-[20px] h-[20px]"
+            src="categories-icon.png"
+          />
+          <span
+            class="block"
+          >
+            Categories
           </span>
         </a>
       </div>

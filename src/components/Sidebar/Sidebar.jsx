@@ -16,6 +16,7 @@ const Sidebar = ({ open, onToggle }) => {
   const items = [
     { icon: "home-icon.png", title: "Home", path: "/" },
     { icon: "dashboard-icon.png", title: "Dashboard", path: "/dashboard" },
+    { icon: "categories-icon.png", title: "Categories", path: "/categories" },
   ]
 
   return (

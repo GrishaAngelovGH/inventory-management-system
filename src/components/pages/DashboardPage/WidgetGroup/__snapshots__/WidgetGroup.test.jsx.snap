@@ -42,7 +42,7 @@ exports[`should render WidgetGroup component 1`] = `
           >
             <img
               class="w-full"
-              src="/total-categories-icon.png"
+              src="/categories-icon.png"
             />
           </div>
           <div
@@ -127,7 +127,7 @@ exports[`should render WidgetGroup component 1`] = `
         >
           <img
             class="w-full"
-            src="/total-categories-icon.png"
+            src="/categories-icon.png"
           />
         </div>
         <div
