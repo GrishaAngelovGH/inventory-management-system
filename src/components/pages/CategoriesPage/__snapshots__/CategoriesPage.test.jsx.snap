@@ -5,14 +5,178 @@ exports[`should render CategoriesPage component 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
-        CategoriesPage
+      <div
+        class="h-screen flex"
+      >
+        <div
+          class="h-full bg-slate-600 text-white p-1 text-center relative min-w-[200px] duration-200"
+        >
+          <div
+            class="flex flex-col items-start"
+          >
+            <a
+              aria-current="page"
+              class="text-slate-400 flex items-center gap-2 mt-4 ms-6"
+              href="/"
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="home-icon.png"
+              />
+              <span
+                class="block"
+              >
+                Home
+              </span>
+            </a>
+            <a
+              class="text-white flex items-center gap-2 mt-4 ms-6"
+              href="/dashboard"
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="dashboard-icon.png"
+              />
+              <span
+                class="block"
+              >
+                Dashboard
+              </span>
+            </a>
+            <a
+              class="text-white flex items-center gap-2 mt-4 ms-6"
+              href="/categories"
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="categories-icon.png"
+              />
+              <span
+                class="block"
+              >
+                Categories
+              </span>
+            </a>
+          </div>
+          <div
+            class="w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
+          >
+            <svg
+              fill="none"
+              height="48"
+              stroke="white"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="3"
+              viewBox="0 0 48 48"
+              width="48"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M28 12 L18 24 L28 36"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="flex-1"
+        >
+          <div
+            class="p-2"
+          >
+            <div>
+              CategoriesPage
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>,
   "container": <div>
-    <div>
-      CategoriesPage
+    <div
+      class="h-screen flex"
+    >
+      <div
+        class="h-full bg-slate-600 text-white p-1 text-center relative min-w-[200px] duration-200"
+      >
+        <div
+          class="flex flex-col items-start"
+        >
+          <a
+            aria-current="page"
+            class="text-slate-400 flex items-center gap-2 mt-4 ms-6"
+            href="/"
+          >
+            <img
+              class="w-[20px] h-[20px]"
+              src="home-icon.png"
+            />
+            <span
+              class="block"
+            >
+              Home
+            </span>
+          </a>
+          <a
+            class="text-white flex items-center gap-2 mt-4 ms-6"
+            href="/dashboard"
+          >
+            <img
+              class="w-[20px] h-[20px]"
+              src="dashboard-icon.png"
+            />
+            <span
+              class="block"
+            >
+              Dashboard
+            </span>
+          </a>
+          <a
+            class="text-white flex items-center gap-2 mt-4 ms-6"
+            href="/categories"
+          >
+            <img
+              class="w-[20px] h-[20px]"
+              src="categories-icon.png"
+            />
+            <span
+              class="block"
+            >
+              Categories
+            </span>
+          </a>
+        </div>
+        <div
+          class="w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
+        >
+          <svg
+            fill="none"
+            height="48"
+            stroke="white"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="3"
+            viewBox="0 0 48 48"
+            width="48"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M28 12 L18 24 L28 36"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="flex-1"
+      >
+        <div
+          class="p-2"
+        >
+          <div>
+            CategoriesPage
+          </div>
+        </div>
+      </div>
     </div>
   </div>,
   "debug": [Function],

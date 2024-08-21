@@ -1,6 +1,12 @@
+import SidebarLayout from "components/SidebarLayout"
+
 const CategoriesPage = () => {
   return (
-    <div>CategoriesPage</div>
+    <SidebarLayout>
+      <div className="p-2">
+        <div>CategoriesPage</div>
+      </div>
+    </SidebarLayout>
   )
 }
 
