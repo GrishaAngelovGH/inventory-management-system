@@ -91,7 +91,17 @@ const defaultInventory = {
 localStorage.setItem("inventory", JSON.stringify(defaultInventory))
 
 const inventory = {
-  getItems: () => JSON.parse(localStorage.getItem("inventory"))
+  getItems: () => JSON.parse(localStorage.getItem("inventory")),
+  createCategory: newCategory => {
+    const newInventory = JSON.parse(localStorage.getItem("inventory"))
+
+    newInventory.categories.push({
+      name: newCategory,
+      products: []
+    })
+
+    localStorage.setItem("inventory", JSON.stringify(newInventory))
+  }
 }
 
 export default inventory
