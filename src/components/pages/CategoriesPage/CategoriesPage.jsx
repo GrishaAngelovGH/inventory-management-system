@@ -4,7 +4,7 @@ import SidebarLayout from "components/SidebarLayout"
 
 import inventory from "persistent/inventory"
 
-const AddCategoryPanel = () => {
+const AddCategoryPanel = ({ showNotification }) => {
   const [newCategory, setNewCategory] = useState("")
 
   const handleInputChange = ({ target: { value } }) => {
@@ -14,6 +14,7 @@ const AddCategoryPanel = () => {
   const handleAdd = () => {
     inventory.createCategory(newCategory)
     setNewCategory("")
+    showNotification("Successfully added category!")
   }
 
   return (
@@ -40,11 +41,11 @@ const AddCategoryPanel = () => {
   )
 }
 
-const CategoriesPage = () => {
+const CategoriesPage = ({ showNotification }) => {
   return (
     <SidebarLayout>
       <div className="p-2 flex gap-5">
-        <AddCategoryPanel />
+        <AddCategoryPanel showNotification={showNotification} />
       </div>
     </SidebarLayout>
   )
