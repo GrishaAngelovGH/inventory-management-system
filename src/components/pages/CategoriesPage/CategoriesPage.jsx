@@ -12,9 +12,13 @@ const AddCategoryPanel = ({ showNotification }) => {
   }
 
   const handleAdd = () => {
-    inventory.createCategory(newCategory)
-    setNewCategory("")
-    showNotification("Successfully added category!")
+    try {
+      inventory.createCategory(newCategory)
+      setNewCategory("")
+      showNotification("Successfully added category!")
+    } catch (error) {
+      showNotification(error.message, true)
+    }
   }
 
   return (
