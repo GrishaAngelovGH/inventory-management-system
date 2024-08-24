@@ -23,14 +23,14 @@ const Notification = ({ children }) => {
     return child
   })
 
-  const successClass = 'bg-green-200 border-2 border-green-600 text-green-700'
-  const errorClass = 'bg-red-200 border-2 border-red-600 text-red-700'
+  const successClass = 'bg-green-200 border border-green-600 text-green-700'
+  const errorClass = 'bg-red-200 border border-red-600 text-red-700'
 
   return (
     <div>
-      <div className={`w-[450px] h-[100px] p-5 ${hasError ? errorClass : successClass} rounded-md fixed top-[1%] right-[1%] z-10 flex gap-2 justify-center items-center duration-[2000ms] delay-500 ${show ? 'opacity-1 translate-y-0' : 'opacity-0 invisible -translate-y-9'}`}>
-        <img src={hasError ? '/error-icon.png' : '/success-icon.png'} />
-        <div className="text-2xl">{message}</div>
+      <div className={`w-[450px] h-[100px] p-2 ${hasError ? errorClass : successClass} rounded-md fixed top-[1%] right-[1%] z-10 flex gap-2 justify-center items-center duration-[2000ms] delay-500 ${show ? 'opacity-1 translate-y-0' : 'opacity-0 invisible -translate-y-9'}`}>
+        <img src={hasError ? '/error-icon.png' : '/success-icon.png'} className="w-[25px] h-[25px]" />
+        <div className="text-xl">{message}</div>
       </div>
 
       <div>{childrenWithProps}</div>
