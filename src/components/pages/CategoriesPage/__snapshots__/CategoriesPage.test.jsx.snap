@@ -85,7 +85,7 @@ exports[`should render CategoriesPage component 1`] = `
             class="p-2 flex gap-5"
           >
             <div
-              class="border border-slate-400 rounded-md w-1/2"
+              class="border border-slate-400 rounded-md w-1/2 max-h-[150px]"
             >
               <div
                 class="uppercase text-xl text-center border-b-2 border-blue-500 bg-gray-200 rounded-t-md text-gray-500"
@@ -107,6 +107,54 @@ exports[`should render CategoriesPage component 1`] = `
                 >
                   Add Category
                 </button>
+              </div>
+            </div>
+            <div
+              class="border border-slate-400 rounded-md w-1/2 max-h-[420px]"
+            >
+              <div
+                class="uppercase text-xl text-center border-b-2 border-blue-500 bg-gray-200 rounded-t-md text-gray-500"
+              >
+                Category List
+              </div>
+              <div
+                class="max-h-[380px] overflow-auto"
+              >
+                <div
+                  class="text-xl"
+                >
+                  Electronics
+                </div>
+                <div
+                  class="text-xl"
+                >
+                  Sports Equipment
+                </div>
+                <div
+                  class="text-xl"
+                >
+                  Clothing
+                </div>
+                <div
+                  class="text-xl"
+                >
+                  Toys
+                </div>
+                <div
+                  class="text-xl"
+                >
+                  Books
+                </div>
+                <div
+                  class="text-xl"
+                >
+                  Furniture
+                </div>
+                <div
+                  class="text-xl"
+                >
+                  Appliances
+                </div>
               </div>
             </div>
           </div>
@@ -195,7 +243,7 @@ exports[`should render CategoriesPage component 1`] = `
           class="p-2 flex gap-5"
         >
           <div
-            class="border border-slate-400 rounded-md w-1/2"
+            class="border border-slate-400 rounded-md w-1/2 max-h-[150px]"
           >
             <div
               class="uppercase text-xl text-center border-b-2 border-blue-500 bg-gray-200 rounded-t-md text-gray-500"
@@ -217,6 +265,54 @@ exports[`should render CategoriesPage component 1`] = `
               >
                 Add Category
               </button>
+            </div>
+          </div>
+          <div
+            class="border border-slate-400 rounded-md w-1/2 max-h-[420px]"
+          >
+            <div
+              class="uppercase text-xl text-center border-b-2 border-blue-500 bg-gray-200 rounded-t-md text-gray-500"
+            >
+              Category List
+            </div>
+            <div
+              class="max-h-[380px] overflow-auto"
+            >
+              <div
+                class="text-xl"
+              >
+                Electronics
+              </div>
+              <div
+                class="text-xl"
+              >
+                Sports Equipment
+              </div>
+              <div
+                class="text-xl"
+              >
+                Clothing
+              </div>
+              <div
+                class="text-xl"
+              >
+                Toys
+              </div>
+              <div
+                class="text-xl"
+              >
+                Books
+              </div>
+              <div
+                class="text-xl"
+              >
+                Furniture
+              </div>
+              <div
+                class="text-xl"
+              >
+                Appliances
+              </div>
             </div>
           </div>
         </div>

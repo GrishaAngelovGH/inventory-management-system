@@ -22,7 +22,7 @@ const AddCategoryPanel = ({ showNotification }) => {
   }
 
   return (
-    <div className="border border-slate-400 rounded-md w-1/2">
+    <div className="border border-slate-400 rounded-md md:w-1/2 max-h-[150px]">
       <div className="uppercase text-xl text-center border-b-2 border-blue-500 bg-gray-200 rounded-t-md text-gray-500">Add new category</div>
 
       <div className="p-2 flex flex-col gap-5">
@@ -45,11 +45,30 @@ const AddCategoryPanel = ({ showNotification }) => {
   )
 }
 
+const CategoryList = () => {
+  const categories = inventory.getItems().categories
+
+  return (
+    <div className="border border-slate-400 rounded-md md:w-1/2 max-h-[420px]">
+      <div className="uppercase text-xl text-center border-b-2 border-blue-500 bg-gray-200 rounded-t-md text-gray-500">Category List</div>
+
+      <div className="max-h-[380px] overflow-auto">
+        {
+          categories.map((v, i) => (
+            <div key={i} className="text-xl">{v.name}</div>
+          ))
+        }
+      </div>
+    </div>
+  )
+}
+
 const CategoriesPage = ({ showNotification }) => {
   return (
     <SidebarLayout>
-      <div className="p-2 flex gap-5">
+      <div className="p-2 flex flex-col md:flex-row gap-5">
         <AddCategoryPanel showNotification={showNotification} />
+        <CategoryList />
       </div>
     </SidebarLayout>
   )
