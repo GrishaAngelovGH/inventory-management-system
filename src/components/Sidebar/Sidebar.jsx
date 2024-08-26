@@ -40,7 +40,7 @@ const Sidebar = ({ open, onToggle }) => {
       </div>
 
       <div
-        className="w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
+        className={`${window.innerWidth > 700 ? 'block' : 'hidden'}  w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer`}
         onClick={onToggle}
       >
         {open ? <LeftChevron /> : <RightChevron />}
