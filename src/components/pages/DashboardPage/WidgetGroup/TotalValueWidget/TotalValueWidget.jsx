@@ -1,5 +1,5 @@
-const TotalValueWidget = ({ inventory }) => {
-  const totalValue = inventory.categories.reduce((value, category) => {
+const TotalValueWidget = ({ inventoryItems }) => {
+  const totalValue = inventoryItems.reduce((value, category) => {
     return value + category.products.reduce((v, product) => {
       return v + (product.price * product.stock)
     }, 0)

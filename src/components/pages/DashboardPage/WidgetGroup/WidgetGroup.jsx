@@ -9,9 +9,9 @@ const WidgetGroup = () => {
 
   return (
     <div className="flex flex-col md:flex-row gap-2 justify-evenly mt-2">
-      <TotalValueWidget inventory={inventoryItems} />
-      <TotalCategoriesWidget inventory={inventoryItems} />
-      <TotalProductsWidget inventory={inventoryItems} />
+      <TotalValueWidget inventoryItems={inventoryItems} />
+      <TotalCategoriesWidget inventoryItems={inventoryItems} />
+      <TotalProductsWidget inventoryItems={inventoryItems} />
     </div>
   )
 }

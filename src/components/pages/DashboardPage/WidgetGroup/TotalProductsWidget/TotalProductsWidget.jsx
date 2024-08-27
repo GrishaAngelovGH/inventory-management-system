@@ -1,5 +1,5 @@
-const TotalProductsWidget = ({ inventory }) => {
-  const totalProducts = inventory.categories.reduce((value, category) => {
+const TotalProductsWidget = ({ inventoryItems }) => {
+  const totalProducts = inventoryItems.reduce((value, category) => {
     return value + category.products.length
   }, 0)
 
