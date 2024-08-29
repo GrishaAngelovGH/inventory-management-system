@@ -118,6 +118,13 @@ const inventory = {
 
     localStorage.setItem("inventory", JSON.stringify(newInventory))
   },
+  updateCategoryName: (id, newName) => {
+    const newInventory = JSON.parse(localStorage.getItem("inventory"))
+
+    newInventory.categories[id].name = newName
+
+    localStorage.setItem("inventory", JSON.stringify(newInventory))
+  },
   deleteCategory: id => {
     const newInventory = JSON.parse(localStorage.getItem("inventory"))
 
