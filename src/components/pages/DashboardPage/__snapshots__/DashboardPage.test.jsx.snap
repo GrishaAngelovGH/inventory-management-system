@@ -91,10 +91,10 @@ exports[`should render DashboardPage component 1`] = `
                 class="border border-slate-400 rounded-md shadow-lg flex md:w-[250px]"
               >
                 <div
-                  class="bg-purple-700 rounded-l-md w-1/2"
+                  class="bg-purple-700 rounded-l-md w-1/2 p-5 flex justify-center items-center"
                 >
                   <img
-                    class="w-full"
+                    class="w-2/3"
                     src="/total-value-icon.png"
                   />
                 </div>
@@ -117,10 +117,10 @@ exports[`should render DashboardPage component 1`] = `
                 class="border border-slate-400 rounded-md shadow-lg flex md:w-[250px]"
               >
                 <div
-                  class="bg-blue-700 rounded-l-md w-1/2"
+                  class="bg-blue-700 rounded-l-md w-1/2 p-5 flex justify-center items-center"
                 >
                   <img
-                    class="w-full"
+                    class="w-2/3"
                     src="/categories-icon.png"
                   />
                 </div>
@@ -143,10 +143,10 @@ exports[`should render DashboardPage component 1`] = `
                 class="border border-slate-400 rounded-md shadow-lg flex md:w-[250px]"
               >
                 <div
-                  class="bg-blue-700 rounded-l-md w-1/2"
+                  class="bg-blue-700 rounded-l-md w-1/2 p-5 flex justify-center items-center"
                 >
                   <img
-                    class="w-full"
+                    class="w-2/3"
                     src="/shopping-cart-icon.png"
                   />
                 </div>
@@ -258,10 +258,10 @@ exports[`should render DashboardPage component 1`] = `
               class="border border-slate-400 rounded-md shadow-lg flex md:w-[250px]"
             >
               <div
-                class="bg-purple-700 rounded-l-md w-1/2"
+                class="bg-purple-700 rounded-l-md w-1/2 p-5 flex justify-center items-center"
               >
                 <img
-                  class="w-full"
+                  class="w-2/3"
                   src="/total-value-icon.png"
                 />
               </div>
@@ -284,10 +284,10 @@ exports[`should render DashboardPage component 1`] = `
               class="border border-slate-400 rounded-md shadow-lg flex md:w-[250px]"
             >
               <div
-                class="bg-blue-700 rounded-l-md w-1/2"
+                class="bg-blue-700 rounded-l-md w-1/2 p-5 flex justify-center items-center"
               >
                 <img
-                  class="w-full"
+                  class="w-2/3"
                   src="/categories-icon.png"
                 />
               </div>
@@ -310,10 +310,10 @@ exports[`should render DashboardPage component 1`] = `
               class="border border-slate-400 rounded-md shadow-lg flex md:w-[250px]"
             >
               <div
-                class="bg-blue-700 rounded-l-md w-1/2"
+                class="bg-blue-700 rounded-l-md w-1/2 p-5 flex justify-center items-center"
               >
                 <img
-                  class="w-full"
+                  class="w-2/3"
                   src="/shopping-cart-icon.png"
                 />
               </div>
