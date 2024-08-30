@@ -19,107 +19,205 @@ exports[`should render CategoryList component 1`] = `
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
           >
-            <div>
+            <div
+              class="w-[180px] md:w-auto"
+            >
               Electronics
             </div>
-            <button
-              class="bg-red-500 rounded-md p-2"
+            <div
+              class="flex gap-4"
             >
-              <img
-                class="w-[20px] h-[20px]"
-                src="/delete-icon.png"
-              />
-            </button>
+              <button
+                class="bg-orange-500 rounded-md p-2"
+              >
+                <img
+                  class="w-[20px] h-[20px]"
+                  src="/edit-icon.png"
+                />
+              </button>
+              <button
+                class="bg-red-500 rounded-md p-2"
+              >
+                <img
+                  class="w-[20px] h-[20px]"
+                  src="/delete-icon.png"
+                />
+              </button>
+            </div>
           </div>
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
           >
-            <div>
+            <div
+              class="w-[180px] md:w-auto"
+            >
               Sports Equipment
             </div>
-            <button
-              class="bg-red-500 rounded-md p-2"
+            <div
+              class="flex gap-4"
             >
-              <img
-                class="w-[20px] h-[20px]"
-                src="/delete-icon.png"
-              />
-            </button>
+              <button
+                class="bg-orange-500 rounded-md p-2"
+              >
+                <img
+                  class="w-[20px] h-[20px]"
+                  src="/edit-icon.png"
+                />
+              </button>
+              <button
+                class="bg-red-500 rounded-md p-2"
+              >
+                <img
+                  class="w-[20px] h-[20px]"
+                  src="/delete-icon.png"
+                />
+              </button>
+            </div>
           </div>
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
           >
-            <div>
+            <div
+              class="w-[180px] md:w-auto"
+            >
               Clothing
             </div>
-            <button
-              class="bg-red-500 rounded-md p-2"
+            <div
+              class="flex gap-4"
             >
-              <img
-                class="w-[20px] h-[20px]"
-                src="/delete-icon.png"
-              />
-            </button>
+              <button
+                class="bg-orange-500 rounded-md p-2"
+              >
+                <img
+                  class="w-[20px] h-[20px]"
+                  src="/edit-icon.png"
+                />
+              </button>
+              <button
+                class="bg-red-500 rounded-md p-2"
+              >
+                <img
+                  class="w-[20px] h-[20px]"
+                  src="/delete-icon.png"
+                />
+              </button>
+            </div>
           </div>
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
           >
-            <div>
+            <div
+              class="w-[180px] md:w-auto"
+            >
               Toys
             </div>
-            <button
-              class="bg-red-500 rounded-md p-2"
+            <div
+              class="flex gap-4"
             >
-              <img
-                class="w-[20px] h-[20px]"
-                src="/delete-icon.png"
-              />
-            </button>
+              <button
+                class="bg-orange-500 rounded-md p-2"
+              >
+                <img
+                  class="w-[20px] h-[20px]"
+                  src="/edit-icon.png"
+                />
+              </button>
+              <button
+                class="bg-red-500 rounded-md p-2"
+              >
+                <img
+                  class="w-[20px] h-[20px]"
+                  src="/delete-icon.png"
+                />
+              </button>
+            </div>
           </div>
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
           >
-            <div>
+            <div
+              class="w-[180px] md:w-auto"
+            >
               Books
             </div>
-            <button
-              class="bg-red-500 rounded-md p-2"
+            <div
+              class="flex gap-4"
             >
-              <img
-                class="w-[20px] h-[20px]"
-                src="/delete-icon.png"
-              />
-            </button>
+              <button
+                class="bg-orange-500 rounded-md p-2"
+              >
+                <img
+                  class="w-[20px] h-[20px]"
+                  src="/edit-icon.png"
+                />
+              </button>
+              <button
+                class="bg-red-500 rounded-md p-2"
+              >
+                <img
+                  class="w-[20px] h-[20px]"
+                  src="/delete-icon.png"
+                />
+              </button>
+            </div>
           </div>
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
           >
-            <div>
+            <div
+              class="w-[180px] md:w-auto"
+            >
               Furniture
             </div>
-            <button
-              class="bg-red-500 rounded-md p-2"
+            <div
+              class="flex gap-4"
             >
-              <img
-                class="w-[20px] h-[20px]"
-                src="/delete-icon.png"
-              />
-            </button>
+              <button
+                class="bg-orange-500 rounded-md p-2"
+              >
+                <img
+                  class="w-[20px] h-[20px]"
+                  src="/edit-icon.png"
+                />
+              </button>
+              <button
+                class="bg-red-500 rounded-md p-2"
+              >
+                <img
+                  class="w-[20px] h-[20px]"
+                  src="/delete-icon.png"
+                />
+              </button>
+            </div>
           </div>
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
           >
-            <div>
+            <div
+              class="w-[180px] md:w-auto"
+            >
               Appliances
             </div>
-            <button
-              class="bg-red-500 rounded-md p-2"
+            <div
+              class="flex gap-4"
             >
-              <img
-                class="w-[20px] h-[20px]"
-                src="/delete-icon.png"
-              />
-            </button>
+              <button
+                class="bg-orange-500 rounded-md p-2"
+              >
+                <img
+                  class="w-[20px] h-[20px]"
+                  src="/edit-icon.png"
+                />
+              </button>
+              <button
+                class="bg-red-500 rounded-md p-2"
+              >
+                <img
+                  class="w-[20px] h-[20px]"
+                  src="/delete-icon.png"
+                />
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -140,107 +238,205 @@ exports[`should render CategoryList component 1`] = `
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
         >
-          <div>
+          <div
+            class="w-[180px] md:w-auto"
+          >
             Electronics
           </div>
-          <button
-            class="bg-red-500 rounded-md p-2"
+          <div
+            class="flex gap-4"
           >
-            <img
-              class="w-[20px] h-[20px]"
-              src="/delete-icon.png"
-            />
-          </button>
+            <button
+              class="bg-orange-500 rounded-md p-2"
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="/edit-icon.png"
+              />
+            </button>
+            <button
+              class="bg-red-500 rounded-md p-2"
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="/delete-icon.png"
+              />
+            </button>
+          </div>
         </div>
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
         >
-          <div>
+          <div
+            class="w-[180px] md:w-auto"
+          >
             Sports Equipment
           </div>
-          <button
-            class="bg-red-500 rounded-md p-2"
+          <div
+            class="flex gap-4"
           >
-            <img
-              class="w-[20px] h-[20px]"
-              src="/delete-icon.png"
-            />
-          </button>
+            <button
+              class="bg-orange-500 rounded-md p-2"
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="/edit-icon.png"
+              />
+            </button>
+            <button
+              class="bg-red-500 rounded-md p-2"
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="/delete-icon.png"
+              />
+            </button>
+          </div>
         </div>
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
         >
-          <div>
+          <div
+            class="w-[180px] md:w-auto"
+          >
             Clothing
           </div>
-          <button
-            class="bg-red-500 rounded-md p-2"
+          <div
+            class="flex gap-4"
           >
-            <img
-              class="w-[20px] h-[20px]"
-              src="/delete-icon.png"
-            />
-          </button>
+            <button
+              class="bg-orange-500 rounded-md p-2"
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="/edit-icon.png"
+              />
+            </button>
+            <button
+              class="bg-red-500 rounded-md p-2"
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="/delete-icon.png"
+              />
+            </button>
+          </div>
         </div>
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
         >
-          <div>
+          <div
+            class="w-[180px] md:w-auto"
+          >
             Toys
           </div>
-          <button
-            class="bg-red-500 rounded-md p-2"
+          <div
+            class="flex gap-4"
           >
-            <img
-              class="w-[20px] h-[20px]"
-              src="/delete-icon.png"
-            />
-          </button>
+            <button
+              class="bg-orange-500 rounded-md p-2"
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="/edit-icon.png"
+              />
+            </button>
+            <button
+              class="bg-red-500 rounded-md p-2"
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="/delete-icon.png"
+              />
+            </button>
+          </div>
         </div>
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
         >
-          <div>
+          <div
+            class="w-[180px] md:w-auto"
+          >
             Books
           </div>
-          <button
-            class="bg-red-500 rounded-md p-2"
+          <div
+            class="flex gap-4"
           >
-            <img
-              class="w-[20px] h-[20px]"
-              src="/delete-icon.png"
-            />
-          </button>
+            <button
+              class="bg-orange-500 rounded-md p-2"
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="/edit-icon.png"
+              />
+            </button>
+            <button
+              class="bg-red-500 rounded-md p-2"
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="/delete-icon.png"
+              />
+            </button>
+          </div>
         </div>
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
         >
-          <div>
+          <div
+            class="w-[180px] md:w-auto"
+          >
             Furniture
           </div>
-          <button
-            class="bg-red-500 rounded-md p-2"
+          <div
+            class="flex gap-4"
           >
-            <img
-              class="w-[20px] h-[20px]"
-              src="/delete-icon.png"
-            />
-          </button>
+            <button
+              class="bg-orange-500 rounded-md p-2"
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="/edit-icon.png"
+              />
+            </button>
+            <button
+              class="bg-red-500 rounded-md p-2"
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="/delete-icon.png"
+              />
+            </button>
+          </div>
         </div>
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
         >
-          <div>
+          <div
+            class="w-[180px] md:w-auto"
+          >
             Appliances
           </div>
-          <button
-            class="bg-red-500 rounded-md p-2"
+          <div
+            class="flex gap-4"
           >
-            <img
-              class="w-[20px] h-[20px]"
-              src="/delete-icon.png"
-            />
-          </button>
+            <button
+              class="bg-orange-500 rounded-md p-2"
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="/edit-icon.png"
+              />
+            </button>
+            <button
+              class="bg-red-500 rounded-md p-2"
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="/delete-icon.png"
+              />
+            </button>
+          </div>
         </div>
       </div>
     </div>

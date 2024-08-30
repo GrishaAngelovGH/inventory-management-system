@@ -1,6 +1,6 @@
 import inventory from "persistent/inventory"
 
-const CategoryList = ({ showNotification }) => {
+const CategoryList = ({ showNotification, onEdit }) => {
   const categories = inventory.getItems()
 
   return (
@@ -11,16 +11,27 @@ const CategoryList = ({ showNotification }) => {
         {
           categories.map(v => (
             <div key={v.id} className="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0">
-              <div>{v.name}</div>
-              <button
-                className="bg-red-500 rounded-md p-2"
-                onClick={() => {
-                  inventory.deleteCategory(v.id)
-                  showNotification('Successfully deleted category')
-                }}
-              >
-                <img src="/delete-icon.png" className="w-[20px] h-[20px]" />
-              </button>
+              <div className="w-[180px] md:w-auto">{v.name}</div>
+
+              <div className="flex gap-4">
+                <button
+                  className="bg-orange-500 rounded-md p-2"
+                  onClick={() => {
+                    onEdit(v.id, v.name)
+                  }}
+                >
+                  <img src="/edit-icon.png" className="w-[20px] h-[20px]" />
+                </button>
+                <button
+                  className="bg-red-500 rounded-md p-2"
+                  onClick={() => {
+                    inventory.deleteCategory(v.id)
+                    showNotification('Successfully deleted category')
+                  }}
+                >
+                  <img src="/delete-icon.png" className="w-[20px] h-[20px]" />
+                </button>
+              </div>
             </div>
           ))
         }
