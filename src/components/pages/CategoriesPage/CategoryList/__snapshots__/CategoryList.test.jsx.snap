@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render CategoryList component 1`] = `
+exports[`CategoryList > should render CategoryList component 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -18,6 +18,7 @@ exports[`should render CategoryList component 1`] = `
         >
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
+            data-testid="item-0"
           >
             <div
               class="w-[180px] md:w-auto"
@@ -37,6 +38,7 @@ exports[`should render CategoryList component 1`] = `
               </button>
               <button
                 class="bg-red-500 rounded-md p-2"
+                data-testid="delete-button"
               >
                 <img
                   class="w-[20px] h-[20px]"
@@ -47,6 +49,7 @@ exports[`should render CategoryList component 1`] = `
           </div>
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
+            data-testid="item-1"
           >
             <div
               class="w-[180px] md:w-auto"
@@ -66,6 +69,7 @@ exports[`should render CategoryList component 1`] = `
               </button>
               <button
                 class="bg-red-500 rounded-md p-2"
+                data-testid="delete-button"
               >
                 <img
                   class="w-[20px] h-[20px]"
@@ -76,6 +80,7 @@ exports[`should render CategoryList component 1`] = `
           </div>
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
+            data-testid="item-2"
           >
             <div
               class="w-[180px] md:w-auto"
@@ -95,6 +100,7 @@ exports[`should render CategoryList component 1`] = `
               </button>
               <button
                 class="bg-red-500 rounded-md p-2"
+                data-testid="delete-button"
               >
                 <img
                   class="w-[20px] h-[20px]"
@@ -105,6 +111,7 @@ exports[`should render CategoryList component 1`] = `
           </div>
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
+            data-testid="item-3"
           >
             <div
               class="w-[180px] md:w-auto"
@@ -124,6 +131,7 @@ exports[`should render CategoryList component 1`] = `
               </button>
               <button
                 class="bg-red-500 rounded-md p-2"
+                data-testid="delete-button"
               >
                 <img
                   class="w-[20px] h-[20px]"
@@ -134,6 +142,7 @@ exports[`should render CategoryList component 1`] = `
           </div>
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
+            data-testid="item-4"
           >
             <div
               class="w-[180px] md:w-auto"
@@ -153,6 +162,7 @@ exports[`should render CategoryList component 1`] = `
               </button>
               <button
                 class="bg-red-500 rounded-md p-2"
+                data-testid="delete-button"
               >
                 <img
                   class="w-[20px] h-[20px]"
@@ -163,6 +173,7 @@ exports[`should render CategoryList component 1`] = `
           </div>
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
+            data-testid="item-5"
           >
             <div
               class="w-[180px] md:w-auto"
@@ -182,6 +193,7 @@ exports[`should render CategoryList component 1`] = `
               </button>
               <button
                 class="bg-red-500 rounded-md p-2"
+                data-testid="delete-button"
               >
                 <img
                   class="w-[20px] h-[20px]"
@@ -192,6 +204,7 @@ exports[`should render CategoryList component 1`] = `
           </div>
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
+            data-testid="item-6"
           >
             <div
               class="w-[180px] md:w-auto"
@@ -211,6 +224,7 @@ exports[`should render CategoryList component 1`] = `
               </button>
               <button
                 class="bg-red-500 rounded-md p-2"
+                data-testid="delete-button"
               >
                 <img
                   class="w-[20px] h-[20px]"
@@ -237,6 +251,7 @@ exports[`should render CategoryList component 1`] = `
       >
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
+          data-testid="item-0"
         >
           <div
             class="w-[180px] md:w-auto"
@@ -256,6 +271,7 @@ exports[`should render CategoryList component 1`] = `
             </button>
             <button
               class="bg-red-500 rounded-md p-2"
+              data-testid="delete-button"
             >
               <img
                 class="w-[20px] h-[20px]"
@@ -266,6 +282,7 @@ exports[`should render CategoryList component 1`] = `
         </div>
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
+          data-testid="item-1"
         >
           <div
             class="w-[180px] md:w-auto"
@@ -285,6 +302,7 @@ exports[`should render CategoryList component 1`] = `
             </button>
             <button
               class="bg-red-500 rounded-md p-2"
+              data-testid="delete-button"
             >
               <img
                 class="w-[20px] h-[20px]"
@@ -295,6 +313,7 @@ exports[`should render CategoryList component 1`] = `
         </div>
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
+          data-testid="item-2"
         >
           <div
             class="w-[180px] md:w-auto"
@@ -314,6 +333,7 @@ exports[`should render CategoryList component 1`] = `
             </button>
             <button
               class="bg-red-500 rounded-md p-2"
+              data-testid="delete-button"
             >
               <img
                 class="w-[20px] h-[20px]"
@@ -324,6 +344,7 @@ exports[`should render CategoryList component 1`] = `
         </div>
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
+          data-testid="item-3"
         >
           <div
             class="w-[180px] md:w-auto"
@@ -343,6 +364,7 @@ exports[`should render CategoryList component 1`] = `
             </button>
             <button
               class="bg-red-500 rounded-md p-2"
+              data-testid="delete-button"
             >
               <img
                 class="w-[20px] h-[20px]"
@@ -353,6 +375,7 @@ exports[`should render CategoryList component 1`] = `
         </div>
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
+          data-testid="item-4"
         >
           <div
             class="w-[180px] md:w-auto"
@@ -372,6 +395,7 @@ exports[`should render CategoryList component 1`] = `
             </button>
             <button
               class="bg-red-500 rounded-md p-2"
+              data-testid="delete-button"
             >
               <img
                 class="w-[20px] h-[20px]"
@@ -382,6 +406,7 @@ exports[`should render CategoryList component 1`] = `
         </div>
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
+          data-testid="item-5"
         >
           <div
             class="w-[180px] md:w-auto"
@@ -401,6 +426,7 @@ exports[`should render CategoryList component 1`] = `
             </button>
             <button
               class="bg-red-500 rounded-md p-2"
+              data-testid="delete-button"
             >
               <img
                 class="w-[20px] h-[20px]"
@@ -411,6 +437,7 @@ exports[`should render CategoryList component 1`] = `
         </div>
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
+          data-testid="item-6"
         >
           <div
             class="w-[180px] md:w-auto"
@@ -430,6 +457,7 @@ exports[`should render CategoryList component 1`] = `
             </button>
             <button
               class="bg-red-500 rounded-md p-2"
+              data-testid="delete-button"
             >
               <img
                 class="w-[20px] h-[20px]"
