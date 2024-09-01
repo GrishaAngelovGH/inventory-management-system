@@ -22,7 +22,7 @@ exports[`should render TotalValueWidget component 1`] = `
           <div
             class="text-xl"
           >
-            $79,000.00
+            $59,250.00
           </div>
           <div
             class="mt-2 text-sm text-gray-500 font-bold"
@@ -51,7 +51,7 @@ exports[`should render TotalValueWidget component 1`] = `
         <div
           class="text-xl"
         >
-          $79,000.00
+          $59,250.00
         </div>
         <div
           class="mt-2 text-sm text-gray-500 font-bold"
