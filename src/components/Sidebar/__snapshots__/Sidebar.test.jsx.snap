@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render closed Sidebar component 1`] = `
+exports[`Sidebar > should render closed Sidebar component 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -54,6 +54,21 @@ exports[`should render closed Sidebar component 1`] = `
               Categories
             </span>
           </a>
+          <div>
+            <button
+              class="text-white flex items-center gap-2 mt-4 ms-0"
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="products-icon.png"
+              />
+              <span
+                class="hidden"
+              >
+                Products
+              </span>
+            </button>
+          </div>
         </div>
         <div
           class="block  w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
@@ -127,6 +142,21 @@ exports[`should render closed Sidebar component 1`] = `
             Categories
           </span>
         </a>
+        <div>
+          <button
+            class="text-white flex items-center gap-2 mt-4 ms-0"
+          >
+            <img
+              class="w-[20px] h-[20px]"
+              src="products-icon.png"
+            />
+            <span
+              class="hidden"
+            >
+              Products
+            </span>
+          </button>
+        </div>
       </div>
       <div
         class="block  w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
@@ -203,7 +233,7 @@ exports[`should render closed Sidebar component 1`] = `
 }
 `;
 
-exports[`should render opened Sidebar component 1`] = `
+exports[`Sidebar > should render opened Sidebar component 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -257,6 +287,21 @@ exports[`should render opened Sidebar component 1`] = `
               Categories
             </span>
           </a>
+          <div>
+            <button
+              class="text-white flex items-center gap-2 mt-4 ms-6"
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="products-icon.png"
+              />
+              <span
+                class="block"
+              >
+                Products
+              </span>
+            </button>
+          </div>
         </div>
         <div
           class="block  w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
@@ -330,6 +375,21 @@ exports[`should render opened Sidebar component 1`] = `
             Categories
           </span>
         </a>
+        <div>
+          <button
+            class="text-white flex items-center gap-2 mt-4 ms-6"
+          >
+            <img
+              class="w-[20px] h-[20px]"
+              src="products-icon.png"
+            />
+            <span
+              class="block"
+            >
+              Products
+            </span>
+          </button>
+        </div>
       </div>
       <div
         class="block  w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"

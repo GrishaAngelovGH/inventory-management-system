@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom"
 
+import SidebarButtonItem from "./SidebarButtonItem"
+
 const LeftChevron = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
     <path d="M28 12 L18 24 L28 36" />
@@ -14,28 +16,40 @@ const RightChevron = () => (
 
 const Sidebar = ({ open, onToggle }) => {
   const items = [
-    { icon: "home-icon.png", title: "Home", path: "/" },
-    { icon: "dashboard-icon.png", title: "Dashboard", path: "/dashboard" },
-    { icon: "categories-icon.png", title: "Categories", path: "/categories" },
+    { icon: "home-icon.png", title: "Home", path: "/", isButton: false },
+    { icon: "dashboard-icon.png", title: "Dashboard", path: "/dashboard", isButton: false },
+    { icon: "categories-icon.png", title: "Categories", path: "/categories", isButton: false },
+    {
+      icon: "products-icon.png",
+      title: "Products",
+      isButton: true,
+      childRoutes: [
+        { icon: "add-icon.png", title: "Add Product", path: "/add-product" }
+      ]
+    }
   ]
 
   return (
     <div className={`h-full bg-slate-600 text-white p-1 text-center relative ${open ? 'min-w-[200px]' : 'min-w-[60px]'} duration-200`}>
       <div className={`flex flex-col ${open ? "items-start" : "items-center"}`}>
         {
-          items.map((v, i) => (
-            <NavLink
-              key={i}
-              to={v.path}
-              className={({ isActive }) => `${isActive ? "text-slate-400" : "text-white"} flex items-center gap-2 mt-4 ${open ? 'ms-6' : 'ms-0'}`}
-            >
-              <img src={v.icon} className="w-[20px] h-[20px]" />
+          items.map((v, i) => {
+            return v.isButton ?
+              (<SidebarButtonItem key={i} open={open} {...v} />) :
+              (
+                <NavLink
+                  key={i}
+                  to={v.path}
+                  className={({ isActive }) => `${isActive ? "text-slate-400" : "text-white"} flex items-center gap-2 mt-4 ${open ? 'ms-6' : 'ms-0'}`}
+                >
+                  <img src={v.icon} className="w-[20px] h-[20px]" />
 
-              <span className={`${open ? "block" : "hidden"}`}>
-                {v.title}
-              </span>
-            </NavLink>
-          ))
+                  <span className={`${open ? "block" : "hidden"}`}>
+                    {v.title}
+                  </span>
+                </NavLink>
+              )
+          })
         }
       </div>
 
