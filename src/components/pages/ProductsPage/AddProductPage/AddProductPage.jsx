@@ -16,23 +16,27 @@ const AddProductPage = ({ showNotification }) => {
   const handleAddProduct = e => {
     e.preventDefault()
 
-    inventory.addProductToCategory(
-      categoryId,
-      {
-        name: productName,
-        quantity: productQuantity,
-        buyingPrice: productBuyingPrice,
-        sellingPrice: productSellingPrice
-      }
-    )
+    try {
+      inventory.addProductToCategory(
+        categoryId,
+        {
+          name: productName,
+          quantity: productQuantity,
+          buyingPrice: productBuyingPrice,
+          sellingPrice: productSellingPrice
+        }
+      )
 
-    setProductName("")
-    setCategoryId("")
-    setProductQuantity("")
-    setProductBuyingPrice("")
-    setProductSellingPrice("")
+      setProductName("")
+      setCategoryId("")
+      setProductQuantity("")
+      setProductBuyingPrice("")
+      setProductSellingPrice("")
 
-    showNotification('The product is successfully added to the category')
+      showNotification('The product is successfully added to the category')
+    } catch (err) {
+      showNotification(err.message, true)
+    }
   }
 
   return (

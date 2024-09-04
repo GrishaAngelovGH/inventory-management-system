@@ -121,6 +121,10 @@ const inventory = {
   addProductToCategory: (categoryId, product) => {
     const newInventory = JSON.parse(localStorage.getItem("inventory"))
 
+    if (newInventory.categories[categoryId].products.map(v => v.name).includes(product.name)) {
+      throw new Error(`A product with the name '${product.name}' already exists in this category`)
+    }
+
     newInventory.categories[categoryId].products.push({
       id: Math.random().toString().slice(2),
       ...product
