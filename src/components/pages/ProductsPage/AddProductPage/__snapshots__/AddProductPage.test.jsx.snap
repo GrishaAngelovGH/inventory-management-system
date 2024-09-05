@@ -18,6 +18,7 @@ exports[`AddProductPage > should render AddProductPage component 1`] = `
               aria-current="page"
               class="text-slate-400 flex items-center gap-2 mt-4 ms-6"
               href="/"
+              title=""
             >
               <img
                 class="w-[20px] h-[20px]"
@@ -32,6 +33,7 @@ exports[`AddProductPage > should render AddProductPage component 1`] = `
             <a
               class="text-white flex items-center gap-2 mt-4 ms-6"
               href="/dashboard"
+              title=""
             >
               <img
                 class="w-[20px] h-[20px]"
@@ -46,6 +48,7 @@ exports[`AddProductPage > should render AddProductPage component 1`] = `
             <a
               class="text-white flex items-center gap-2 mt-4 ms-6"
               href="/categories"
+              title=""
             >
               <img
                 class="w-[20px] h-[20px]"
@@ -60,6 +63,7 @@ exports[`AddProductPage > should render AddProductPage component 1`] = `
             <div>
               <button
                 class="text-white flex items-center gap-2 mt-4 ms-6"
+                title=""
               >
                 <img
                   class="w-[20px] h-[20px]"
@@ -192,6 +196,7 @@ exports[`AddProductPage > should render AddProductPage component 1`] = `
             aria-current="page"
             class="text-slate-400 flex items-center gap-2 mt-4 ms-6"
             href="/"
+            title=""
           >
             <img
               class="w-[20px] h-[20px]"
@@ -206,6 +211,7 @@ exports[`AddProductPage > should render AddProductPage component 1`] = `
           <a
             class="text-white flex items-center gap-2 mt-4 ms-6"
             href="/dashboard"
+            title=""
           >
             <img
               class="w-[20px] h-[20px]"
@@ -220,6 +226,7 @@ exports[`AddProductPage > should render AddProductPage component 1`] = `
           <a
             class="text-white flex items-center gap-2 mt-4 ms-6"
             href="/categories"
+            title=""
           >
             <img
               class="w-[20px] h-[20px]"
@@ -234,6 +241,7 @@ exports[`AddProductPage > should render AddProductPage component 1`] = `
           <div>
             <button
               class="text-white flex items-center gap-2 mt-4 ms-6"
+              title=""
             >
               <img
                 class="w-[20px] h-[20px]"

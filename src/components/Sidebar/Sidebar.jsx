@@ -24,7 +24,8 @@ const Sidebar = ({ open, onToggle }) => {
       title: "Products",
       isButton: true,
       childRoutes: [
-        { icon: "add-icon.png", title: "Add Product", path: "/add-product" }
+        { icon: "add-icon.png", title: "Add Product", path: "/add-product" },
+        { icon: "manage-icon.png", title: "Manage Products", path: "/manage-products" }
       ]
     }
   ]
@@ -39,6 +40,7 @@ const Sidebar = ({ open, onToggle }) => {
               (
                 <NavLink
                   key={i}
+                  title={open ? '' : v.title}
                   to={v.path}
                   className={({ isActive }) => `${isActive ? "text-slate-400" : "text-white"} flex items-center gap-2 mt-4 ${open ? 'ms-6' : 'ms-0'}`}
                 >

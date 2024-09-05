@@ -8,6 +8,7 @@ exports[`SidebarButtonItem > should render SidebarButtonItem component 1`] = `
       <div>
         <button
           class="text-white flex items-center gap-2 mt-4 ms-6"
+          title=""
         >
           <img
             class="w-[20px] h-[20px]"
@@ -26,6 +27,7 @@ exports[`SidebarButtonItem > should render SidebarButtonItem component 1`] = `
     <div>
       <button
         class="text-white flex items-center gap-2 mt-4 ms-6"
+        title=""
       >
         <img
           class="w-[20px] h-[20px]"

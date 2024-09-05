@@ -12,6 +12,7 @@ const SidebarButtonItem = ({ open, icon, title, childRoutes }) => {
   return (
     <div>
       <button
+        title={open ? '' : title}
         className={`text-white flex items-center gap-2 mt-4 ${open ? 'ms-6' : 'ms-0'}`}
         onClick={handleToggle}
       >
@@ -30,6 +31,7 @@ const SidebarButtonItem = ({ open, icon, title, childRoutes }) => {
                 <NavLink
                   role="link"
                   key={i}
+                  title={open ? '' : v.title}
                   to={v.path}
                   className={({ isActive }) => `${isActive ? "text-slate-400" : "text-white"} flex items-center gap-2 mt-4 ${open ? 'ms-10' : 'ms-0'}`}
                 >
