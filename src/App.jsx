@@ -6,6 +6,7 @@ import HomePage from "components/pages/HomePage"
 import DashboardPage from "components/pages/DashboardPage"
 import CategoriesPage from "components/pages/CategoriesPage"
 import AddProductPage from "components/pages/ProductsPage/AddProductPage"
+import ManageProductsPage from "components/pages/ProductsPage/ManageProductsPage"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/categories" element={<Notification><CategoriesPage /></Notification>} />
         <Route path="/add-product" element={<Notification><AddProductPage /></Notification>} />
+        <Route path="/manage-products" element={<Notification><ManageProductsPage /></Notification>} />
       </Routes>
     </Router>
   )
