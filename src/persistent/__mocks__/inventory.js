@@ -17,7 +17,8 @@ const categories = {
 }
 
 const inventory = {
-  getItems: () => Object.values(categories)
+  getItems: () => Object.values(categories),
+  getProductsForCategory: categoryId => categories[categoryId]?.products || []
 }
 
 export default inventory

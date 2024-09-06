@@ -100,7 +100,7 @@ if (!localStorage.getItem("inventory")) {
 }
 
 const inventory = {
-  getItems: () => Object.values(JSON.parse(localStorage.getItem("inventory")).categories),
+  // Create operations
   createCategory: newCategory => {
     const newInventory = JSON.parse(localStorage.getItem("inventory"))
 
@@ -132,6 +132,14 @@ const inventory = {
 
     localStorage.setItem("inventory", JSON.stringify(newInventory))
   },
+  // Read operations
+  getItems: () => Object.values(JSON.parse(localStorage.getItem("inventory")).categories),
+  getProductsForCategory: categoryId => {
+    const inventory = JSON.parse(localStorage.getItem("inventory"))
+
+    return inventory.categories[categoryId]?.products || []
+  },
+  // Update operations
   updateCategoryName: (id, newName) => {
     const newInventory = JSON.parse(localStorage.getItem("inventory"))
 
@@ -139,6 +147,7 @@ const inventory = {
 
     localStorage.setItem("inventory", JSON.stringify(newInventory))
   },
+  // Delete operations
   deleteCategory: id => {
     const newInventory = JSON.parse(localStorage.getItem("inventory"))
 
