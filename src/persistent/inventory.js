@@ -154,6 +154,13 @@ const inventory = {
     const { [id]: value, ...newCategories } = newInventory.categories
 
     localStorage.setItem("inventory", JSON.stringify({ categories: newCategories }))
+  },
+  deleteProduct: (categoryId, productId) => {
+    const newInventory = JSON.parse(localStorage.getItem("inventory"))
+
+    newInventory.categories[categoryId].products = newInventory.categories[categoryId].products.filter(v => v.id !== productId)
+
+    localStorage.setItem("inventory", JSON.stringify(newInventory))
   }
 }
 
