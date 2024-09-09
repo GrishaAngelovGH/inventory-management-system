@@ -1,5 +1,5 @@
-const TotalProductsWidget = ({ inventoryItems }) => {
-  const totalProducts = inventoryItems.reduce((value, category) => {
+const TotalUniqueProductsWidget = ({ inventoryItems }) => {
+  const totalUniqueProducts = inventoryItems.reduce((value, category) => {
     return value + category.products.length
   }, 0)
 
@@ -9,11 +9,11 @@ const TotalProductsWidget = ({ inventoryItems }) => {
         <img src="/shopping-cart-icon.png" className="w-2/3" />
       </div>
       <div className="w-1/2 flex flex-col justify-center items-center text-center">
-        <div className="text-xl">{totalProducts}</div>
-        <div className="mt-2 text-sm text-gray-500 font-bold">Total Products</div>
+        <div className="text-xl">{totalUniqueProducts}</div>
+        <div className="mt-2 text-sm text-gray-500 font-bold">Total Unique Products</div>
       </div>
     </div>
   )
 }
 
-export default TotalProductsWidget
+export default TotalUniqueProductsWidget

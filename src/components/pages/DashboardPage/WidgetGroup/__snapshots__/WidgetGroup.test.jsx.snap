@@ -82,7 +82,7 @@ exports[`should render WidgetGroup component 1`] = `
             <div
               class="mt-2 text-sm text-gray-500 font-bold"
             >
-              Total Products
+              Total Unique Products
             </div>
           </div>
         </div>
@@ -167,7 +167,7 @@ exports[`should render WidgetGroup component 1`] = `
           <div
             class="mt-2 text-sm text-gray-500 font-bold"
           >
-            Total Products
+            Total Unique Products
           </div>
         </div>
       </div>

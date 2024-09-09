@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react'
 
-import TotalProductsWidget from './TotalProductsWidget'
+import TotalUniqueProductsWidget from './TotalUniqueProductsWidget'
 
 const inventoryItems = [
   {
@@ -20,8 +20,8 @@ const inventoryItems = [
   }
 ]
 
-test('should render TotalProductsWidget component', () => {
-  const view = render(<TotalProductsWidget inventoryItems={inventoryItems} />)
+test('should render TotalUniqueProductsWidget component', () => {
+  const view = render(<TotalUniqueProductsWidget inventoryItems={inventoryItems} />)
 
   expect(view).toMatchSnapshot()
 })

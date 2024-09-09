@@ -1,0 +1,3 @@
+import TotalUniqueProductsWidget from "./TotalUniqueProductsWidget"
+
+export default TotalUniqueProductsWidget
