@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render AddCategoryPanel component 1`] = `
+exports[`should render EditCategoryPanel component 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -11,7 +11,7 @@ exports[`should render AddCategoryPanel component 1`] = `
         <div
           class="uppercase text-xl text-center border-b-2 border-blue-500 bg-gray-200 rounded-t-md text-gray-500"
         >
-          Add new category
+          Edit category
         </div>
         <div
           class="p-2 flex flex-col gap-5"
@@ -20,14 +20,22 @@ exports[`should render AddCategoryPanel component 1`] = `
             class="outline-0 border border-gray-300 p-1 text-xl rounded-md w-full"
             placeholder="Enter category name"
             type="text"
-            value=""
+            value="Electronics"
           />
-          <button
-            class="bg-blue-500 hover:bg-blue-600 disabled:bg-gray-300 text-white w-[150px] text-xl p-1 rounded-md"
-            disabled=""
+          <div
+            class="flex gap-2"
           >
-            Add Category
-          </button>
+            <button
+              class="bg-blue-500 disabled:bg-gray-300 text-white w-[150px] text-xl p-1 rounded-md"
+            >
+              Confirm
+            </button>
+            <button
+              class="bg-gray-500  text-white w-[150px] text-xl p-1 rounded-md"
+            >
+              Cancel
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -39,7 +47,7 @@ exports[`should render AddCategoryPanel component 1`] = `
       <div
         class="uppercase text-xl text-center border-b-2 border-blue-500 bg-gray-200 rounded-t-md text-gray-500"
       >
-        Add new category
+        Edit category
       </div>
       <div
         class="p-2 flex flex-col gap-5"
@@ -48,14 +56,22 @@ exports[`should render AddCategoryPanel component 1`] = `
           class="outline-0 border border-gray-300 p-1 text-xl rounded-md w-full"
           placeholder="Enter category name"
           type="text"
-          value=""
+          value="Electronics"
         />
-        <button
-          class="bg-blue-500 hover:bg-blue-600 disabled:bg-gray-300 text-white w-[150px] text-xl p-1 rounded-md"
-          disabled=""
+        <div
+          class="flex gap-2"
         >
-          Add Category
-        </button>
+          <button
+            class="bg-blue-500 disabled:bg-gray-300 text-white w-[150px] text-xl p-1 rounded-md"
+          >
+            Confirm
+          </button>
+          <button
+            class="bg-gray-500  text-white w-[150px] text-xl p-1 rounded-md"
+          >
+            Cancel
+          </button>
+        </div>
       </div>
     </div>
   </div>,

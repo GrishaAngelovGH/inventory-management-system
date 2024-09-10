@@ -33,7 +33,7 @@ const AddCategoryPanel = ({ showNotification }) => {
         />
         <button
           disabled={!newCategory.length}
-          className="bg-blue-500 hover:bg-blue-600 disabled:bg-gray-400 text-white w-[150px] text-xl p-1 rounded-md"
+          className="bg-blue-500 hover:bg-blue-600 disabled:bg-gray-300 text-white w-[150px] text-xl p-1 rounded-md"
           onClick={handleAdd}
         >
           Add Category
