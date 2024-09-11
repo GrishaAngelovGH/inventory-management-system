@@ -32,6 +32,7 @@ const AddCategoryPanel = ({ showNotification }) => {
           onChange={handleInputChange}
         />
         <button
+          data-testid="add-category-button"
           disabled={!newCategory.length}
           className="bg-blue-500 hover:bg-blue-600 disabled:bg-gray-300 text-white w-[150px] text-xl p-1 rounded-md"
           onClick={handleAdd}

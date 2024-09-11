@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render CategoriesPage component 1`] = `
+exports[`CategoriesPage > should render CategoriesPage component 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -121,7 +121,8 @@ exports[`should render CategoriesPage component 1`] = `
                   value=""
                 />
                 <button
-                  class="bg-blue-500 hover:bg-blue-600 disabled:bg-gray-400 text-white w-[150px] text-xl p-1 rounded-md"
+                  class="bg-blue-500 hover:bg-blue-600 disabled:bg-gray-300 text-white w-[150px] text-xl p-1 rounded-md"
+                  data-testid="add-category-button"
                   disabled=""
                 >
                   Add Category
@@ -141,7 +142,7 @@ exports[`should render CategoriesPage component 1`] = `
               >
                 <div
                   class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-                  data-testid="item-0"
+                  data-testid="category-item-0"
                 >
                   <div
                     class="w-[180px] md:w-auto"
@@ -172,7 +173,7 @@ exports[`should render CategoriesPage component 1`] = `
                 </div>
                 <div
                   class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-                  data-testid="item-1"
+                  data-testid="category-item-1"
                 >
                   <div
                     class="w-[180px] md:w-auto"
@@ -203,7 +204,7 @@ exports[`should render CategoriesPage component 1`] = `
                 </div>
                 <div
                   class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-                  data-testid="item-2"
+                  data-testid="category-item-2"
                 >
                   <div
                     class="w-[180px] md:w-auto"
@@ -234,7 +235,7 @@ exports[`should render CategoriesPage component 1`] = `
                 </div>
                 <div
                   class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-                  data-testid="item-3"
+                  data-testid="category-item-3"
                 >
                   <div
                     class="w-[180px] md:w-auto"
@@ -265,7 +266,7 @@ exports[`should render CategoriesPage component 1`] = `
                 </div>
                 <div
                   class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-                  data-testid="item-4"
+                  data-testid="category-item-4"
                 >
                   <div
                     class="w-[180px] md:w-auto"
@@ -296,7 +297,7 @@ exports[`should render CategoriesPage component 1`] = `
                 </div>
                 <div
                   class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-                  data-testid="item-5"
+                  data-testid="category-item-5"
                 >
                   <div
                     class="w-[180px] md:w-auto"
@@ -327,7 +328,7 @@ exports[`should render CategoriesPage component 1`] = `
                 </div>
                 <div
                   class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-                  data-testid="item-6"
+                  data-testid="category-item-6"
                 >
                   <div
                     class="w-[180px] md:w-auto"
@@ -480,7 +481,8 @@ exports[`should render CategoriesPage component 1`] = `
                 value=""
               />
               <button
-                class="bg-blue-500 hover:bg-blue-600 disabled:bg-gray-400 text-white w-[150px] text-xl p-1 rounded-md"
+                class="bg-blue-500 hover:bg-blue-600 disabled:bg-gray-300 text-white w-[150px] text-xl p-1 rounded-md"
+                data-testid="add-category-button"
                 disabled=""
               >
                 Add Category
@@ -500,7 +502,7 @@ exports[`should render CategoriesPage component 1`] = `
             >
               <div
                 class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-                data-testid="item-0"
+                data-testid="category-item-0"
               >
                 <div
                   class="w-[180px] md:w-auto"
@@ -531,7 +533,7 @@ exports[`should render CategoriesPage component 1`] = `
               </div>
               <div
                 class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-                data-testid="item-1"
+                data-testid="category-item-1"
               >
                 <div
                   class="w-[180px] md:w-auto"
@@ -562,7 +564,7 @@ exports[`should render CategoriesPage component 1`] = `
               </div>
               <div
                 class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-                data-testid="item-2"
+                data-testid="category-item-2"
               >
                 <div
                   class="w-[180px] md:w-auto"
@@ -593,7 +595,7 @@ exports[`should render CategoriesPage component 1`] = `
               </div>
               <div
                 class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-                data-testid="item-3"
+                data-testid="category-item-3"
               >
                 <div
                   class="w-[180px] md:w-auto"
@@ -624,7 +626,7 @@ exports[`should render CategoriesPage component 1`] = `
               </div>
               <div
                 class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-                data-testid="item-4"
+                data-testid="category-item-4"
               >
                 <div
                   class="w-[180px] md:w-auto"
@@ -655,7 +657,7 @@ exports[`should render CategoriesPage component 1`] = `
               </div>
               <div
                 class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-                data-testid="item-5"
+                data-testid="category-item-5"
               >
                 <div
                   class="w-[180px] md:w-auto"
@@ -686,7 +688,7 @@ exports[`should render CategoriesPage component 1`] = `
               </div>
               <div
                 class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-                data-testid="item-6"
+                data-testid="category-item-6"
               >
                 <div
                   class="w-[180px] md:w-auto"

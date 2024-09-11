@@ -1,55 +1,48 @@
 import { useState } from "react"
 
 import SidebarLayout from "components/SidebarLayout"
-import Modal from "components/Modal"
 
 import AddCategoryPanel from "./AddCategoryPanel"
+import EditCategoryPanel from "./EditCategoryPanel"
 import CategoryList from "./CategoryList"
 
 import inventory from "persistent/inventory"
 
 const CategoriesPage = ({ showNotification }) => {
-  const [showModal, setShowModal] = useState(false)
-  const [categoryId, setCategoryId] = useState()
+  const [categoryId, setCategoryId] = useState("")
   const [categoryName, setCategoryName] = useState("")
 
   const handleEdit = (id, name) => {
     setCategoryId(id)
     setCategoryName(name)
-    setShowModal(true)
   }
 
-  const handleConfirm = () => {
-    inventory.updateCategoryName(categoryId, categoryName)
-    setShowModal(false)
-    showNotification("Category updated successfully")
+  const handleConfirm = newCategoryName => {
+    inventory.updateCategoryName(categoryId, newCategoryName)
+    setCategoryId("")
+    setCategoryName("")
+    showNotification("Successfully edited category!")
   }
 
   const handleCancel = () => {
-    setCategoryId(null)
+    setCategoryId("")
     setCategoryName("")
-    setShowModal(false)
   }
 
   return (
     <SidebarLayout>
-      {
-        showModal && (
-          <Modal title="Edit Category" onConfirm={handleConfirm} onCancel={handleCancel}>
-            <div className="p-5">
-              <input
-                type="text"
-                value={categoryName}
-                className="outline-0 border-2 text-xl rounded-md p-2"
-                onChange={({ target: { value } }) => setCategoryName(value)}
-              />
-            </div>
-          </Modal>
-        )
-      }
-
       <div className="p-2 flex flex-col md:flex-row gap-5">
-        <AddCategoryPanel showNotification={showNotification} />
+        {
+          !categoryId.length ?
+            (<AddCategoryPanel showNotification={showNotification} />) :
+            (
+              <EditCategoryPanel
+                categoryName={categoryName}
+                onConfirm={handleConfirm}
+                onCancel={handleCancel}
+              />
+            )
+        }
         <CategoryList showNotification={showNotification} onEdit={handleEdit} />
       </div>
     </SidebarLayout>

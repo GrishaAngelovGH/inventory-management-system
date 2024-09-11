@@ -17,6 +17,15 @@ const categories = {
 }
 
 const inventory = {
+  createCategory: newCategory => {
+    const newId = Math.random().toString().slice(2)
+
+    categories[newId] = {
+      id: newId,
+      name: newCategory[0].toUpperCase() + newCategory.slice(1),
+      products: []
+    }
+  },
   getItems: () => Object.values(categories),
   getProductsForCategory: categoryId => categories[categoryId]?.products || []
 }

@@ -18,7 +18,7 @@ exports[`CategoryList > should render CategoryList component 1`] = `
         >
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-            data-testid="item-0"
+            data-testid="category-item-0"
           >
             <div
               class="w-[180px] md:w-auto"
@@ -49,7 +49,7 @@ exports[`CategoryList > should render CategoryList component 1`] = `
           </div>
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-            data-testid="item-1"
+            data-testid="category-item-1"
           >
             <div
               class="w-[180px] md:w-auto"
@@ -80,7 +80,7 @@ exports[`CategoryList > should render CategoryList component 1`] = `
           </div>
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-            data-testid="item-2"
+            data-testid="category-item-2"
           >
             <div
               class="w-[180px] md:w-auto"
@@ -111,7 +111,7 @@ exports[`CategoryList > should render CategoryList component 1`] = `
           </div>
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-            data-testid="item-3"
+            data-testid="category-item-3"
           >
             <div
               class="w-[180px] md:w-auto"
@@ -142,7 +142,7 @@ exports[`CategoryList > should render CategoryList component 1`] = `
           </div>
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-            data-testid="item-4"
+            data-testid="category-item-4"
           >
             <div
               class="w-[180px] md:w-auto"
@@ -173,7 +173,7 @@ exports[`CategoryList > should render CategoryList component 1`] = `
           </div>
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-            data-testid="item-5"
+            data-testid="category-item-5"
           >
             <div
               class="w-[180px] md:w-auto"
@@ -204,7 +204,7 @@ exports[`CategoryList > should render CategoryList component 1`] = `
           </div>
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-            data-testid="item-6"
+            data-testid="category-item-6"
           >
             <div
               class="w-[180px] md:w-auto"
@@ -251,7 +251,7 @@ exports[`CategoryList > should render CategoryList component 1`] = `
       >
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-          data-testid="item-0"
+          data-testid="category-item-0"
         >
           <div
             class="w-[180px] md:w-auto"
@@ -282,7 +282,7 @@ exports[`CategoryList > should render CategoryList component 1`] = `
         </div>
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-          data-testid="item-1"
+          data-testid="category-item-1"
         >
           <div
             class="w-[180px] md:w-auto"
@@ -313,7 +313,7 @@ exports[`CategoryList > should render CategoryList component 1`] = `
         </div>
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-          data-testid="item-2"
+          data-testid="category-item-2"
         >
           <div
             class="w-[180px] md:w-auto"
@@ -344,7 +344,7 @@ exports[`CategoryList > should render CategoryList component 1`] = `
         </div>
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-          data-testid="item-3"
+          data-testid="category-item-3"
         >
           <div
             class="w-[180px] md:w-auto"
@@ -375,7 +375,7 @@ exports[`CategoryList > should render CategoryList component 1`] = `
         </div>
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-          data-testid="item-4"
+          data-testid="category-item-4"
         >
           <div
             class="w-[180px] md:w-auto"
@@ -406,7 +406,7 @@ exports[`CategoryList > should render CategoryList component 1`] = `
         </div>
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-          data-testid="item-5"
+          data-testid="category-item-5"
         >
           <div
             class="w-[180px] md:w-auto"
@@ -437,7 +437,7 @@ exports[`CategoryList > should render CategoryList component 1`] = `
         </div>
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
-          data-testid="item-6"
+          data-testid="category-item-6"
         >
           <div
             class="w-[180px] md:w-auto"

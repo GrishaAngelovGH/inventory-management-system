@@ -24,6 +24,7 @@ exports[`should render AddCategoryPanel component 1`] = `
           />
           <button
             class="bg-blue-500 hover:bg-blue-600 disabled:bg-gray-300 text-white w-[150px] text-xl p-1 rounded-md"
+            data-testid="add-category-button"
             disabled=""
           >
             Add Category
@@ -52,6 +53,7 @@ exports[`should render AddCategoryPanel component 1`] = `
         />
         <button
           class="bg-blue-500 hover:bg-blue-600 disabled:bg-gray-300 text-white w-[150px] text-xl p-1 rounded-md"
+          data-testid="add-category-button"
           disabled=""
         >
           Add Category

@@ -13,7 +13,7 @@ describe('CategoryList', () => {
   test('should render confirmation modal when deleting an item from the list', async () => {
     render(<CategoryList />)
 
-    const firstItem = screen.getByTestId('item-1')
+    const firstItem = screen.getByTestId('category-item-1')
     const deleteButton = within(firstItem).getByTestId('delete-button')
 
     await userEvent.click(deleteButton)

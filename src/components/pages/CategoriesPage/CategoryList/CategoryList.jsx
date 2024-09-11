@@ -41,7 +41,7 @@ const CategoryList = ({ showNotification, onEdit }) => {
       <div className="max-h-[380px] overflow-auto">
         {
           categories.map((v, i) => (
-            <div key={v.id} data-testid={`item-${i}`} className="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0">
+            <div key={v.id} data-testid={`category-item-${i}`} className="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0">
               <div className="w-[180px] md:w-auto">{v.name}</div>
 
               <div className="flex gap-4">
