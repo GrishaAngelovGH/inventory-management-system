@@ -31,7 +31,7 @@ const Sidebar = ({ open, onToggle }) => {
   ]
 
   return (
-    <div className={`h-full bg-slate-600 text-white p-1 text-center relative ${open ? 'min-w-[200px]' : 'min-w-[60px]'} duration-200`}>
+    <div className={`h-[97%] bg-slate-600 text-white p-1 rounded-md text-center relative top-2 left-2 ${open ? 'min-w-[200px]' : 'min-w-[60px]'} duration-200`}>
       <div className={`flex flex-col ${open ? "items-start" : "items-center"}`}>
         {
           items.map((v, i) => {
@@ -56,7 +56,7 @@ const Sidebar = ({ open, onToggle }) => {
       </div>
 
       <div
-        className={`${window.innerWidth > 700 ? 'block' : 'hidden'}  w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer`}
+        className={`${window.innerWidth > 700 ? 'block' : 'hidden'}  w-[30px] h-[30px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer`}
         onClick={onToggle}
       >
         {open ? <LeftChevron /> : <RightChevron />}

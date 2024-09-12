@@ -84,7 +84,7 @@ const ManageProductsPage = ({ showNotification }) => {
 
   return (
     <SidebarLayout>
-      <div className="p-2 flex justify-center">
+      <div className="pl-2 flex justify-center overflow-x-auto">
         <div className="w-full md:w-2/3">
           <select
             role="combobox"

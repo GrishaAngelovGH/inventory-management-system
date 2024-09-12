@@ -9,7 +9,7 @@ exports[`ManageProductsPage > should render ManageProductsPage component 1`] = `
         class="h-screen flex"
       >
         <div
-          class="h-full bg-slate-600 text-white p-1 text-center relative min-w-[200px] duration-200"
+          class="h-[97%] bg-slate-600 text-white p-1 rounded-md text-center relative top-2 left-2 min-w-[200px] duration-200"
         >
           <div
             class="flex flex-col items-start"
@@ -78,7 +78,7 @@ exports[`ManageProductsPage > should render ManageProductsPage component 1`] = `
             </div>
           </div>
           <div
-            class="block  w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
+            class="block  w-[30px] h-[30px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
           >
             <svg
               fill="none"
@@ -98,10 +98,10 @@ exports[`ManageProductsPage > should render ManageProductsPage component 1`] = `
           </div>
         </div>
         <div
-          class="flex-1 overflow-x-auto"
+          class="flex-1 overflow-x-auto pl-[2%] p-2"
         >
           <div
-            class="p-2 flex justify-center"
+            class="pl-2 flex justify-center overflow-x-auto"
           >
             <div
               class="w-full md:w-2/3"
@@ -137,7 +137,7 @@ exports[`ManageProductsPage > should render ManageProductsPage component 1`] = `
       class="h-screen flex"
     >
       <div
-        class="h-full bg-slate-600 text-white p-1 text-center relative min-w-[200px] duration-200"
+        class="h-[97%] bg-slate-600 text-white p-1 rounded-md text-center relative top-2 left-2 min-w-[200px] duration-200"
       >
         <div
           class="flex flex-col items-start"
@@ -206,7 +206,7 @@ exports[`ManageProductsPage > should render ManageProductsPage component 1`] = `
           </div>
         </div>
         <div
-          class="block  w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
+          class="block  w-[30px] h-[30px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
         >
           <svg
             fill="none"
@@ -226,10 +226,10 @@ exports[`ManageProductsPage > should render ManageProductsPage component 1`] = `
         </div>
       </div>
       <div
-        class="flex-1 overflow-x-auto"
+        class="flex-1 overflow-x-auto pl-[2%] p-2"
       >
         <div
-          class="p-2 flex justify-center"
+          class="pl-2 flex justify-center overflow-x-auto"
         >
           <div
             class="w-full md:w-2/3"

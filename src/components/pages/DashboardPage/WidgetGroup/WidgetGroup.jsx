@@ -8,7 +8,7 @@ const WidgetGroup = () => {
   const inventoryItems = inventory.getItems()
 
   return (
-    <div className="flex flex-col md:flex-row gap-2 justify-evenly mt-2">
+    <div className="flex flex-col md:flex-row gap-2 justify-evenly pl-2">
       <TotalValueWidget inventoryItems={inventoryItems} />
       <TotalCategoriesWidget inventoryItems={inventoryItems} />
       <TotalUniqueProductsWidget inventoryItems={inventoryItems} />

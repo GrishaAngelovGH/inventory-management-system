@@ -12,7 +12,7 @@ exports[`should render Layout component 1`] = `
           Sidebar
         </div>
         <div
-          class="flex-1 overflow-x-auto"
+          class="flex-1 overflow-x-auto pl-[2%] p-2"
         >
           <div>
             Page
@@ -29,7 +29,7 @@ exports[`should render Layout component 1`] = `
         Sidebar
       </div>
       <div
-        class="flex-1 overflow-x-auto"
+        class="flex-1 overflow-x-auto pl-[2%] p-2"
       >
         <div>
           Page

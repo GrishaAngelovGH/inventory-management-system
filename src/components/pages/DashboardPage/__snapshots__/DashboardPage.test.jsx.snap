@@ -9,7 +9,7 @@ exports[`should render DashboardPage component 1`] = `
         class="h-screen flex"
       >
         <div
-          class="h-full bg-slate-600 text-white p-1 text-center relative min-w-[200px] duration-200"
+          class="h-[97%] bg-slate-600 text-white p-1 rounded-md text-center relative top-2 left-2 min-w-[200px] duration-200"
         >
           <div
             class="flex flex-col items-start"
@@ -78,7 +78,7 @@ exports[`should render DashboardPage component 1`] = `
             </div>
           </div>
           <div
-            class="block  w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
+            class="block  w-[30px] h-[30px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
           >
             <svg
               fill="none"
@@ -98,199 +98,10 @@ exports[`should render DashboardPage component 1`] = `
           </div>
         </div>
         <div
-          class="flex-1 overflow-x-auto"
+          class="flex-1 overflow-x-auto pl-[2%] p-2"
         >
           <div
-            class="p-2"
-          >
-            <div
-              class="flex flex-col md:flex-row gap-2 justify-evenly mt-2"
-            >
-              <div
-                class="border border-slate-400 rounded-md shadow-lg flex md:w-[250px]"
-              >
-                <div
-                  class="bg-purple-700 rounded-l-md w-1/2 p-5 flex justify-center items-center"
-                >
-                  <img
-                    class="w-2/3"
-                    src="/total-value-icon.png"
-                  />
-                </div>
-                <div
-                  class="w-1/2 flex flex-col justify-center items-center text-center"
-                >
-                  <div
-                    class="text-xl"
-                  >
-                    $275,625.00
-                  </div>
-                  <div
-                    class="mt-2 text-sm text-gray-500 font-bold"
-                  >
-                    Total Inventory Value
-                  </div>
-                </div>
-              </div>
-              <div
-                class="border border-slate-400 rounded-md shadow-lg flex md:w-[250px]"
-              >
-                <div
-                  class="bg-blue-700 rounded-l-md w-1/2 p-5 flex justify-center items-center"
-                >
-                  <img
-                    class="w-2/3"
-                    src="/categories-icon.png"
-                  />
-                </div>
-                <div
-                  class="w-1/2 flex flex-col justify-center items-center text-center"
-                >
-                  <div
-                    class="text-xl"
-                  >
-                    7
-                  </div>
-                  <div
-                    class="mt-2 text-sm text-gray-500 font-bold"
-                  >
-                    Total Categories
-                  </div>
-                </div>
-              </div>
-              <div
-                class="border border-slate-400 rounded-md shadow-lg flex md:w-[250px]"
-              >
-                <div
-                  class="bg-blue-700 rounded-l-md w-1/2 p-5 flex justify-center items-center"
-                >
-                  <img
-                    class="w-2/3"
-                    src="/shopping-cart-icon.png"
-                  />
-                </div>
-                <div
-                  class="w-1/2 flex flex-col justify-center items-center text-center"
-                >
-                  <div
-                    class="text-xl"
-                  >
-                    50
-                  </div>
-                  <div
-                    class="mt-2 text-sm text-gray-500 font-bold"
-                  >
-                    Total Unique Products
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="h-screen flex"
-    >
-      <div
-        class="h-full bg-slate-600 text-white p-1 text-center relative min-w-[200px] duration-200"
-      >
-        <div
-          class="flex flex-col items-start"
-        >
-          <a
-            aria-current="page"
-            class="text-slate-400 flex items-center gap-2 mt-4 ms-6"
-            href="/"
-            title=""
-          >
-            <img
-              class="w-[20px] h-[20px]"
-              src="home-icon.png"
-            />
-            <span
-              class="block"
-            >
-              Home
-            </span>
-          </a>
-          <a
-            class="text-white flex items-center gap-2 mt-4 ms-6"
-            href="/dashboard"
-            title=""
-          >
-            <img
-              class="w-[20px] h-[20px]"
-              src="dashboard-icon.png"
-            />
-            <span
-              class="block"
-            >
-              Dashboard
-            </span>
-          </a>
-          <a
-            class="text-white flex items-center gap-2 mt-4 ms-6"
-            href="/categories"
-            title=""
-          >
-            <img
-              class="w-[20px] h-[20px]"
-              src="categories-icon.png"
-            />
-            <span
-              class="block"
-            >
-              Categories
-            </span>
-          </a>
-          <div>
-            <button
-              class="text-white flex items-center gap-2 mt-4 ms-6"
-              title=""
-            >
-              <img
-                class="w-[20px] h-[20px]"
-                src="products-icon.png"
-              />
-              <span
-                class="block"
-              >
-                Products
-              </span>
-            </button>
-          </div>
-        </div>
-        <div
-          class="block  w-[40px] h-[40px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
-        >
-          <svg
-            fill="none"
-            height="48"
-            stroke="white"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="3"
-            viewBox="0 0 48 48"
-            width="48"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M28 12 L18 24 L28 36"
-            />
-          </svg>
-        </div>
-      </div>
-      <div
-        class="flex-1 overflow-x-auto"
-      >
-        <div
-          class="p-2"
-        >
-          <div
-            class="flex flex-col md:flex-row gap-2 justify-evenly mt-2"
+            class="flex flex-col md:flex-row gap-2 justify-evenly pl-2"
           >
             <div
               class="border border-slate-400 rounded-md shadow-lg flex md:w-[250px]"
@@ -368,6 +179,187 @@ exports[`should render DashboardPage component 1`] = `
                 >
                   Total Unique Products
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="h-screen flex"
+    >
+      <div
+        class="h-[97%] bg-slate-600 text-white p-1 rounded-md text-center relative top-2 left-2 min-w-[200px] duration-200"
+      >
+        <div
+          class="flex flex-col items-start"
+        >
+          <a
+            aria-current="page"
+            class="text-slate-400 flex items-center gap-2 mt-4 ms-6"
+            href="/"
+            title=""
+          >
+            <img
+              class="w-[20px] h-[20px]"
+              src="home-icon.png"
+            />
+            <span
+              class="block"
+            >
+              Home
+            </span>
+          </a>
+          <a
+            class="text-white flex items-center gap-2 mt-4 ms-6"
+            href="/dashboard"
+            title=""
+          >
+            <img
+              class="w-[20px] h-[20px]"
+              src="dashboard-icon.png"
+            />
+            <span
+              class="block"
+            >
+              Dashboard
+            </span>
+          </a>
+          <a
+            class="text-white flex items-center gap-2 mt-4 ms-6"
+            href="/categories"
+            title=""
+          >
+            <img
+              class="w-[20px] h-[20px]"
+              src="categories-icon.png"
+            />
+            <span
+              class="block"
+            >
+              Categories
+            </span>
+          </a>
+          <div>
+            <button
+              class="text-white flex items-center gap-2 mt-4 ms-6"
+              title=""
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="products-icon.png"
+              />
+              <span
+                class="block"
+              >
+                Products
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          class="block  w-[30px] h-[30px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
+        >
+          <svg
+            fill="none"
+            height="48"
+            stroke="white"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="3"
+            viewBox="0 0 48 48"
+            width="48"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M28 12 L18 24 L28 36"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="flex-1 overflow-x-auto pl-[2%] p-2"
+      >
+        <div
+          class="flex flex-col md:flex-row gap-2 justify-evenly pl-2"
+        >
+          <div
+            class="border border-slate-400 rounded-md shadow-lg flex md:w-[250px]"
+          >
+            <div
+              class="bg-purple-700 rounded-l-md w-1/2 p-5 flex justify-center items-center"
+            >
+              <img
+                class="w-2/3"
+                src="/total-value-icon.png"
+              />
+            </div>
+            <div
+              class="w-1/2 flex flex-col justify-center items-center text-center"
+            >
+              <div
+                class="text-xl"
+              >
+                $275,625.00
+              </div>
+              <div
+                class="mt-2 text-sm text-gray-500 font-bold"
+              >
+                Total Inventory Value
+              </div>
+            </div>
+          </div>
+          <div
+            class="border border-slate-400 rounded-md shadow-lg flex md:w-[250px]"
+          >
+            <div
+              class="bg-blue-700 rounded-l-md w-1/2 p-5 flex justify-center items-center"
+            >
+              <img
+                class="w-2/3"
+                src="/categories-icon.png"
+              />
+            </div>
+            <div
+              class="w-1/2 flex flex-col justify-center items-center text-center"
+            >
+              <div
+                class="text-xl"
+              >
+                7
+              </div>
+              <div
+                class="mt-2 text-sm text-gray-500 font-bold"
+              >
+                Total Categories
+              </div>
+            </div>
+          </div>
+          <div
+            class="border border-slate-400 rounded-md shadow-lg flex md:w-[250px]"
+          >
+            <div
+              class="bg-blue-700 rounded-l-md w-1/2 p-5 flex justify-center items-center"
+            >
+              <img
+                class="w-2/3"
+                src="/shopping-cart-icon.png"
+              />
+            </div>
+            <div
+              class="w-1/2 flex flex-col justify-center items-center text-center"
+            >
+              <div
+                class="text-xl"
+              >
+                50
+              </div>
+              <div
+                class="mt-2 text-sm text-gray-500 font-bold"
+              >
+                Total Unique Products
               </div>
             </div>
           </div>

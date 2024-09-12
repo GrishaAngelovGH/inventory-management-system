@@ -31,7 +31,7 @@ const CategoriesPage = ({ showNotification }) => {
 
   return (
     <SidebarLayout>
-      <div className="p-2 flex flex-col md:flex-row gap-5">
+      <div className="pl-2 flex flex-col md:flex-row gap-5">
         {
           !categoryId.length ?
             (<AddCategoryPanel showNotification={showNotification} />) :

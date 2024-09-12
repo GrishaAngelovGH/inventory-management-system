@@ -5,9 +5,7 @@ import WidgetGroup from "./WidgetGroup"
 const DashboardPage = () => {
   return (
     <SidebarLayout>
-      <div className="p-2">
-        <WidgetGroup />
-      </div>
+      <WidgetGroup />
     </SidebarLayout>
   )
 }

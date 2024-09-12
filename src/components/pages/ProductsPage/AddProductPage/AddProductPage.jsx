@@ -41,7 +41,7 @@ const AddProductPage = ({ showNotification }) => {
 
   return (
     <SidebarLayout>
-      <div className="p-2 flex justify-center">
+      <div className="pl-2 flex flex-col md:flex-row md:justify-center">
         <div className="border border-slate-400 rounded-md md:w-1/2">
           <div className="uppercase text-xl text-center border-b-2 border-blue-500 bg-gray-200 rounded-t-md text-gray-500">Add new product</div>
           <div className="p-2 flex flex-col gap-5">
