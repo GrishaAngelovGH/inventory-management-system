@@ -6,7 +6,7 @@ exports[`should render Layout component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="h-screen flex"
+        class="h-screen flex bg-gray-100"
       >
         <div>
           Sidebar
@@ -23,7 +23,7 @@ exports[`should render Layout component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="h-screen flex"
+      class="h-screen flex bg-gray-100"
     >
       <div>
         Sidebar

@@ -6,7 +6,7 @@ exports[`ManageProductsPage > should render ManageProductsPage component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="h-screen flex"
+        class="h-screen flex bg-gray-100"
       >
         <div
           class="h-[97%] bg-slate-600 text-white p-1 rounded-md text-center relative top-2 left-2 min-w-[200px] duration-200"
@@ -134,7 +134,7 @@ exports[`ManageProductsPage > should render ManageProductsPage component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="h-screen flex"
+      class="h-screen flex bg-gray-100"
     >
       <div
         class="h-[97%] bg-slate-600 text-white p-1 rounded-md text-center relative top-2 left-2 min-w-[200px] duration-200"
