@@ -1,4 +1,4 @@
-import TotalValueWidget from "./TotalValueWidget"
+import TotalInventoryValueWidget from "./TotalInventoryValueWidget"
 import TotalCategoriesWidget from "./TotalCategoriesWidget"
 import TotalUniqueProductsWidget from "./TotalUniqueProductsWidget"
 
@@ -9,7 +9,7 @@ const WidgetGroup = () => {
 
   return (
     <div className="flex flex-col md:flex-row gap-2 justify-evenly pl-2">
-      <TotalValueWidget inventoryItems={inventoryItems} />
+      <TotalInventoryValueWidget inventoryItems={inventoryItems} />
       <TotalCategoriesWidget inventoryItems={inventoryItems} />
       <TotalUniqueProductsWidget inventoryItems={inventoryItems} />
     </div>

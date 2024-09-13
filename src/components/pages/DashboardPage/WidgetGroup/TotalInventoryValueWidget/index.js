@@ -1,0 +1,3 @@
+import TotalInventoryValueWidget from "./TotalInventoryValueWidget"
+
+export default TotalInventoryValueWidget
