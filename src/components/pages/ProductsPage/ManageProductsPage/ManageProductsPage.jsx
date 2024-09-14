@@ -6,7 +6,7 @@ import Modal from "components/Modal"
 import inventory from "persistent/inventory"
 
 const Table = ({ columns, children }) => (
-  <div className="w-[550px] md:w-full border border-gray-400 rounded-t-md rounded-b-md">
+  <div className="bg-white w-[550px] md:w-full border border-gray-400 rounded-t-md rounded-b-md">
     <div className="bg-gray-200 rounded-t-md flex text-center">
       {columns.map(v => (<div key={v} className="p-1 w-[140px] md:w-1/4">{v}</div>))}
     </div>
@@ -103,7 +103,11 @@ const ManageProductsPage = ({ showNotification }) => {
           {
             products.length > 0 && (
               <div className="mt-5">
-                <ProductsTable products={products} categoryId={categoryId} showNotification={showNotification} />
+                <ProductsTable
+                  products={products}
+                  categoryId={categoryId}
+                  showNotification={showNotification}
+                />
               </div>
             )
           }
