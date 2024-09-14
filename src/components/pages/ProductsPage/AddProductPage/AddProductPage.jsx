@@ -58,7 +58,7 @@ const AddProductPage = ({ showNotification }) => {
               <select
                 role="combobox"
                 value={categoryId}
-                className="focus:invalid:border-red-500 invalid:border-2 outline-0 p-2 text-xl rounded-md "
+                className="focus:invalid:border-red-500 bg-white border-2 border-gray-300 outline-0 p-2 text-xl rounded-md "
                 onChange={({ target: { value } }) => setCategoryId(value)}
                 required
               >

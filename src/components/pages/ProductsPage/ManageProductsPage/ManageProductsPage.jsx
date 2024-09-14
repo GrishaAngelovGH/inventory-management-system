@@ -89,7 +89,7 @@ const ManageProductsPage = ({ showNotification }) => {
           <select
             role="combobox"
             value={categoryId}
-            className="outline-0 p-2 text-xl rounded-md w-full md:w-1/2"
+            className="bg-white border-2 border-gray-300 outline-0 p-2 text-xl rounded-md w-full md:w-1/2"
             onChange={({ target: { value } }) => setCategoryId(value)}
           >
             <option value="">Please select a category</option>
