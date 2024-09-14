@@ -14,7 +14,7 @@ exports[`CategoryList > should render CategoryList component 1`] = `
           Category List
         </div>
         <div
-          class="max-h-[380px] overflow-auto"
+          class="bg-white max-h-[380px] overflow-auto"
         >
           <div
             class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"
@@ -247,7 +247,7 @@ exports[`CategoryList > should render CategoryList component 1`] = `
         Category List
       </div>
       <div
-        class="max-h-[380px] overflow-auto"
+        class="bg-white max-h-[380px] overflow-auto"
       >
         <div
           class="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0"

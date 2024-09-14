@@ -38,7 +38,7 @@ const CategoryList = ({ showNotification, onEdit }) => {
         Category List
       </div>
 
-      <div className="max-h-[380px] overflow-auto">
+      <div className="bg-white max-h-[380px] overflow-auto">
         {
           categories.map((v, i) => (
             <div key={v.id} data-testid={`category-item-${i}`} className="mt-2 p-2 text-xl flex justify-between items-center border-b-2 last:border-b-0">
