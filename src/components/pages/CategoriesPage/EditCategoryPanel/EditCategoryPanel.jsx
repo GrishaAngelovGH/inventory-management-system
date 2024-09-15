@@ -12,7 +12,7 @@ const EditCategoryPanel = ({ categoryName, onConfirm, onCancel }) => {
   }
 
   return (
-    <div className="border border-slate-400 rounded-md md:w-1/2 max-h-[150px]">
+    <div className="bg-white border border-slate-400 rounded-md md:w-1/2 max-h-[150px]">
       <div className="uppercase text-xl text-center border-b-2 border-blue-500 bg-gray-200 rounded-t-md text-gray-500">Edit category</div>
 
       <div className="p-2 flex flex-col gap-5">
