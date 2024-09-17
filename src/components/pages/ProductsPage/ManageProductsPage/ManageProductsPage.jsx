@@ -3,6 +3,8 @@ import { useState } from "react"
 import SidebarLayout from "components/SidebarLayout"
 import Modal from "components/Modal"
 
+import ProductPage from "../ProductPage"
+
 import inventory from "persistent/inventory"
 
 const Table = ({ columns, children }) => (
@@ -14,7 +16,7 @@ const Table = ({ columns, children }) => (
   </div>
 )
 
-const ProductsTable = ({ products, categoryId, showNotification }) => {
+const ProductsTable = ({ products, categoryId, showNotification, onEditClick }) => {
   const [showModal, setShowModal] = useState(false)
   const [productId, setProductId] = useState("")
 
@@ -58,6 +60,14 @@ const ProductsTable = ({ products, categoryId, showNotification }) => {
                 <div className="w-[140px] md:w-1/5 flex gap-2 justify-center">
                   <button
                     data-testid="delete-button"
+                    className="bg-orange-500 rounded-md p-2"
+                    onClick={() => onEditClick(v)}
+                  >
+                    <img src="/edit-icon.png" className="w-[15px] h-[15px]" />
+                  </button>
+
+                  <button
+                    data-testid="delete-button"
                     className="bg-red-500 rounded-md p-2"
                     onClick={() => {
                       setProductId(v.id)
@@ -78,18 +88,56 @@ const ProductsTable = ({ products, categoryId, showNotification }) => {
 
 const ManageProductsPage = ({ showNotification }) => {
   const [categoryId, setCategoryId] = useState("")
+  const [newCategoryId, setNewCategoryId] = useState("")
+  const [product, setProduct] = useState()
+  const [isEdit, setIsEdit] = useState(false)
 
   const categories = inventory.getItems()
   const products = inventory.getProductsForCategory(categoryId)
 
   return (
     <SidebarLayout>
-      <div className="pl-2 flex justify-center overflow-x-auto">
-        <div className="w-full md:w-2/3">
+      <div className="pl-2 flex flex-col md:flex-row gap-4 justify-center overflow-x-auto">
+        {
+          isEdit && (
+            <ProductPage
+              title="Edit product"
+              categoryId={newCategoryId.length > 0 ? newCategoryId : categoryId}
+              product={product}
+              categories={categories}
+              buttons={(
+                <div className="flex gap-2">
+                  <button
+                    type="submit"
+                    className="bg-blue-500 hover:bg-blue-600 disabled:bg-gray-400 text-white w-[150px] text-xl p-1 rounded-md"
+                  >
+                    Confirm
+                  </button>
+
+                  <button className="bg-gray-500  text-white w-[150px] text-xl p-1 rounded-md" onClick={() => setIsEdit(false)}>Cancel</button>
+                </div>
+              )}
+              onProductNameChange={({ target: { value } }) => setProduct({ ...product, name: value })}
+              onCategoryChange={({ target: { value } }) => setNewCategoryId(value)}
+              onProductQuantityChange={({ target: { value } }) => setProduct({ ...product, quantity: parseInt(value) })}
+              onProductBuyingPriceChange={({ target: { value } }) => setProduct({ ...product, buyingPrice: parseFloat(value) })}
+              onProductSellingPriceChange={({ target: { value } }) => setProduct({ ...product, sellingPrice: parseFloat(value) })}
+              onSubmit={e => {
+                e.preventDefault()
+
+                inventory.updateProduct(categoryId, newCategoryId, product)
+                setIsEdit(false)
+                showNotification("The product is successfully edited")
+              }}
+            />
+          )
+        }
+
+        <div className="w-full md:w-1/2">
           <select
             role="combobox"
             value={categoryId}
-            className="bg-white border-2 border-gray-300 outline-0 p-2 text-xl rounded-md w-full md:w-1/2"
+            className="bg-white border-2 border-gray-300 outline-0 p-2 text-xl rounded-md w-full"
             onChange={({ target: { value } }) => setCategoryId(value)}
           >
             <option value="">Please select a category</option>
@@ -107,6 +155,10 @@ const ManageProductsPage = ({ showNotification }) => {
                   products={products}
                   categoryId={categoryId}
                   showNotification={showNotification}
+                  onEditClick={v => {
+                    setProduct(v)
+                    setIsEdit(true)
+                  }}
                 />
               </div>
             )
