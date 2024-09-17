@@ -147,6 +147,22 @@ const inventory = {
 
     localStorage.setItem("inventory", JSON.stringify(newInventory))
   },
+  updateProduct: (categoryId, newCategoryId, product) => {
+    const newInventory = JSON.parse(localStorage.getItem("inventory"))
+
+    if (newCategoryId.length > 0) {
+      newInventory.categories[categoryId].products = newInventory.categories[categoryId].products.filter(v => v.id !== product.id)
+      newInventory.categories[newCategoryId].products.push(product)
+      localStorage.setItem("inventory", JSON.stringify(newInventory))
+      return
+    }
+
+    const oldProduct = newInventory.categories[categoryId].products.find(v => v.id === product.id)
+
+    Object.assign(oldProduct, product)
+
+    localStorage.setItem("inventory", JSON.stringify(newInventory))
+  },
   // Delete operations
   deleteCategory: id => {
     const newInventory = JSON.parse(localStorage.getItem("inventory"))
