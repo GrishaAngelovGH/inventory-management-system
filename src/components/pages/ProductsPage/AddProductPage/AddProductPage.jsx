@@ -63,9 +63,9 @@ const AddProductPage = ({ showNotification }) => {
           )}
           onProductNameChange={({ target: { value } }) => setProductName(value)}
           onCategoryChange={({ target: { value } }) => setCategoryId(value)}
-          onProductQuantityChange={({ target: { value } }) => setProductQuantity(parseInt(value))}
-          onProductBuyingPriceChange={({ target: { value } }) => setProductBuyingPrice(parseFloat(value))}
-          onProductSellingPriceChange={({ target: { value } }) => setProductSellingPrice(parseFloat(value))}
+          onProductQuantityChange={({ target: { value } }) => setProductQuantity(value.length > 0 ? parseInt(value) : "")}
+          onProductBuyingPriceChange={({ target: { value } }) => setProductBuyingPrice(value.length > 0 ? parseFloat(value) : "")}
+          onProductSellingPriceChange={({ target: { value } }) => setProductSellingPrice(value.length > 0 ? parseFloat(value) : "")}
           onSubmit={handleAddProduct}
         />
       </div>

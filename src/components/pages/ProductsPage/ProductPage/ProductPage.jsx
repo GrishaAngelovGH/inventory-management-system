@@ -54,7 +54,7 @@ const ProductPage = ({
           <input
             type="number"
             value={product.buyingPrice}
-            step={0.1}
+            step={0.01}
             min={1}
             placeholder="Enter buying price: 0.00"
             className="focus:invalid:border-red-500 invalid:border-2 outline-0 border border-gray-300 p-1 text-xl rounded-md w-full"
@@ -65,20 +65,13 @@ const ProductPage = ({
           <input
             type="number"
             value={product.sellingPrice}
-            step={0.1}
+            step={0.01}
             min={1}
             placeholder="Enter selling price: 0.00"
             className="focus:invalid:border-red-500 invalid:border-2 outline-0 border border-gray-300 p-1 text-xl rounded-md w-full"
             onChange={onProductSellingPriceChange}
             required
           />
-
-          {/* <button
-              type="submit"
-              className="bg-blue-500 hover:bg-blue-600 disabled:bg-gray-400 text-white w-[150px] text-xl p-1 rounded-md"
-            >
-              Add Product
-            </button> */}
 
           {buttons}
         </form>

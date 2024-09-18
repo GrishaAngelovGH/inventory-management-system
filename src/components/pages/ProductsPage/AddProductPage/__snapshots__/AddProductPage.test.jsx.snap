@@ -155,7 +155,7 @@ exports[`AddProductPage > should render AddProductPage component 1`] = `
                     min="1"
                     placeholder="Enter buying price: 0.00"
                     required=""
-                    step="0.1"
+                    step="0.01"
                     type="number"
                     value=""
                   />
@@ -164,7 +164,7 @@ exports[`AddProductPage > should render AddProductPage component 1`] = `
                     min="1"
                     placeholder="Enter selling price: 0.00"
                     required=""
-                    step="0.1"
+                    step="0.01"
                     type="number"
                     value=""
                   />
@@ -333,7 +333,7 @@ exports[`AddProductPage > should render AddProductPage component 1`] = `
                   min="1"
                   placeholder="Enter buying price: 0.00"
                   required=""
-                  step="0.1"
+                  step="0.01"
                   type="number"
                   value=""
                 />
@@ -342,7 +342,7 @@ exports[`AddProductPage > should render AddProductPage component 1`] = `
                   min="1"
                   placeholder="Enter selling price: 0.00"
                   required=""
-                  step="0.1"
+                  step="0.01"
                   type="number"
                   value=""
                 />

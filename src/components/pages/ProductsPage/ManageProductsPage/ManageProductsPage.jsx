@@ -119,9 +119,9 @@ const ManageProductsPage = ({ showNotification }) => {
               )}
               onProductNameChange={({ target: { value } }) => setProduct({ ...product, name: value })}
               onCategoryChange={({ target: { value } }) => setNewCategoryId(value)}
-              onProductQuantityChange={({ target: { value } }) => setProduct({ ...product, quantity: parseInt(value) })}
-              onProductBuyingPriceChange={({ target: { value } }) => setProduct({ ...product, buyingPrice: parseFloat(value) })}
-              onProductSellingPriceChange={({ target: { value } }) => setProduct({ ...product, sellingPrice: parseFloat(value) })}
+              onProductQuantityChange={({ target: { value } }) => setProduct({ ...product, quantity: value.length > 0 ? parseInt(value) : "" })}
+              onProductBuyingPriceChange={({ target: { value } }) => setProduct({ ...product, buyingPrice: value.length > 0 ? parseFloat(value) : "" })}
+              onProductSellingPriceChange={({ target: { value } }) => setProduct({ ...product, sellingPrice: value.length > 0 ? parseFloat(value) : "" })}
               onSubmit={e => {
                 e.preventDefault()
 
