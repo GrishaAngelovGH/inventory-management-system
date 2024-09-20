@@ -2,8 +2,8 @@ import { useState } from "react"
 
 import { NavLink } from "react-router-dom"
 
-const SidebarButtonItem = ({ open, icon, title, childRoutes }) => {
-  const [toggled, setToggled] = useState(false)
+const SidebarButtonItem = ({ open, icon, title, childRoutes, showChildRoutes }) => {
+  const [toggled, setToggled] = useState(showChildRoutes)
 
   const handleToggle = () => {
     setToggled(!toggled)

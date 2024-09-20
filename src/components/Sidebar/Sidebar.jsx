@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"
+import { NavLink, useLocation } from "react-router-dom"
 
 import SidebarButtonItem from "./SidebarButtonItem"
 
@@ -15,6 +15,8 @@ const RightChevron = () => (
 )
 
 const Sidebar = ({ open, onToggle }) => {
+  const location = useLocation()
+
   const items = [
     { icon: "home-icon.png", title: "Home", path: "/", isButton: false },
     { icon: "dashboard-icon.png", title: "Dashboard", path: "/dashboard", isButton: false },
@@ -35,8 +37,17 @@ const Sidebar = ({ open, onToggle }) => {
       <div className={`flex flex-col ${open ? "items-start" : "items-center"}`}>
         {
           items.map((v, i) => {
+            const showChildRoutes = v.childRoutes?.map(v => v.path).includes(location.pathname) || false
+
             return v.isButton ?
-              (<SidebarButtonItem key={i} open={open} {...v} />) :
+              (
+                <SidebarButtonItem
+                  key={i}
+                  open={open}
+                  showChildRoutes={showChildRoutes}
+                  {...v}
+                />
+              ) :
               (
                 <NavLink
                   key={i}
