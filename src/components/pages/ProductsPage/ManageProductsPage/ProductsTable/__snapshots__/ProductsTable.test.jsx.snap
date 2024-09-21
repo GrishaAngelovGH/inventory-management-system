@@ -13,27 +13,27 @@ exports[`should render ProductsTable component 1`] = `
             class="bg-gray-200 rounded-t-md flex text-center"
           >
             <div
-              class="p-1 w-[140px] md:w-1/4"
+              class="cursor-pointer p-1 w-[140px] md:w-1/4 font-normal"
             >
               Name
             </div>
             <div
-              class="p-1 w-[140px] md:w-1/4"
+              class="cursor-pointer p-1 w-[140px] md:w-1/4 font-normal"
             >
               Quantity
             </div>
             <div
-              class="p-1 w-[140px] md:w-1/4"
+              class="cursor-pointer p-1 w-[140px] md:w-1/4 font-normal"
             >
               Buying Price
             </div>
             <div
-              class="p-1 w-[140px] md:w-1/4"
+              class="cursor-pointer p-1 w-[140px] md:w-1/4 font-normal"
             >
               Selling Price
             </div>
             <div
-              class="p-1 w-[140px] md:w-1/4"
+              class="cursor-pointer p-1 w-[140px] md:w-1/4 font-normal"
             >
               Actions
             </div>
@@ -102,27 +102,27 @@ exports[`should render ProductsTable component 1`] = `
           class="bg-gray-200 rounded-t-md flex text-center"
         >
           <div
-            class="p-1 w-[140px] md:w-1/4"
+            class="cursor-pointer p-1 w-[140px] md:w-1/4 font-normal"
           >
             Name
           </div>
           <div
-            class="p-1 w-[140px] md:w-1/4"
+            class="cursor-pointer p-1 w-[140px] md:w-1/4 font-normal"
           >
             Quantity
           </div>
           <div
-            class="p-1 w-[140px] md:w-1/4"
+            class="cursor-pointer p-1 w-[140px] md:w-1/4 font-normal"
           >
             Buying Price
           </div>
           <div
-            class="p-1 w-[140px] md:w-1/4"
+            class="cursor-pointer p-1 w-[140px] md:w-1/4 font-normal"
           >
             Selling Price
           </div>
           <div
-            class="p-1 w-[140px] md:w-1/4"
+            class="cursor-pointer p-1 w-[140px] md:w-1/4 font-normal"
           >
             Actions
           </div>
