@@ -56,7 +56,10 @@ const SortableProductsTable = ({ products, onEditClick, onDeleteClick }) => {
               return 0
             })
             .map(v => (
-              <div key={v.id} className="p-1 flex items-center text-center border-b border-gray-400 last:border-b-0">
+              <div
+                key={v.id}
+                className={`${v.quantity >= 20 ? "bg-white" : v.quantity > 10 ? "bg-yellow-200" : "bg-red-200"} p-1 flex items-center text-center border-b border-gray-400 last:border-b-0`}
+              >
                 <div className="w-[140px] md:w-1/4">{v.name}</div>
                 <div className="w-[140px] md:w-1/4">{v.quantity}</div>
                 <div className="w-[140px] md:w-1/4">{formatter.format(v.buyingPrice)}</div>

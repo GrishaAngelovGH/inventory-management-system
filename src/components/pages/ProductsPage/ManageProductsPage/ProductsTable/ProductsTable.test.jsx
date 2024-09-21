@@ -5,7 +5,11 @@ import ProductsTable from './ProductsTable'
 test('should render ProductsTable component', () => {
   const view = render(
     <ProductsTable
-      products={[{ id: 1, name: "Smartphone", quantity: 50, sales: 20, buyingPrice: 600, sellingPrice: 880 }]}
+      products={[
+        { id: 1, name: "Smartphone", quantity: 50, sales: 20, buyingPrice: 600, sellingPrice: 880 },
+        { id: 2, name: "Bluetooth Speaker", quantity: 16, sales: 20, buyingPrice: 600, sellingPrice: 880 },
+        { id: 3, name: "Monitor", quantity: 5, sales: 20, buyingPrice: 600, sellingPrice: 880 },
+      ]}
       categoryId="::categoryId::"
     />
   )

@@ -43,7 +43,7 @@ exports[`should render ProductsTable component 1`] = `
             data-testid="products"
           >
             <div
-              class="p-1 flex items-center text-center border-b border-gray-400 last:border-b-0"
+              class="bg-white p-1 flex items-center text-center border-b border-gray-400 last:border-b-0"
             >
               <div
                 class="w-[140px] md:w-1/4"
@@ -54,6 +54,98 @@ exports[`should render ProductsTable component 1`] = `
                 class="w-[140px] md:w-1/4"
               >
                 50
+              </div>
+              <div
+                class="w-[140px] md:w-1/4"
+              >
+                $600.00
+              </div>
+              <div
+                class="w-[140px] md:w-1/4"
+              >
+                $880.00
+              </div>
+              <div
+                class="w-[140px] md:w-1/5 flex gap-2 justify-center"
+              >
+                <button
+                  class="bg-orange-500 rounded-md p-2"
+                  data-testid="delete-button"
+                >
+                  <img
+                    class="w-[15px] h-[15px]"
+                    src="/edit-icon.png"
+                  />
+                </button>
+                <button
+                  class="bg-red-500 rounded-md p-2"
+                  data-testid="delete-button"
+                >
+                  <img
+                    class="w-[15px] h-[15px]"
+                    src="/delete-icon.png"
+                  />
+                </button>
+              </div>
+            </div>
+            <div
+              class="bg-yellow-200 p-1 flex items-center text-center border-b border-gray-400 last:border-b-0"
+            >
+              <div
+                class="w-[140px] md:w-1/4"
+              >
+                Bluetooth Speaker
+              </div>
+              <div
+                class="w-[140px] md:w-1/4"
+              >
+                16
+              </div>
+              <div
+                class="w-[140px] md:w-1/4"
+              >
+                $600.00
+              </div>
+              <div
+                class="w-[140px] md:w-1/4"
+              >
+                $880.00
+              </div>
+              <div
+                class="w-[140px] md:w-1/5 flex gap-2 justify-center"
+              >
+                <button
+                  class="bg-orange-500 rounded-md p-2"
+                  data-testid="delete-button"
+                >
+                  <img
+                    class="w-[15px] h-[15px]"
+                    src="/edit-icon.png"
+                  />
+                </button>
+                <button
+                  class="bg-red-500 rounded-md p-2"
+                  data-testid="delete-button"
+                >
+                  <img
+                    class="w-[15px] h-[15px]"
+                    src="/delete-icon.png"
+                  />
+                </button>
+              </div>
+            </div>
+            <div
+              class="bg-red-200 p-1 flex items-center text-center border-b border-gray-400 last:border-b-0"
+            >
+              <div
+                class="w-[140px] md:w-1/4"
+              >
+                Monitor
+              </div>
+              <div
+                class="w-[140px] md:w-1/4"
+              >
+                5
               </div>
               <div
                 class="w-[140px] md:w-1/4"
@@ -132,7 +224,7 @@ exports[`should render ProductsTable component 1`] = `
           data-testid="products"
         >
           <div
-            class="p-1 flex items-center text-center border-b border-gray-400 last:border-b-0"
+            class="bg-white p-1 flex items-center text-center border-b border-gray-400 last:border-b-0"
           >
             <div
               class="w-[140px] md:w-1/4"
@@ -143,6 +235,98 @@ exports[`should render ProductsTable component 1`] = `
               class="w-[140px] md:w-1/4"
             >
               50
+            </div>
+            <div
+              class="w-[140px] md:w-1/4"
+            >
+              $600.00
+            </div>
+            <div
+              class="w-[140px] md:w-1/4"
+            >
+              $880.00
+            </div>
+            <div
+              class="w-[140px] md:w-1/5 flex gap-2 justify-center"
+            >
+              <button
+                class="bg-orange-500 rounded-md p-2"
+                data-testid="delete-button"
+              >
+                <img
+                  class="w-[15px] h-[15px]"
+                  src="/edit-icon.png"
+                />
+              </button>
+              <button
+                class="bg-red-500 rounded-md p-2"
+                data-testid="delete-button"
+              >
+                <img
+                  class="w-[15px] h-[15px]"
+                  src="/delete-icon.png"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            class="bg-yellow-200 p-1 flex items-center text-center border-b border-gray-400 last:border-b-0"
+          >
+            <div
+              class="w-[140px] md:w-1/4"
+            >
+              Bluetooth Speaker
+            </div>
+            <div
+              class="w-[140px] md:w-1/4"
+            >
+              16
+            </div>
+            <div
+              class="w-[140px] md:w-1/4"
+            >
+              $600.00
+            </div>
+            <div
+              class="w-[140px] md:w-1/4"
+            >
+              $880.00
+            </div>
+            <div
+              class="w-[140px] md:w-1/5 flex gap-2 justify-center"
+            >
+              <button
+                class="bg-orange-500 rounded-md p-2"
+                data-testid="delete-button"
+              >
+                <img
+                  class="w-[15px] h-[15px]"
+                  src="/edit-icon.png"
+                />
+              </button>
+              <button
+                class="bg-red-500 rounded-md p-2"
+                data-testid="delete-button"
+              >
+                <img
+                  class="w-[15px] h-[15px]"
+                  src="/delete-icon.png"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            class="bg-red-200 p-1 flex items-center text-center border-b border-gray-400 last:border-b-0"
+          >
+            <div
+              class="w-[140px] md:w-1/4"
+            >
+              Monitor
+            </div>
+            <div
+              class="w-[140px] md:w-1/4"
+            >
+              5
             </div>
             <div
               class="w-[140px] md:w-1/4"
