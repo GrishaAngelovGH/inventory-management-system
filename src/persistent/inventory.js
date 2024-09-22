@@ -99,8 +99,7 @@ if (!localStorage.getItem("inventory")) {
   localStorage.setItem("inventory", JSON.stringify(defaultInventory))
 }
 
-const inventory = {
-  // Create operations
+const categoryOperations = {
   createCategory: newCategory => {
     const newInventory = JSON.parse(localStorage.getItem("inventory"))
 
@@ -118,6 +117,24 @@ const inventory = {
 
     localStorage.setItem("inventory", JSON.stringify(newInventory))
   },
+  getItems: () => Object.values(JSON.parse(localStorage.getItem("inventory")).categories),
+  updateCategoryName: (id, newName) => {
+    const newInventory = JSON.parse(localStorage.getItem("inventory"))
+
+    newInventory.categories[id].name = newName
+
+    localStorage.setItem("inventory", JSON.stringify(newInventory))
+  },
+  deleteCategory: id => {
+    const newInventory = JSON.parse(localStorage.getItem("inventory"))
+
+    const { [id]: value, ...newCategories } = newInventory.categories
+
+    localStorage.setItem("inventory", JSON.stringify({ categories: newCategories }))
+  }
+}
+
+const productOperations = {
   addProductToCategory: (categoryId, product) => {
     const newInventory = JSON.parse(localStorage.getItem("inventory"))
 
@@ -132,20 +149,10 @@ const inventory = {
 
     localStorage.setItem("inventory", JSON.stringify(newInventory))
   },
-  // Read operations
-  getItems: () => Object.values(JSON.parse(localStorage.getItem("inventory")).categories),
   getProductsForCategory: categoryId => {
     const inventory = JSON.parse(localStorage.getItem("inventory"))
 
     return inventory.categories[categoryId]?.products || []
-  },
-  // Update operations
-  updateCategoryName: (id, newName) => {
-    const newInventory = JSON.parse(localStorage.getItem("inventory"))
-
-    newInventory.categories[id].name = newName
-
-    localStorage.setItem("inventory", JSON.stringify(newInventory))
   },
   updateProduct: (categoryId, newCategoryId, product) => {
     const newInventory = JSON.parse(localStorage.getItem("inventory"))
@@ -163,14 +170,6 @@ const inventory = {
 
     localStorage.setItem("inventory", JSON.stringify(newInventory))
   },
-  // Delete operations
-  deleteCategory: id => {
-    const newInventory = JSON.parse(localStorage.getItem("inventory"))
-
-    const { [id]: value, ...newCategories } = newInventory.categories
-
-    localStorage.setItem("inventory", JSON.stringify({ categories: newCategories }))
-  },
   deleteProduct: (categoryId, productId) => {
     const newInventory = JSON.parse(localStorage.getItem("inventory"))
 
@@ -178,6 +177,11 @@ const inventory = {
 
     localStorage.setItem("inventory", JSON.stringify(newInventory))
   }
+}
+
+const inventory = {
+  ...categoryOperations,
+  ...productOperations
 }
 
 export default inventory
