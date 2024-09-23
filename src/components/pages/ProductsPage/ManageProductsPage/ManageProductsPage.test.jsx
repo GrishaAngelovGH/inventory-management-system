@@ -4,9 +4,9 @@ import userEvent from '@testing-library/user-event'
 import { MemoryRouter } from 'react-router-dom'
 import { vi } from 'vitest'
 
-import ManageProductsPage from './ManageProductsPage'
-
 vi.mock('persistent/inventory')
+
+import ManageProductsPage from './ManageProductsPage'
 
 describe('ManageProductsPage', () => {
   test('should render ManageProductsPage component', () => {

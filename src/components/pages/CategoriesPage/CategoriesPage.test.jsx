@@ -4,9 +4,9 @@ import userEvent from '@testing-library/user-event'
 import { MemoryRouter } from 'react-router-dom'
 import { vi } from 'vitest'
 
-import CategoriesPage from './CategoriesPage'
+vi.mock('persistent/inventory')
 
-vi.mock('persistent/invnentory')
+import CategoriesPage from './CategoriesPage'
 
 let showNotification
 

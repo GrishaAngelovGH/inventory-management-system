@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react'
 import { vi } from 'vitest'
 
-import WidgetGroup from './WidgetGroup'
-
 vi.mock('persistent/inventory')
+
+import WidgetGroup from './WidgetGroup'
 
 test('should render WidgetGroup component', () => {
   const view = render(<WidgetGroup />)

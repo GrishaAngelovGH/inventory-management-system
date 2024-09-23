@@ -4,14 +4,14 @@ import userEvent from '@testing-library/user-event'
 import { MemoryRouter } from 'react-router-dom'
 import { vi } from 'vitest'
 
-import AddProductPage from './AddProductPage'
-
 vi.mock('persistent/inventory', () => ({
   default: {
     getItems: () => [{ id: '123', name: 'Category123' }],
     addProductToCategory: vi.fn()
   }
 }))
+
+import AddProductPage from './AddProductPage'
 
 import inventory from 'persistent/inventory'
 

@@ -1,0 +1,194 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`should render LatestProductsPanel component 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="mt-5 pl-2 flex flex-col md:flex-row md:justify-center"
+      >
+        <div
+          class="bg-white border border-slate-400 rounded-md md:w-1/2"
+        >
+          <div
+            class="uppercase text-xl text-center border-b-2 border-blue-500 bg-gray-200 rounded-t-md text-gray-500"
+          >
+            Latest products
+          </div>
+          <div
+            class="flex justify-evenly text-center bg-slate-300"
+          >
+            <div
+              class="w-[140px] md:w-1/4"
+            >
+              Name
+            </div>
+            <div
+              class="w-[140px] md:w-1/4"
+            >
+              Quantity
+            </div>
+            <div
+              class="w-[140px] md:w-1/4"
+            >
+              Buying Price
+            </div>
+            <div
+              class="w-[140px] md:w-1/4"
+            >
+              Selling Price
+            </div>
+          </div>
+          <div
+            class="max-h-[150px] overflow-auto"
+          >
+            <div
+              class="flex justify-evenly text-center"
+            >
+              <div
+                class="w-[140px] md:w-1/4"
+              >
+                Smartphone
+              </div>
+              <div
+                class="w-[140px] md:w-1/4"
+              >
+                50
+              </div>
+              <div
+                class="w-[140px] md:w-1/4"
+              >
+                600
+              </div>
+              <div
+                class="w-[140px] md:w-1/4"
+              >
+                880
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="mt-5 pl-2 flex flex-col md:flex-row md:justify-center"
+    >
+      <div
+        class="bg-white border border-slate-400 rounded-md md:w-1/2"
+      >
+        <div
+          class="uppercase text-xl text-center border-b-2 border-blue-500 bg-gray-200 rounded-t-md text-gray-500"
+        >
+          Latest products
+        </div>
+        <div
+          class="flex justify-evenly text-center bg-slate-300"
+        >
+          <div
+            class="w-[140px] md:w-1/4"
+          >
+            Name
+          </div>
+          <div
+            class="w-[140px] md:w-1/4"
+          >
+            Quantity
+          </div>
+          <div
+            class="w-[140px] md:w-1/4"
+          >
+            Buying Price
+          </div>
+          <div
+            class="w-[140px] md:w-1/4"
+          >
+            Selling Price
+          </div>
+        </div>
+        <div
+          class="max-h-[150px] overflow-auto"
+        >
+          <div
+            class="flex justify-evenly text-center"
+          >
+            <div
+              class="w-[140px] md:w-1/4"
+            >
+              Smartphone
+            </div>
+            <div
+              class="w-[140px] md:w-1/4"
+            >
+              50
+            </div>
+            <div
+              class="w-[140px] md:w-1/4"
+            >
+              600
+            </div>
+            <div
+              class="w-[140px] md:w-1/4"
+            >
+              880
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
