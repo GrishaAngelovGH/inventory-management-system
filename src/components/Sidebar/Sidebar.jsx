@@ -29,6 +29,14 @@ const Sidebar = ({ open, onToggle }) => {
         { icon: "add-icon.png", title: "Add New", path: "/add-product" },
         { icon: "manage-icon.png", title: "Manage", path: "/manage-products" }
       ]
+    },
+    {
+      icon: "sales-icon.png",
+      title: "Sales",
+      isButton: true,
+      childRoutes: [
+        { icon: "add-icon.png", title: "Add New", path: "/add-sale" },
+      ]
     }
   ]
 

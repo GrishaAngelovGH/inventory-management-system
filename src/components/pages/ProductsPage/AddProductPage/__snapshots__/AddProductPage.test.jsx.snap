@@ -76,6 +76,22 @@ exports[`AddProductPage > should render AddProductPage component 1`] = `
                 </span>
               </button>
             </div>
+            <div>
+              <button
+                class="text-white flex items-center gap-2 mt-4 ms-6"
+                title=""
+              >
+                <img
+                  class="w-[20px] h-[20px]"
+                  src="sales-icon.png"
+                />
+                <span
+                  class="block"
+                >
+                  Sales
+                </span>
+              </button>
+            </div>
           </div>
           <div
             class="block  w-[30px] h-[30px] text-2xl flex justify-center items-center rounded-full bg-orange-500 hover:bg-orange-600 absolute left-[100%] top-[50%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
@@ -251,6 +267,22 @@ exports[`AddProductPage > should render AddProductPage component 1`] = `
                 class="block"
               >
                 Products
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              class="text-white flex items-center gap-2 mt-4 ms-6"
+              title=""
+            >
+              <img
+                class="w-[20px] h-[20px]"
+                src="sales-icon.png"
+              />
+              <span
+                class="block"
+              >
+                Sales
               </span>
             </button>
           </div>
