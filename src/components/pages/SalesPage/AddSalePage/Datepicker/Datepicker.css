@@ -1,0 +1,13 @@
+#date-picker .relative.w-full {
+  display: flex;
+  align-items: center;
+}
+
+#date-picker .relative.w-full > div {
+  margin: 5px;
+}
+
+#date-picker input {
+  padding-left: 10%;
+  cursor: pointer;
+}
