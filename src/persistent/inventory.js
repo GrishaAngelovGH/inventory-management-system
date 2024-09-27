@@ -63,6 +63,11 @@ const productOperations = {
 
     localStorage.setItem("inventory", JSON.stringify(newInventory))
   },
+  getAllProducts: () => {
+    const inventory = JSON.parse(localStorage.getItem("inventory"))
+
+    return Object.values(inventory.categories).map(v => v.products).flat()
+  },
   getProductsForCategory: categoryId => {
     const inventory = JSON.parse(localStorage.getItem("inventory"))
 
