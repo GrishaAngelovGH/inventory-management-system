@@ -4,6 +4,8 @@ import SidebarLayout from "components/SidebarLayout"
 import ProductPage from "../ProductPage"
 import ProductsTable from "./ProductsTable"
 
+import { Select } from "flowbite-react"
+
 import inventory from "persistent/inventory"
 
 const ManageProductsPage = ({ showNotification }) => {
@@ -54,10 +56,9 @@ const ManageProductsPage = ({ showNotification }) => {
         }
 
         <div className="w-full md:w-1/2">
-          <select
+          <Select
             role="combobox"
             value={categoryId}
-            className="bg-white border-2 border-gray-300 outline-0 p-2 text-xl rounded-md w-full"
             onChange={({ target: { value } }) => setCategoryId(value)}
           >
             <option value="">Please select a category</option>
@@ -66,7 +67,7 @@ const ManageProductsPage = ({ showNotification }) => {
                 <option key={v.id} value={v.id}>{v.name}</option>
               ))
             }
-          </select>
+          </Select>
 
           {
             products.length > 0 && (

@@ -1,5 +1,7 @@
 import { useState } from "react"
 
+import { TextInput } from "flowbite-react"
+
 const EditCategoryPanel = ({ categoryName, onConfirm, onCancel }) => {
   const [newCategory, setNewCategory] = useState(categoryName)
 
@@ -16,11 +18,9 @@ const EditCategoryPanel = ({ categoryName, onConfirm, onCancel }) => {
       <div className="uppercase text-xl text-center border-b-2 border-blue-500 bg-gray-200 rounded-t-md text-gray-500">Edit category</div>
 
       <div className="p-2 flex flex-col gap-5">
-        <input
-          type="text"
+        <TextInput
           value={newCategory}
           placeholder="Enter category name"
-          className="outline-0 border border-gray-300 p-1 text-xl rounded-md w-full"
           onChange={handleInputChange}
         />
         <div className="flex gap-2">

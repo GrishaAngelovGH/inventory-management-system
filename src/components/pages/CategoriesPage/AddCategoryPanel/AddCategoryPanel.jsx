@@ -1,5 +1,7 @@
 import { useState } from "react"
 
+import { TextInput } from "flowbite-react"
+
 import inventory from "persistent/inventory"
 
 const AddCategoryPanel = ({ showNotification }) => {
@@ -24,11 +26,9 @@ const AddCategoryPanel = ({ showNotification }) => {
       <div className="uppercase text-xl text-center border-b-2 border-blue-500 bg-gray-200 rounded-t-md text-gray-500">Add new category</div>
 
       <div className="p-2 flex flex-col gap-5">
-        <input
-          type="text"
+        <TextInput
           value={newCategory}
           placeholder="Enter category name"
-          className="outline-0 border border-gray-300 p-1 text-xl rounded-md w-full"
           onChange={handleInputChange}
         />
         <button

@@ -16,12 +16,20 @@ exports[`should render EditCategoryPanel component 1`] = `
         <div
           class="p-2 flex flex-col gap-5"
         >
-          <input
-            class="outline-0 border border-gray-300 p-1 text-xl rounded-md w-full"
-            placeholder="Enter category name"
-            type="text"
-            value="Electronics"
-          />
+          <div
+            class="flex"
+          >
+            <div
+              class="relative w-full"
+            >
+              <input
+                class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                placeholder="Enter category name"
+                type="text"
+                value="Electronics"
+              />
+            </div>
+          </div>
           <div
             class="flex gap-2"
           >
@@ -52,12 +60,20 @@ exports[`should render EditCategoryPanel component 1`] = `
       <div
         class="p-2 flex flex-col gap-5"
       >
-        <input
-          class="outline-0 border border-gray-300 p-1 text-xl rounded-md w-full"
-          placeholder="Enter category name"
-          type="text"
-          value="Electronics"
-        />
+        <div
+          class="flex"
+        >
+          <div
+            class="relative w-full"
+          >
+            <input
+              class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+              placeholder="Enter category name"
+              type="text"
+              value="Electronics"
+            />
+          </div>
+        </div>
         <div
           class="flex gap-2"
         >

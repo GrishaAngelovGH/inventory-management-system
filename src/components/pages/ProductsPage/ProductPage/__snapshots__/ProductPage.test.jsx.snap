@@ -20,56 +20,96 @@ exports[`should render ProductPage component 1`] = `
             class="flex flex-col gap-5"
             data-testid="add-product-form"
           >
-            <input
-              class="focus:invalid:border-red-500 invalid:border-2 outline-0 border border-gray-300 p-1 text-xl rounded-md w-full"
-              placeholder="Enter product name"
-              required=""
-              type="text"
-              value="::Product Name::"
-            />
-            <select
-              class="focus:invalid:border-red-500 bg-white border-2 border-gray-300 outline-0 p-2 text-xl rounded-md "
-              required=""
-              role="combobox"
+            <div
+              class="flex"
             >
-              <option
-                value=""
+              <div
+                class="relative w-full"
               >
-                Please select a category
-              </option>
-              <option
-                value="1"
+                <input
+                  class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                  placeholder="Enter product name"
+                  required=""
+                  type="text"
+                  value="::Product Name::"
+                />
+              </div>
+            </div>
+            <div
+              class="flex"
+            >
+              <div
+                class="relative w-full"
               >
-                ::category name::
-              </option>
-            </select>
-            <input
-              class="focus:invalid:border-red-500 invalid:border-2 outline-0 border border-gray-300 p-1 text-xl rounded-md w-full"
-              max="100"
-              min="1"
-              placeholder="Enter product quantity"
-              required=""
-              type="number"
-              value="1"
-            />
-            <input
-              class="focus:invalid:border-red-500 invalid:border-2 outline-0 border border-gray-300 p-1 text-xl rounded-md w-full"
-              min="1"
-              placeholder="Enter buying price: 0.00"
-              required=""
-              step="0.01"
-              type="number"
-              value="5"
-            />
-            <input
-              class="focus:invalid:border-red-500 invalid:border-2 outline-0 border border-gray-300 p-1 text-xl rounded-md w-full"
-              min="1"
-              placeholder="Enter selling price: 0.00"
-              required=""
-              step="0.01"
-              type="number"
-              value="8"
-            />
+                <select
+                  class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                  required=""
+                  role="combobox"
+                >
+                  <option
+                    value=""
+                  >
+                    Please select a category
+                  </option>
+                  <option
+                    value="1"
+                  >
+                    ::category name::
+                  </option>
+                </select>
+              </div>
+            </div>
+            <div
+              class="flex"
+            >
+              <div
+                class="relative w-full"
+              >
+                <input
+                  class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                  max="100"
+                  min="1"
+                  placeholder="Enter product quantity"
+                  required=""
+                  type="number"
+                  value="1"
+                />
+              </div>
+            </div>
+            <div
+              class="flex"
+            >
+              <div
+                class="relative w-full"
+              >
+                <input
+                  class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                  min="1"
+                  placeholder="Enter buying price: 0.00"
+                  required=""
+                  step="0.01"
+                  type="number"
+                  value="5"
+                />
+              </div>
+            </div>
+            <div
+              class="flex"
+            >
+              <div
+                class="relative w-full"
+              >
+                <input
+                  class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                  min="1"
+                  placeholder="Enter selling price: 0.00"
+                  required=""
+                  step="0.01"
+                  type="number"
+                  value="8"
+                />
+              </div>
+            </div>
             <button
               type="submit"
             >
@@ -96,56 +136,96 @@ exports[`should render ProductPage component 1`] = `
           class="flex flex-col gap-5"
           data-testid="add-product-form"
         >
-          <input
-            class="focus:invalid:border-red-500 invalid:border-2 outline-0 border border-gray-300 p-1 text-xl rounded-md w-full"
-            placeholder="Enter product name"
-            required=""
-            type="text"
-            value="::Product Name::"
-          />
-          <select
-            class="focus:invalid:border-red-500 bg-white border-2 border-gray-300 outline-0 p-2 text-xl rounded-md "
-            required=""
-            role="combobox"
+          <div
+            class="flex"
           >
-            <option
-              value=""
+            <div
+              class="relative w-full"
             >
-              Please select a category
-            </option>
-            <option
-              value="1"
+              <input
+                class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                placeholder="Enter product name"
+                required=""
+                type="text"
+                value="::Product Name::"
+              />
+            </div>
+          </div>
+          <div
+            class="flex"
+          >
+            <div
+              class="relative w-full"
             >
-              ::category name::
-            </option>
-          </select>
-          <input
-            class="focus:invalid:border-red-500 invalid:border-2 outline-0 border border-gray-300 p-1 text-xl rounded-md w-full"
-            max="100"
-            min="1"
-            placeholder="Enter product quantity"
-            required=""
-            type="number"
-            value="1"
-          />
-          <input
-            class="focus:invalid:border-red-500 invalid:border-2 outline-0 border border-gray-300 p-1 text-xl rounded-md w-full"
-            min="1"
-            placeholder="Enter buying price: 0.00"
-            required=""
-            step="0.01"
-            type="number"
-            value="5"
-          />
-          <input
-            class="focus:invalid:border-red-500 invalid:border-2 outline-0 border border-gray-300 p-1 text-xl rounded-md w-full"
-            min="1"
-            placeholder="Enter selling price: 0.00"
-            required=""
-            step="0.01"
-            type="number"
-            value="8"
-          />
+              <select
+                class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                required=""
+                role="combobox"
+              >
+                <option
+                  value=""
+                >
+                  Please select a category
+                </option>
+                <option
+                  value="1"
+                >
+                  ::category name::
+                </option>
+              </select>
+            </div>
+          </div>
+          <div
+            class="flex"
+          >
+            <div
+              class="relative w-full"
+            >
+              <input
+                class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                max="100"
+                min="1"
+                placeholder="Enter product quantity"
+                required=""
+                type="number"
+                value="1"
+              />
+            </div>
+          </div>
+          <div
+            class="flex"
+          >
+            <div
+              class="relative w-full"
+            >
+              <input
+                class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                min="1"
+                placeholder="Enter buying price: 0.00"
+                required=""
+                step="0.01"
+                type="number"
+                value="5"
+              />
+            </div>
+          </div>
+          <div
+            class="flex"
+          >
+            <div
+              class="relative w-full"
+            >
+              <input
+                class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                min="1"
+                placeholder="Enter selling price: 0.00"
+                required=""
+                step="0.01"
+                type="number"
+                value="8"
+              />
+            </div>
+          </div>
           <button
             type="submit"
           >

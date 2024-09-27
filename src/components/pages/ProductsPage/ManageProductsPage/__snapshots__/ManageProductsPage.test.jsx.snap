@@ -122,26 +122,34 @@ exports[`ManageProductsPage > should render ManageProductsPage component 1`] = `
             <div
               class="w-full md:w-1/2"
             >
-              <select
-                class="bg-white border-2 border-gray-300 outline-0 p-2 text-xl rounded-md w-full"
-                role="combobox"
+              <div
+                class="flex"
               >
-                <option
-                  value=""
+                <div
+                  class="relative w-full"
                 >
-                  Please select a category
-                </option>
-                <option
-                  value="123"
-                >
-                  Electronics
-                </option>
-                <option
-                  value="234"
-                >
-                  Sports Equipment
-                </option>
-              </select>
+                  <select
+                    class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                    role="combobox"
+                  >
+                    <option
+                      value=""
+                    >
+                      Please select a category
+                    </option>
+                    <option
+                      value="123"
+                    >
+                      Electronics
+                    </option>
+                    <option
+                      value="234"
+                    >
+                      Sports Equipment
+                    </option>
+                  </select>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -266,26 +274,34 @@ exports[`ManageProductsPage > should render ManageProductsPage component 1`] = `
           <div
             class="w-full md:w-1/2"
           >
-            <select
-              class="bg-white border-2 border-gray-300 outline-0 p-2 text-xl rounded-md w-full"
-              role="combobox"
+            <div
+              class="flex"
             >
-              <option
-                value=""
+              <div
+                class="relative w-full"
               >
-                Please select a category
-              </option>
-              <option
-                value="123"
-              >
-                Electronics
-              </option>
-              <option
-                value="234"
-              >
-                Sports Equipment
-              </option>
-            </select>
+                <select
+                  class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                  role="combobox"
+                >
+                  <option
+                    value=""
+                  >
+                    Please select a category
+                  </option>
+                  <option
+                    value="123"
+                  >
+                    Electronics
+                  </option>
+                  <option
+                    value="234"
+                  >
+                    Sports Equipment
+                  </option>
+                </select>
+              </div>
+            </div>
           </div>
         </div>
       </div>
