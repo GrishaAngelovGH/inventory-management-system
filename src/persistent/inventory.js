@@ -98,9 +98,29 @@ const productOperations = {
   }
 }
 
+const saleOperations = {
+  createSale: (product, sale) => {
+    const { id: productId, categoryId, quantity, name } = product
+
+    if (sale.quantity > quantity) {
+      throw new Error(`Unavailable quantity for: ${name}. Please check stock levels.`)
+    }
+
+    const newInventory = JSON.parse(localStorage.getItem("inventory"))
+
+    newInventory.sales[productId].push(sale)
+
+    const currentProduct = newInventory.categories[categoryId].products.find(v => v.id === productId)
+    currentProduct.quantity -= sale.quantity
+
+    localStorage.setItem("inventory", JSON.stringify(newInventory))
+  }
+}
+
 const inventory = {
   ...categoryOperations,
-  ...productOperations
+  ...productOperations,
+  ...saleOperations
 }
 
 export default inventory
