@@ -43,7 +43,7 @@ exports[`should render Datepicker component 1`] = `
                 placeholder="Select a date"
                 readonly=""
                 type="text"
-                value=""
+                value="Invalid Date"
               />
             </div>
           </div>
@@ -90,7 +90,7 @@ exports[`should render Datepicker component 1`] = `
               placeholder="Select a date"
               readonly=""
               type="text"
-              value=""
+              value="Invalid Date"
             />
           </div>
         </div>
