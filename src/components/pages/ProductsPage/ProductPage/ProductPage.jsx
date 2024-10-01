@@ -1,4 +1,4 @@
-import { TextInput, Select } from "flowbite-react"
+import { TextInput, Select, Tooltip } from "flowbite-react"
 
 const ProductPage = ({
   title,
@@ -18,56 +18,66 @@ const ProductPage = ({
       <div className="uppercase text-xl text-center border-b-2 border-blue-500 bg-gray-200 rounded-t-md text-gray-500">{title}</div>
       <div className="p-2 flex flex-col gap-5">
         <form data-testid="add-product-form" className="flex flex-col gap-5" onSubmit={onSubmit}>
-          <TextInput
-            value={product.name}
-            placeholder="Enter product name"
-            onChange={onProductNameChange}
-            required
-          />
+          <Tooltip content="Product name" placement="left">
+            <TextInput
+              value={product.name}
+              placeholder="Enter product name"
+              onChange={onProductNameChange}
+              required
+            />
+          </Tooltip>
 
-          <Select
-            role="combobox"
-            value={categoryId}
-            onChange={onCategoryChange}
-            required
-          >
-            <option value="">Please select a category</option>
-            {
-              categories.map(v => (
-                <option key={v.id} value={v.id}>{v.name}</option>
-              ))
-            }
-          </Select>
+          <Tooltip content="Category" placement="left">
+            <Select
+              role="combobox"
+              value={categoryId}
+              onChange={onCategoryChange}
+              required
+            >
+              <option value="">Please select a category</option>
+              {
+                categories.map(v => (
+                  <option key={v.id} value={v.id}>{v.name}</option>
+                ))
+              }
+            </Select>
+          </Tooltip>
 
-          <TextInput
-            type="number"
-            value={product.quantity}
-            min={1}
-            max={100}
-            placeholder="Enter product quantity"
-            onChange={onProductQuantityChange}
-            required
-          />
+          <Tooltip content="Product quantity" placement="left">
+            <TextInput
+              type="number"
+              value={product.quantity}
+              min={1}
+              max={100}
+              placeholder="Enter product quantity"
+              onChange={onProductQuantityChange}
+              required
+            />
+          </Tooltip>
 
-          <TextInput
-            type="number"
-            value={product.buyingPrice}
-            step={0.01}
-            min={1}
-            placeholder="Enter buying price: 0.00"
-            onChange={onProductBuyingPriceChange}
-            required
-          />
+          <Tooltip content="Buying price" placement="left">
+            <TextInput
+              type="number"
+              value={product.buyingPrice}
+              step={0.01}
+              min={1}
+              placeholder="Enter buying price: 0.00"
+              onChange={onProductBuyingPriceChange}
+              required
+            />
+          </Tooltip>
 
-          <TextInput
-            type="number"
-            value={product.sellingPrice}
-            step={0.01}
-            min={1}
-            placeholder="Enter selling price: 0.00"
-            onChange={onProductSellingPriceChange}
-            required
-          />
+          <Tooltip content="Selling price" placement="left">
+            <TextInput
+              type="number"
+              value={product.sellingPrice}
+              step={0.01}
+              min={1}
+              placeholder="Enter selling price: 0.00"
+              onChange={onProductSellingPriceChange}
+              required
+            />
+          </Tooltip>
 
           {buttons}
         </form>

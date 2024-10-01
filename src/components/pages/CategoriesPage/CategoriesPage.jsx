@@ -37,6 +37,7 @@ const CategoriesPage = ({ showNotification }) => {
             (<AddCategoryPanel showNotification={showNotification} />) :
             (
               <EditCategoryPanel
+                key={categoryId}
                 categoryName={categoryName}
                 onConfirm={handleConfirm}
                 onCancel={handleCancel}

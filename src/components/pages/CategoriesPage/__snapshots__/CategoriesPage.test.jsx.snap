@@ -131,17 +131,43 @@ exports[`CategoriesPage > should render CategoriesPage component 1`] = `
                 class="p-2 flex flex-col gap-5"
               >
                 <div
-                  class="flex"
+                  class="w-fit"
+                  data-testid="flowbite-tooltip-target"
                 >
                   <div
-                    class="relative w-full"
+                    class="flex"
                   >
-                    <input
-                      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
-                      placeholder="Enter category name"
-                      type="text"
-                      value=""
-                    />
+                    <div
+                      class="relative w-full"
+                    >
+                      <input
+                        class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                        placeholder="Enter category name"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="absolute z-10 inline-block rounded-lg px-3 py-2 text-sm font-medium shadow-sm transition-opacity duration-300 invisible opacity-0 bg-gray-900 text-white dark:bg-gray-700"
+                  data-testid="flowbite-tooltip"
+                  id=":r0:"
+                  role="tooltip"
+                  style="position: absolute; top: 0px; left: 0px;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="relative z-20"
+                  >
+                    Category name
+                  </div>
+                  <div
+                    class="absolute z-10 h-2 w-2 rotate-45 bg-gray-900 dark:bg-gray-700"
+                    data-testid="flowbite-tooltip-arrow"
+                    style="right: -4px;"
+                  >
+                     
                   </div>
                 </div>
                 <button
@@ -360,17 +386,43 @@ exports[`CategoriesPage > should render CategoriesPage component 1`] = `
               class="p-2 flex flex-col gap-5"
             >
               <div
-                class="flex"
+                class="w-fit"
+                data-testid="flowbite-tooltip-target"
               >
                 <div
-                  class="relative w-full"
+                  class="flex"
                 >
-                  <input
-                    class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
-                    placeholder="Enter category name"
-                    type="text"
-                    value=""
-                  />
+                  <div
+                    class="relative w-full"
+                  >
+                    <input
+                      class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                      placeholder="Enter category name"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="absolute z-10 inline-block rounded-lg px-3 py-2 text-sm font-medium shadow-sm transition-opacity duration-300 invisible opacity-0 bg-gray-900 text-white dark:bg-gray-700"
+                data-testid="flowbite-tooltip"
+                id=":r0:"
+                role="tooltip"
+                style="position: absolute; top: 0px; left: 0px;"
+                tabindex="-1"
+              >
+                <div
+                  class="relative z-20"
+                >
+                  Category name
+                </div>
+                <div
+                  class="absolute z-10 h-2 w-2 rotate-45 bg-gray-900 dark:bg-gray-700"
+                  data-testid="flowbite-tooltip-arrow"
+                  style="right: -4px;"
+                >
+                   
                 </div>
               </div>
               <button

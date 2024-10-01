@@ -21,93 +21,223 @@ exports[`should render ProductPage component 1`] = `
             data-testid="add-product-form"
           >
             <div
-              class="flex"
+              class="w-fit"
+              data-testid="flowbite-tooltip-target"
             >
               <div
-                class="relative w-full"
+                class="flex"
               >
-                <input
-                  class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
-                  placeholder="Enter product name"
-                  required=""
-                  type="text"
-                  value="::Product Name::"
-                />
-              </div>
-            </div>
-            <div
-              class="flex"
-            >
-              <div
-                class="relative w-full"
-              >
-                <select
-                  class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
-                  required=""
-                  role="combobox"
+                <div
+                  class="relative w-full"
                 >
-                  <option
-                    value=""
+                  <input
+                    class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                    placeholder="Enter product name"
+                    required=""
+                    type="text"
+                    value="::Product Name::"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="absolute z-10 inline-block rounded-lg px-3 py-2 text-sm font-medium shadow-sm transition-opacity duration-300 invisible opacity-0 bg-gray-900 text-white dark:bg-gray-700"
+              data-testid="flowbite-tooltip"
+              id=":r0:"
+              role="tooltip"
+              style="position: absolute; top: 0px; left: 0px;"
+              tabindex="-1"
+            >
+              <div
+                class="relative z-20"
+              >
+                Product name
+              </div>
+              <div
+                class="absolute z-10 h-2 w-2 rotate-45 bg-gray-900 dark:bg-gray-700"
+                data-testid="flowbite-tooltip-arrow"
+                style="right: -4px;"
+              >
+                 
+              </div>
+            </div>
+            <div
+              class="w-fit"
+              data-testid="flowbite-tooltip-target"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="relative w-full"
+                >
+                  <select
+                    class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                    required=""
+                    role="combobox"
                   >
-                    Please select a category
-                  </option>
-                  <option
+                    <option
+                      value=""
+                    >
+                      Please select a category
+                    </option>
+                    <option
+                      value="1"
+                    >
+                      ::category name::
+                    </option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div
+              class="absolute z-10 inline-block rounded-lg px-3 py-2 text-sm font-medium shadow-sm transition-opacity duration-300 invisible opacity-0 bg-gray-900 text-white dark:bg-gray-700"
+              data-testid="flowbite-tooltip"
+              id=":r2:"
+              role="tooltip"
+              style="position: absolute; top: 0px; left: 0px;"
+              tabindex="-1"
+            >
+              <div
+                class="relative z-20"
+              >
+                Category
+              </div>
+              <div
+                class="absolute z-10 h-2 w-2 rotate-45 bg-gray-900 dark:bg-gray-700"
+                data-testid="flowbite-tooltip-arrow"
+                style="right: -4px;"
+              >
+                 
+              </div>
+            </div>
+            <div
+              class="w-fit"
+              data-testid="flowbite-tooltip-target"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="relative w-full"
+                >
+                  <input
+                    class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                    max="100"
+                    min="1"
+                    placeholder="Enter product quantity"
+                    required=""
+                    type="number"
                     value="1"
-                  >
-                    ::category name::
-                  </option>
-                </select>
+                  />
+                </div>
               </div>
             </div>
             <div
-              class="flex"
+              class="absolute z-10 inline-block rounded-lg px-3 py-2 text-sm font-medium shadow-sm transition-opacity duration-300 invisible opacity-0 bg-gray-900 text-white dark:bg-gray-700"
+              data-testid="flowbite-tooltip"
+              id=":r4:"
+              role="tooltip"
+              style="position: absolute; top: 0px; left: 0px;"
+              tabindex="-1"
             >
               <div
-                class="relative w-full"
+                class="relative z-20"
               >
-                <input
-                  class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
-                  max="100"
-                  min="1"
-                  placeholder="Enter product quantity"
-                  required=""
-                  type="number"
-                  value="1"
-                />
+                Product quantity
+              </div>
+              <div
+                class="absolute z-10 h-2 w-2 rotate-45 bg-gray-900 dark:bg-gray-700"
+                data-testid="flowbite-tooltip-arrow"
+                style="right: -4px;"
+              >
+                 
               </div>
             </div>
             <div
-              class="flex"
+              class="w-fit"
+              data-testid="flowbite-tooltip-target"
             >
               <div
-                class="relative w-full"
+                class="flex"
               >
-                <input
-                  class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
-                  min="1"
-                  placeholder="Enter buying price: 0.00"
-                  required=""
-                  step="0.01"
-                  type="number"
-                  value="5"
-                />
+                <div
+                  class="relative w-full"
+                >
+                  <input
+                    class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                    min="1"
+                    placeholder="Enter buying price: 0.00"
+                    required=""
+                    step="0.01"
+                    type="number"
+                    value="5"
+                  />
+                </div>
               </div>
             </div>
             <div
-              class="flex"
+              class="absolute z-10 inline-block rounded-lg px-3 py-2 text-sm font-medium shadow-sm transition-opacity duration-300 invisible opacity-0 bg-gray-900 text-white dark:bg-gray-700"
+              data-testid="flowbite-tooltip"
+              id=":r6:"
+              role="tooltip"
+              style="position: absolute; top: 0px; left: 0px;"
+              tabindex="-1"
             >
               <div
-                class="relative w-full"
+                class="relative z-20"
               >
-                <input
-                  class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
-                  min="1"
-                  placeholder="Enter selling price: 0.00"
-                  required=""
-                  step="0.01"
-                  type="number"
-                  value="8"
-                />
+                Buying price
+              </div>
+              <div
+                class="absolute z-10 h-2 w-2 rotate-45 bg-gray-900 dark:bg-gray-700"
+                data-testid="flowbite-tooltip-arrow"
+                style="right: -4px;"
+              >
+                 
+              </div>
+            </div>
+            <div
+              class="w-fit"
+              data-testid="flowbite-tooltip-target"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="relative w-full"
+                >
+                  <input
+                    class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                    min="1"
+                    placeholder="Enter selling price: 0.00"
+                    required=""
+                    step="0.01"
+                    type="number"
+                    value="8"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="absolute z-10 inline-block rounded-lg px-3 py-2 text-sm font-medium shadow-sm transition-opacity duration-300 invisible opacity-0 bg-gray-900 text-white dark:bg-gray-700"
+              data-testid="flowbite-tooltip"
+              id=":r8:"
+              role="tooltip"
+              style="position: absolute; top: 0px; left: 0px;"
+              tabindex="-1"
+            >
+              <div
+                class="relative z-20"
+              >
+                Selling price
+              </div>
+              <div
+                class="absolute z-10 h-2 w-2 rotate-45 bg-gray-900 dark:bg-gray-700"
+                data-testid="flowbite-tooltip-arrow"
+                style="right: -4px;"
+              >
+                 
               </div>
             </div>
             <button
@@ -137,93 +267,223 @@ exports[`should render ProductPage component 1`] = `
           data-testid="add-product-form"
         >
           <div
-            class="flex"
+            class="w-fit"
+            data-testid="flowbite-tooltip-target"
           >
             <div
-              class="relative w-full"
+              class="flex"
             >
-              <input
-                class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
-                placeholder="Enter product name"
-                required=""
-                type="text"
-                value="::Product Name::"
-              />
-            </div>
-          </div>
-          <div
-            class="flex"
-          >
-            <div
-              class="relative w-full"
-            >
-              <select
-                class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
-                required=""
-                role="combobox"
+              <div
+                class="relative w-full"
               >
-                <option
-                  value=""
+                <input
+                  class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                  placeholder="Enter product name"
+                  required=""
+                  type="text"
+                  value="::Product Name::"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute z-10 inline-block rounded-lg px-3 py-2 text-sm font-medium shadow-sm transition-opacity duration-300 invisible opacity-0 bg-gray-900 text-white dark:bg-gray-700"
+            data-testid="flowbite-tooltip"
+            id=":r0:"
+            role="tooltip"
+            style="position: absolute; top: 0px; left: 0px;"
+            tabindex="-1"
+          >
+            <div
+              class="relative z-20"
+            >
+              Product name
+            </div>
+            <div
+              class="absolute z-10 h-2 w-2 rotate-45 bg-gray-900 dark:bg-gray-700"
+              data-testid="flowbite-tooltip-arrow"
+              style="right: -4px;"
+            >
+               
+            </div>
+          </div>
+          <div
+            class="w-fit"
+            data-testid="flowbite-tooltip-target"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="relative w-full"
+              >
+                <select
+                  class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                  required=""
+                  role="combobox"
                 >
-                  Please select a category
-                </option>
-                <option
+                  <option
+                    value=""
+                  >
+                    Please select a category
+                  </option>
+                  <option
+                    value="1"
+                  >
+                    ::category name::
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute z-10 inline-block rounded-lg px-3 py-2 text-sm font-medium shadow-sm transition-opacity duration-300 invisible opacity-0 bg-gray-900 text-white dark:bg-gray-700"
+            data-testid="flowbite-tooltip"
+            id=":r2:"
+            role="tooltip"
+            style="position: absolute; top: 0px; left: 0px;"
+            tabindex="-1"
+          >
+            <div
+              class="relative z-20"
+            >
+              Category
+            </div>
+            <div
+              class="absolute z-10 h-2 w-2 rotate-45 bg-gray-900 dark:bg-gray-700"
+              data-testid="flowbite-tooltip-arrow"
+              style="right: -4px;"
+            >
+               
+            </div>
+          </div>
+          <div
+            class="w-fit"
+            data-testid="flowbite-tooltip-target"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="relative w-full"
+              >
+                <input
+                  class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                  max="100"
+                  min="1"
+                  placeholder="Enter product quantity"
+                  required=""
+                  type="number"
                   value="1"
-                >
-                  ::category name::
-                </option>
-              </select>
+                />
+              </div>
             </div>
           </div>
           <div
-            class="flex"
+            class="absolute z-10 inline-block rounded-lg px-3 py-2 text-sm font-medium shadow-sm transition-opacity duration-300 invisible opacity-0 bg-gray-900 text-white dark:bg-gray-700"
+            data-testid="flowbite-tooltip"
+            id=":r4:"
+            role="tooltip"
+            style="position: absolute; top: 0px; left: 0px;"
+            tabindex="-1"
           >
             <div
-              class="relative w-full"
+              class="relative z-20"
             >
-              <input
-                class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
-                max="100"
-                min="1"
-                placeholder="Enter product quantity"
-                required=""
-                type="number"
-                value="1"
-              />
+              Product quantity
+            </div>
+            <div
+              class="absolute z-10 h-2 w-2 rotate-45 bg-gray-900 dark:bg-gray-700"
+              data-testid="flowbite-tooltip-arrow"
+              style="right: -4px;"
+            >
+               
             </div>
           </div>
           <div
-            class="flex"
+            class="w-fit"
+            data-testid="flowbite-tooltip-target"
           >
             <div
-              class="relative w-full"
+              class="flex"
             >
-              <input
-                class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
-                min="1"
-                placeholder="Enter buying price: 0.00"
-                required=""
-                step="0.01"
-                type="number"
-                value="5"
-              />
+              <div
+                class="relative w-full"
+              >
+                <input
+                  class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                  min="1"
+                  placeholder="Enter buying price: 0.00"
+                  required=""
+                  step="0.01"
+                  type="number"
+                  value="5"
+                />
+              </div>
             </div>
           </div>
           <div
-            class="flex"
+            class="absolute z-10 inline-block rounded-lg px-3 py-2 text-sm font-medium shadow-sm transition-opacity duration-300 invisible opacity-0 bg-gray-900 text-white dark:bg-gray-700"
+            data-testid="flowbite-tooltip"
+            id=":r6:"
+            role="tooltip"
+            style="position: absolute; top: 0px; left: 0px;"
+            tabindex="-1"
           >
             <div
-              class="relative w-full"
+              class="relative z-20"
             >
-              <input
-                class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
-                min="1"
-                placeholder="Enter selling price: 0.00"
-                required=""
-                step="0.01"
-                type="number"
-                value="8"
-              />
+              Buying price
+            </div>
+            <div
+              class="absolute z-10 h-2 w-2 rotate-45 bg-gray-900 dark:bg-gray-700"
+              data-testid="flowbite-tooltip-arrow"
+              style="right: -4px;"
+            >
+               
+            </div>
+          </div>
+          <div
+            class="w-fit"
+            data-testid="flowbite-tooltip-target"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="relative w-full"
+              >
+                <input
+                  class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                  min="1"
+                  placeholder="Enter selling price: 0.00"
+                  required=""
+                  step="0.01"
+                  type="number"
+                  value="8"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute z-10 inline-block rounded-lg px-3 py-2 text-sm font-medium shadow-sm transition-opacity duration-300 invisible opacity-0 bg-gray-900 text-white dark:bg-gray-700"
+            data-testid="flowbite-tooltip"
+            id=":r8:"
+            role="tooltip"
+            style="position: absolute; top: 0px; left: 0px;"
+            tabindex="-1"
+          >
+            <div
+              class="relative z-20"
+            >
+              Selling price
+            </div>
+            <div
+              class="absolute z-10 h-2 w-2 rotate-45 bg-gray-900 dark:bg-gray-700"
+              data-testid="flowbite-tooltip-arrow"
+              style="right: -4px;"
+            >
+               
             </div>
           </div>
           <button
