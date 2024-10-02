@@ -8,6 +8,7 @@ import CategoriesPage from "components/pages/CategoriesPage"
 import AddProductPage from "components/pages/ProductsPage/AddProductPage"
 import ManageProductsPage from "components/pages/ProductsPage/ManageProductsPage"
 import AddSalePage from "components/pages/SalesPage/AddSalePage"
+import ManageSalesPage from "components/pages/SalesPage/ManageSalesPage"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/add-product" element={<Notification><AddProductPage /></Notification>} />
         <Route path="/manage-products" element={<Notification><ManageProductsPage /></Notification>} />
         <Route path="/add-sale" element={<Notification><AddSalePage /></Notification>} />
+        <Route path="/manage-sales" element={<Notification><ManageSalesPage /></Notification>} />
       </Routes>
     </Router>
   )

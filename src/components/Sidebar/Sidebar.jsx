@@ -26,8 +26,8 @@ const Sidebar = ({ open, onToggle }) => {
       title: "Products",
       isButton: true,
       childRoutes: [
-        { icon: "add-icon.png", title: "Add New", path: "/add-product" },
-        { icon: "manage-icon.png", title: "Manage", path: "/manage-products" }
+        { icon: "add-icon.png", title: "New Product", path: "/add-product" },
+        { icon: "manage-icon.png", title: "Manage Products", path: "/manage-products" }
       ]
     },
     {
@@ -35,13 +35,14 @@ const Sidebar = ({ open, onToggle }) => {
       title: "Sales",
       isButton: true,
       childRoutes: [
-        { icon: "add-icon.png", title: "Add New", path: "/add-sale" },
+        { icon: "add-icon.png", title: "New Sale", path: "/add-sale" },
+        { icon: "manage-icon.png", title: "Manage Sales", path: "/manage-sales" }
       ]
     }
   ]
 
   return (
-    <div className={`h-[97%] bg-slate-600 text-white p-1 rounded-md text-center relative top-2 left-2 ${open ? 'min-w-[170px]' : 'min-w-[60px]'} duration-200`}>
+    <div className={`h-[97%] bg-slate-600 text-white p-1 rounded-md text-center relative top-2 left-2 ${open ? 'min-w-[230px]' : 'min-w-[60px]'} duration-200`}>
       <div className={`flex flex-col ${open ? "items-start" : "items-center"}`}>
         {
           items.map((v, i) => {
