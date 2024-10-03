@@ -120,7 +120,7 @@ exports[`ManageProductsPage > should render ManageProductsPage component 1`] = `
             class="pl-2 flex flex-col md:flex-row gap-4 justify-center overflow-x-auto"
           >
             <div
-              class="w-full md:w-1/2"
+              class="w-full md:w-2/3"
             >
               <div
                 class="flex"
@@ -272,7 +272,7 @@ exports[`ManageProductsPage > should render ManageProductsPage component 1`] = `
           class="pl-2 flex flex-col md:flex-row gap-4 justify-center overflow-x-auto"
         >
           <div
-            class="w-full md:w-1/2"
+            class="w-full md:w-2/3"
           >
             <div
               class="flex"

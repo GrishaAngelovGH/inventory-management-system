@@ -1,0 +1,136 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`should render Table component 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="bg-white w-fit md:w-full border border-gray-400 rounded-t-md rounded-b-md"
+      >
+        <div
+          class="bg-gray-200 rounded-t-md flex text-center"
+        >
+          <div
+            class="cursor-pointer p-1 w-1/4 font-normal"
+          >
+            First Column
+          </div>
+          <div
+            class="cursor-pointer p-1 w-1/4 font-normal"
+          >
+            Second Column
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              Value 1
+            </div>
+            <div>
+              Value 2
+            </div>
+          </div>
+          <div>
+            <div>
+              Value 3
+            </div>
+            <div>
+              Value 4
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="bg-white w-fit md:w-full border border-gray-400 rounded-t-md rounded-b-md"
+    >
+      <div
+        class="bg-gray-200 rounded-t-md flex text-center"
+      >
+        <div
+          class="cursor-pointer p-1 w-1/4 font-normal"
+        >
+          First Column
+        </div>
+        <div
+          class="cursor-pointer p-1 w-1/4 font-normal"
+        >
+          Second Column
+        </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            Value 1
+          </div>
+          <div>
+            Value 2
+          </div>
+        </div>
+        <div>
+          <div>
+            Value 3
+          </div>
+          <div>
+            Value 4
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

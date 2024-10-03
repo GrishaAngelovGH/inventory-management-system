@@ -7,33 +7,33 @@ exports[`should render ProductsTable component 1`] = `
     <div>
       <div>
         <div
-          class="bg-white w-[550px] md:w-full border border-gray-400 rounded-t-md rounded-b-md"
+          class="bg-white w-fit md:w-full border border-gray-400 rounded-t-md rounded-b-md"
         >
           <div
             class="bg-gray-200 rounded-t-md flex text-center"
           >
             <div
-              class="cursor-pointer p-1 w-[140px] md:w-1/4 font-normal"
+              class="cursor-pointer p-1 w-1/4 font-normal"
             >
               Name
             </div>
             <div
-              class="cursor-pointer p-1 w-[140px] md:w-1/4 font-normal"
+              class="cursor-pointer p-1 w-1/4 font-normal"
             >
               Quantity
             </div>
             <div
-              class="cursor-pointer p-1 w-[140px] md:w-1/4 font-normal"
+              class="cursor-pointer p-1 w-1/4 font-normal"
             >
               Buying Price
             </div>
             <div
-              class="cursor-pointer p-1 w-[140px] md:w-1/4 font-normal"
+              class="cursor-pointer p-1 w-1/4 font-normal"
             >
               Selling Price
             </div>
             <div
-              class="cursor-pointer p-1 w-[140px] md:w-1/4 font-normal"
+              class="cursor-pointer p-1 w-1/4 font-normal"
             >
               Actions
             </div>
@@ -188,33 +188,33 @@ exports[`should render ProductsTable component 1`] = `
   "container": <div>
     <div>
       <div
-        class="bg-white w-[550px] md:w-full border border-gray-400 rounded-t-md rounded-b-md"
+        class="bg-white w-fit md:w-full border border-gray-400 rounded-t-md rounded-b-md"
       >
         <div
           class="bg-gray-200 rounded-t-md flex text-center"
         >
           <div
-            class="cursor-pointer p-1 w-[140px] md:w-1/4 font-normal"
+            class="cursor-pointer p-1 w-1/4 font-normal"
           >
             Name
           </div>
           <div
-            class="cursor-pointer p-1 w-[140px] md:w-1/4 font-normal"
+            class="cursor-pointer p-1 w-1/4 font-normal"
           >
             Quantity
           </div>
           <div
-            class="cursor-pointer p-1 w-[140px] md:w-1/4 font-normal"
+            class="cursor-pointer p-1 w-1/4 font-normal"
           >
             Buying Price
           </div>
           <div
-            class="cursor-pointer p-1 w-[140px] md:w-1/4 font-normal"
+            class="cursor-pointer p-1 w-1/4 font-normal"
           >
             Selling Price
           </div>
           <div
-            class="cursor-pointer p-1 w-[140px] md:w-1/4 font-normal"
+            class="cursor-pointer p-1 w-1/4 font-normal"
           >
             Actions
           </div>

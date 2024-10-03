@@ -55,7 +55,7 @@ const ManageProductsPage = ({ showNotification }) => {
           )
         }
 
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-2/3">
           <Select
             role="combobox"
             value={categoryId}

@@ -1,28 +1,9 @@
 import { useState } from "react"
 
 import SidebarLayout from "components/SidebarLayout"
+import Table from "components/Table"
 
 import inventory from "persistent/inventory"
-
-const Table = ({ currentColumn, columns, children, onColumnClick }) => (
-  <div className="bg-white w-[550px] md:w-full border border-gray-400 rounded-t-md rounded-b-md">
-    <div className="bg-gray-200 rounded-t-md flex text-center">
-      {
-        columns.map(v =>
-        (
-          <div
-            key={v}
-            className={`cursor-pointer p-1 w-[140px] md:w-1/4 ${currentColumn === v ? "font-bold" : "font-normal"}`}
-            onClick={() => onColumnClick(v)}
-          >
-            {v}
-          </div>
-        ))
-      }
-    </div>
-    {children}
-  </div>
-)
 
 const SortableSalesTable = ({ sales }) => {
   const [sortField, setSortField] = useState("")
