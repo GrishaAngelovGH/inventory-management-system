@@ -80,7 +80,8 @@ const AddSalePage = ({ showNotification }) => {
                         {
                           quantity: productQuantity,
                           sellingPrice: currentProduct.sellingPrice,
-                          date: new Date(date).toISOString()
+                          date: new Date(date).toISOString(),
+                          total: productQuantity * currentProduct.sellingPrice
                         }
                       )
 

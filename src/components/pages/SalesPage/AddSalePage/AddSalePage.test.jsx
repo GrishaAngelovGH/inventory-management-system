@@ -61,7 +61,7 @@ describe('AddSalePage', () => {
     expect(inventory.createSale).toHaveBeenCalledTimes(1)
     expect(inventory.createSale).toHaveBeenCalledWith(
       { id: '1', name: 'Smartphone', quantity: 50, sellingPrice: 880 },
-      { date: '2024-09-30T10:00:00.000Z', quantity: 10, sellingPrice: 880 }
+      { date: '2024-09-30T10:00:00.000Z', quantity: 10, sellingPrice: 880, total: 8800 }
     )
 
     expect(showNotification).toHaveBeenCalledTimes(1)

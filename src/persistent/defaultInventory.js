@@ -95,154 +95,154 @@ const defaultInventory = {
   },
   sales: {
     "1": [
-      { quantity: 20, sellingPrice: 880, date: new Date("2024-09-21T12:00:00.000Z") }
+      { productName: "Smartphone", quantity: 20, sellingPrice: 880, date: new Date("2024-09-21T12:00:00.000Z"), total: 17600 }
     ],
     "2": [
-      { quantity: 10, sellingPrice: 1320, date: new Date("2024-09-21T12:00:00.000Z") }
+      { productName: "Laptop", quantity: 10, sellingPrice: 1320, date: new Date("2024-09-21T12:00:00.000Z"), total: 13200 }
     ],
     "3": [
-      { quantity: 25, sellingPrice: 440, date: new Date("2024-09-22T12:00:00.000Z") }
+      { productName: "Tablet", quantity: 25, sellingPrice: 440, date: new Date("2024-09-22T12:00:00.000Z"), total: 11000 }
     ],
     "4": [
-      { quantity: 15, sellingPrice: 220, date: new Date("2024-09-22T12:00:00.000Z") }
+      { productName: "Smartwatch", quantity: 15, sellingPrice: 220, date: new Date("2024-09-22T12:00:00.000Z"), total: 3300 }
     ],
     "5": [
-      { quantity: 35, sellingPrice: 165, date: new Date("2024-09-22T12:00:00.000Z") }
+      { productName: "Wireless Earbuds", quantity: 35, sellingPrice: 165, date: new Date("2024-09-22T12:00:00.000Z"), total: 5775 }
     ],
     "6": [
-      { quantity: 8, sellingPrice: 1100, date: new Date("2024-09-22T12:00:00.000Z") }
+      { productName: "Camera", quantity: 8, sellingPrice: 1100, date: new Date("2024-09-22T12:00:00.000Z"), total: 8800 }
     ],
     "7": [
-      { quantity: 40, sellingPrice: 132, date: new Date("2024-09-23T12:00:00.000Z") }
+      { productName: "Bluetooth Speaker", quantity: 40, sellingPrice: 132, date: new Date("2024-09-23T12:00:00.000Z"), total: 5280 }
     ],
     "8": [
-      { quantity: 18, sellingPrice: 330, date: new Date("2024-09-23T12:00:00.000Z") }
+      { productName: "Monitor", quantity: 18, sellingPrice: 330, date: new Date("2024-09-23T12:00:00.000Z"), total: 5940 }
     ],
     "9": [
-      { quantity: 40, sellingPrice: 33, date: new Date("2024-09-23T12:00:00.000Z") }
+      { productName: "Football", quantity: 40, sellingPrice: 33, date: new Date("2024-09-23T12:00:00.000Z"), total: 1320 }
     ],
     "10": [
-      { quantity: 30, sellingPrice: 38.5, date: new Date("2024-09-23T12:00:00.000Z") }
+      { productName: "Basketball", quantity: 30, sellingPrice: 38.5, date: new Date("2024-09-23T12:00:00.000Z"), total: 1155 }
     ],
     "11": [
-      { quantity: 25, sellingPrice: 77, date: new Date("2024-09-23T12:00:00.000Z") }
+      { productName: "Tennis Racket", quantity: 25, sellingPrice: 77, date: new Date("2024-09-23T12:00:00.000Z"), total: 1925 }
     ],
     "12": [
-      { quantity: 20, sellingPrice: 55, date: new Date("2024-09-23T12:00:00.000Z") }
+      { productName: "Baseball Bat", quantity: 20, sellingPrice: 55, date: new Date("2024-09-23T12:00:00.000Z"), total: 1100 }
     ],
     "13": [
-      { quantity: 18, sellingPrice: 99, date: new Date("2024-09-23T12:00:00.000Z") }
+      { productName: "Soccer Cleats", quantity: 18, sellingPrice: 99, date: new Date("2024-09-23T12:00:00.000Z"), total: 1782 }
     ],
     "14": [
-      { quantity: 35, sellingPrice: 27.5, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Yoga Mat", quantity: 35, sellingPrice: 27.5, date: new Date("2024-09-24T12:00:00.000Z"), total: 962.5 }
     ],
     "15": [
-      { quantity: 10, sellingPrice: 330, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Golf Clubs", quantity: 10, sellingPrice: 330, date: new Date("2024-09-24T12:00:00.000Z"), total: 3300 }
     ],
     "16": [
-      { quantity: 22, sellingPrice: 88, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Dumbbells", quantity: 22, sellingPrice: 88, date: new Date("2024-09-24T12:00:00.000Z"), total: 1936 }
     ],
     "17": [
-      { quantity: 90, sellingPrice: 16.5, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "T-shirt", quantity: 90, sellingPrice: 16.5, date: new Date("2024-09-24T12:00:00.000Z"), total: 1485 }
     ],
     "18": [
-      { quantity: 40, sellingPrice: 55, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Jeans", quantity: 40, sellingPrice: 55, date: new Date("2024-09-24T12:00:00.000Z"), total: 2200 }
     ],
     "19": [
-      { quantity: 20, sellingPrice: 132, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Jacket", quantity: 20, sellingPrice: 132, date: new Date("2024-09-24T12:00:00.000Z"), total: 2640 }
     ],
     "20": [
-      { quantity: 35, sellingPrice: 82.5, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Sneakers", quantity: 35, sellingPrice: 82.5, date: new Date("2024-09-24T12:00:00.000Z"), total: 2887.5 }
     ],
     "21": [
-      { quantity: 50, sellingPrice: 22, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Hat", quantity: 50, sellingPrice: 22, date: new Date("2024-09-24T12:00:00.000Z"), total: 1100 }
     ],
     "22": [
-      { quantity: 120, sellingPrice: 5.5, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Socks", quantity: 120, sellingPrice: 5.5, date: new Date("2024-09-24T12:00:00.000Z"), total: 660 }
     ],
     "23": [
-      { quantity: 30, sellingPrice: 27.5, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Scarf", quantity: 30, sellingPrice: 27.5, date: new Date("2024-09-24T12:00:00.000Z"), total: 825 }
     ],
     "24": [
-      { quantity: 35, sellingPrice: 16.5, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Gloves", quantity: 35, sellingPrice: 16.5, date: new Date("2024-09-24T12:00:00.000Z"), total: 577.5 }
     ],
     "25": [
-      { quantity: 40, sellingPrice: 22, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Action Figure", quantity: 40, sellingPrice: 22, date: new Date("2024-09-24T12:00:00.000Z"), total: 880 }
     ],
     "26": [
-      { quantity: 30, sellingPrice: 27.5, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Doll", quantity: 30, sellingPrice: 27.5, date: new Date("2024-09-24T12:00:00.000Z"), total: 825 }
     ],
     "27": [
-      { quantity: 25, sellingPrice: 55, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Lego Set", quantity: 25, sellingPrice: 55, date: new Date("2024-09-24T12:00:00.000Z"), total: 1375 }
     ],
     "28": [
-      { quantity: 40, sellingPrice: 16.5, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Puzzle", quantity: 40, sellingPrice: 16.5, date: new Date("2024-09-24T12:00:00.000Z"), total: 660 }
     ],
     "29": [
-      { quantity: 20, sellingPrice: 33, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Board Game", quantity: 20, sellingPrice: 33, date: new Date("2024-09-24T12:00:00.000Z"), total: 660 }
     ],
     "30": [
-      { quantity: 15, sellingPrice: 82.5, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "RC Car", quantity: 15, sellingPrice: 82.5, date: new Date("2024-09-24T12:00:00.000Z"), total: 1237.5 }
     ],
     "31": [
-      { quantity: 18, sellingPrice: 49.5, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Toy Train", quantity: 18, sellingPrice: 49.5, date: new Date("2024-09-24T12:00:00.000Z"), total: 891 }
     ],
     "32": [
-      { quantity: 60, sellingPrice: 22, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Animal Figure", quantity: 60, sellingPrice: 22, date: new Date("2024-09-24T12:00:00.000Z"), total: 1320 }
     ],
     "33": [
-      { quantity: 70, sellingPrice: 11, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Novel", quantity: 70, sellingPrice: 11, date: new Date("2024-09-24T12:00:00.000Z"), total: 770 }
     ],
     "34": [
-      { quantity: 50, sellingPrice: 5.5, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Comic Book", quantity: 50, sellingPrice: 5.5, date: new Date("2024-09-24T12:00:00.000Z"), total: 275 }
     ],
     "35": [
-      { quantity: 30, sellingPrice: 27.5, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Cookbook", quantity: 30, sellingPrice: 27.5, date: new Date("2024-09-24T12:00:00.000Z"), total: 825 }
     ],
     "36": [
-      { quantity: 40, sellingPrice: 22, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Travel Book", quantity: 40, sellingPrice: 22, date: new Date("2024-09-24T12:00:00.000Z"), total: 880 }
     ],
     "37": [
-      { quantity: 20, sellingPrice: 55, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Textbook", quantity: 20, sellingPrice: 55, date: new Date("2024-09-24T12:00:00.000Z"), total: 1100 }
     ],
     "38": [
-      { quantity: 50, sellingPrice: 16.5, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Children's Book", quantity: 50, sellingPrice: 16.5, date: new Date("2024-09-24T12:00:00.000Z"), total: 825 }
     ],
     "39": [
-      { quantity: 25, sellingPrice: 33, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Fantasy Book", quantity: 25, sellingPrice: 33, date: new Date("2024-09-24T12:00:00.000Z"), total: 825 }
     ],
     "40": [
-      { quantity: 18, sellingPrice: 38.5, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Science Book", quantity: 18, sellingPrice: 38.5, date: new Date("2024-09-24T12:00:00.000Z"), total: 693 }
     ],
     "41": [
-      { quantity: 30, sellingPrice: 55, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Chair", quantity: 30, sellingPrice: 55, date: new Date("2024-09-24T12:00:00.000Z"), total: 1650 }
     ],
     "42": [
-      { quantity: 15, sellingPrice: 165, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Table", quantity: 15, sellingPrice: 165, date: new Date("2024-09-24T12:00:00.000Z"), total: 2475 }
     ],
     "43": [
-      { quantity: 8, sellingPrice: 880, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Sofa", quantity: 8, sellingPrice: 880, date: new Date("2024-09-24T12:00:00.000Z"), total: 7040 }
     ],
     "44": [
-      { quantity: 10, sellingPrice: 660, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Bed", quantity: 10, sellingPrice: 660, date: new Date("2024-09-24T12:00:00.000Z"), total: 6600 }
     ],
     "45": [
-      { quantity: 12, sellingPrice: 440, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Wardrobe", quantity: 12, sellingPrice: 440, date: new Date("2024-09-24T12:00:00.000Z"), total: 5280 }
     ],
     "46": [
-      { quantity: 20, sellingPrice: 132, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Bookshelf", quantity: 20, sellingPrice: 132, date: new Date("2024-09-24T12:00:00.000Z"), total: 2640 }
     ],
     "47": [
-      { quantity: 5, sellingPrice: 1100, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Dining Set", quantity: 5, sellingPrice: 1100, date: new Date("2024-09-24T12:00:00.000Z"), total: 5500 }
     ],
     "48": [
-      { quantity: 25, sellingPrice: 220, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Desk", quantity: 25, sellingPrice: 220, date: new Date("2024-09-24T12:00:00.000Z"), total: 5500 }
     ],
     "49": [
-      { quantity: 10, sellingPrice: 550, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Washing Machine", quantity: 10, sellingPrice: 550, date: new Date("2024-09-24T12:00:00.000Z"), total: 5500 }
     ],
     "50": [
-      { quantity: 8, sellingPrice: 880, date: new Date("2024-09-24T12:00:00.000Z") }
+      { productName: "Refrigerator", quantity: 8, sellingPrice: 880, date: new Date("2024-09-24T12:00:00.000Z"), total: 7040 }
     ]
   }
 }
