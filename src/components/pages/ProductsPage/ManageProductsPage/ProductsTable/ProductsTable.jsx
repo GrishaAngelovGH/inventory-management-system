@@ -5,14 +5,11 @@ import Table from "components/Table"
 
 import inventory from "persistent/inventory"
 
+import currencyFormatter from "formatters/currencyFormatter"
+
 const SortableProductsTable = ({ products, onEditClick, onDeleteClick }) => {
   const [sortField, setSortField] = useState("")
   const [currentColumn, setCurrentColumn] = useState("")
-
-  const formatter = new Intl.NumberFormat("en-US", {
-    style: "currency",
-    currency: "USD"
-  })
 
   return (
     <Table
@@ -43,8 +40,8 @@ const SortableProductsTable = ({ products, onEditClick, onDeleteClick }) => {
               >
                 <div className="w-[140px] md:w-1/4">{v.name}</div>
                 <div className="w-[140px] md:w-1/4">{v.quantity}</div>
-                <div className="w-[140px] md:w-1/4">{formatter.format(v.buyingPrice)}</div>
-                <div className="w-[140px] md:w-1/4">{formatter.format(v.sellingPrice)}</div>
+                <div className="w-[140px] md:w-1/4">{currencyFormatter.format(v.buyingPrice)}</div>
+                <div className="w-[140px] md:w-1/4">{currencyFormatter.format(v.sellingPrice)}</div>
                 <div className="w-[140px] md:w-1/5 flex gap-2 justify-center">
                   <button
                     data-testid="delete-button"

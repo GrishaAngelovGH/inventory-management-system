@@ -5,14 +5,11 @@ import Table from "components/Table"
 
 import inventory from "persistent/inventory"
 
+import currencyFormatter from "formatters/currencyFormatter"
+
 const SortableSalesTable = ({ sales }) => {
   const [sortField, setSortField] = useState("")
   const [currentColumn, setCurrentColumn] = useState("")
-
-  const formatter = new Intl.NumberFormat("en-US", {
-    style: "currency",
-    currency: "USD"
-  })
 
   const totalSum = sales.reduce((a, b) => a + b.total, 0)
 
@@ -43,14 +40,14 @@ const SortableSalesTable = ({ sales }) => {
                 <div key={v.productName} className={"p-1 flex items-center text-center border-b border-gray-400 last:border-b-0"}>
                   <div className="w-[140px] md:w-1/4">{v.productName}</div>
                   <div className="w-[140px] md:w-1/4">{v.quantity}</div>
-                  <div className="w-[140px] md:w-1/4">{formatter.format(v.sellingPrice)}</div>
+                  <div className="w-[140px] md:w-1/4">{currencyFormatter.format(v.sellingPrice)}</div>
                   <div className="w-[140px] md:w-1/4">{new Date(v.date).toLocaleDateString("en-GB")}</div>
-                  <div className="w-[140px] md:w-1/4">{formatter.format(v.total)}</div>
+                  <div className="w-[140px] md:w-1/4">{currencyFormatter.format(v.total)}</div>
                 </div>
               ))
           }
         </div>
-        <div className="text-xl bg-blue-200 p-1 text-center">Total Sales: {formatter.format(totalSum)}</div>
+        <div className="text-xl bg-blue-200 p-1 text-center">Total Sales: {currencyFormatter.format(totalSum)}</div>
       </div>
     </Table>
   )

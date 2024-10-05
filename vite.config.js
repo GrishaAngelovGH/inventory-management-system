@@ -13,6 +13,7 @@ export default defineConfig({
     alias: {
       components: "/src/components",
       persistent: "/src/persistent",
+      formatters: "/src/formatters",
     },
   },
 })
