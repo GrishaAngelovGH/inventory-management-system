@@ -108,13 +108,28 @@ const saleOperations = {
 
     const newInventory = JSON.parse(localStorage.getItem("inventory"))
 
+    const newId = Math.random().toString().slice(2)
+
     newInventory.sales[productId].push({
+      id: newId,
+      categoryId,
+      productId,
       productName: name,
       ...sale
     })
 
     const currentProduct = newInventory.categories[categoryId].products.find(v => v.id === productId)
     currentProduct.quantity -= sale.quantity
+
+    localStorage.setItem("inventory", JSON.stringify(newInventory))
+  },
+  undoSale: ({ id, categoryId, productId, quantity }) => {
+    const newInventory = JSON.parse(localStorage.getItem("inventory"))
+
+    newInventory.sales[productId] = newInventory.sales[productId].filter(v => v.id !== id)
+
+    const currentProduct = newInventory.categories[categoryId].products.find(v => v.id === productId)
+    currentProduct.quantity += quantity
 
     localStorage.setItem("inventory", JSON.stringify(newInventory))
   },

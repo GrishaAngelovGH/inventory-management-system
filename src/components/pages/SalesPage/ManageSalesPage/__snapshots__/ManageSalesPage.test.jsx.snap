@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render ManageSalesPage component 1`] = `
+exports[`ManageSalesPage > should render ManageSalesPage component 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -153,6 +153,11 @@ exports[`should render ManageSalesPage component 1`] = `
                   >
                     Total
                   </div>
+                  <div
+                    class="cursor-pointer p-1 w-1/4 font-normal"
+                  >
+                    Actions
+                  </div>
                 </div>
                 <div>
                   <div
@@ -187,6 +192,19 @@ exports[`should render ManageSalesPage component 1`] = `
                       >
                         $4,400.00
                       </div>
+                      <div
+                        class="w-[140px] md:w-1/5 flex gap-2 justify-center"
+                      >
+                        <button
+                          class="bg-orange-500 rounded-md p-2"
+                          data-testid="undo-button"
+                        >
+                          <img
+                            class="w-[15px] h-[15px]"
+                            src="/undo-icon.png"
+                          />
+                        </button>
+                      </div>
                     </div>
                     <div
                       class="p-1 flex items-center text-center border-b border-gray-400 last:border-b-0"
@@ -215,6 +233,19 @@ exports[`should render ManageSalesPage component 1`] = `
                         class="w-[140px] md:w-1/4"
                       >
                         $15,840.00
+                      </div>
+                      <div
+                        class="w-[140px] md:w-1/5 flex gap-2 justify-center"
+                      >
+                        <button
+                          class="bg-orange-500 rounded-md p-2"
+                          data-testid="undo-button"
+                        >
+                          <img
+                            class="w-[15px] h-[15px]"
+                            src="/undo-icon.png"
+                          />
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -381,6 +412,11 @@ exports[`should render ManageSalesPage component 1`] = `
                 >
                   Total
                 </div>
+                <div
+                  class="cursor-pointer p-1 w-1/4 font-normal"
+                >
+                  Actions
+                </div>
               </div>
               <div>
                 <div
@@ -415,6 +451,19 @@ exports[`should render ManageSalesPage component 1`] = `
                     >
                       $4,400.00
                     </div>
+                    <div
+                      class="w-[140px] md:w-1/5 flex gap-2 justify-center"
+                    >
+                      <button
+                        class="bg-orange-500 rounded-md p-2"
+                        data-testid="undo-button"
+                      >
+                        <img
+                          class="w-[15px] h-[15px]"
+                          src="/undo-icon.png"
+                        />
+                      </button>
+                    </div>
                   </div>
                   <div
                     class="p-1 flex items-center text-center border-b border-gray-400 last:border-b-0"
@@ -443,6 +492,19 @@ exports[`should render ManageSalesPage component 1`] = `
                       class="w-[140px] md:w-1/4"
                     >
                       $15,840.00
+                    </div>
+                    <div
+                      class="w-[140px] md:w-1/5 flex gap-2 justify-center"
+                    >
+                      <button
+                        class="bg-orange-500 rounded-md p-2"
+                        data-testid="undo-button"
+                      >
+                        <img
+                          class="w-[15px] h-[15px]"
+                          src="/undo-icon.png"
+                        />
+                      </button>
                     </div>
                   </div>
                 </div>

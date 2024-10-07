@@ -7,7 +7,7 @@ import inventory from "persistent/inventory"
 
 import currencyFormatter from "formatters/currencyFormatter"
 
-const SortableSalesTable = ({ sales }) => {
+const SortableSalesTable = ({ sales, showNotification }) => {
   const [sortField, setSortField] = useState("")
   const [currentColumn, setCurrentColumn] = useState("")
 
@@ -15,7 +15,7 @@ const SortableSalesTable = ({ sales }) => {
 
   return (
     <Table
-      columns={["Product Name", "Quantity", "Selling Price", "Date", "Total"]}
+      columns={["Product Name", "Quantity", "Selling Price", "Date", "Total", "Actions"]}
       currentColumn={currentColumn}
       onColumnClick={v => {
         const newValue = v
@@ -43,6 +43,18 @@ const SortableSalesTable = ({ sales }) => {
                   <div className="w-[140px] md:w-1/4">{currencyFormatter.format(v.sellingPrice)}</div>
                   <div className="w-[140px] md:w-1/4">{new Date(v.date).toLocaleDateString("en-GB")}</div>
                   <div className="w-[140px] md:w-1/4">{currencyFormatter.format(v.total)}</div>
+                  <div className="w-[140px] md:w-1/5 flex gap-2 justify-center">
+                    <button
+                      data-testid="undo-button"
+                      className="bg-orange-500 rounded-md p-2"
+                      onClick={() => {
+                        inventory.undoSale(v)
+                        showNotification("Successfully undo sale")
+                      }}
+                    >
+                      <img src="/undo-icon.png" className="w-[15px] h-[15px]" />
+                    </button>
+                  </div>
                 </div>
               ))
           }
@@ -53,14 +65,14 @@ const SortableSalesTable = ({ sales }) => {
   )
 }
 
-const ManageSalesPage = () => {
+const ManageSalesPage = ({ showNotification }) => {
   const sales = inventory.getAllSales()
 
   return (
     <SidebarLayout>
       <div className="pl-2 flex flex-col md:flex-row justify-center">
         <div className="w-full md:w-2/3">
-          <SortableSalesTable sales={sales} />
+          <SortableSalesTable sales={sales} showNotification={showNotification} />
         </div>
       </div>
     </SidebarLayout>
