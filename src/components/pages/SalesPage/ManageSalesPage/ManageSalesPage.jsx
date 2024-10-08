@@ -1,7 +1,9 @@
 import { useState } from "react"
+import { usePDF } from "react-to-pdf"
 
 import SidebarLayout from "components/SidebarLayout"
 import Table from "components/Table"
+import SalesPDF from "./SalesPDF"
 
 import inventory from "persistent/inventory"
 
@@ -37,7 +39,7 @@ const SortableSalesTable = ({ sales, showNotification }) => {
                 return 0
               })
               .map(v => (
-                <div key={v.productName} className={"p-1 flex items-center text-center border-b border-gray-400 last:border-b-0"}>
+                <div key={v.id} className={"p-1 flex items-center text-center border-b border-gray-400 last:border-b-0"}>
                   <div className="w-[140px] md:w-1/4">{v.productName}</div>
                   <div className="w-[140px] md:w-1/4">{v.quantity}</div>
                   <div className="w-[140px] md:w-1/4">{currencyFormatter.format(v.sellingPrice)}</div>
@@ -68,11 +70,27 @@ const SortableSalesTable = ({ sales, showNotification }) => {
 const ManageSalesPage = ({ showNotification }) => {
   const sales = inventory.getAllSales()
 
+  const date = new Date().toLocaleDateString("en-GB")
+  const time = new Date().toLocaleTimeString("en-GB")
+
+  const { toPDF, targetRef } = usePDF({ filename: `sales-${date}-${time}.pdf` });
+
   return (
     <SidebarLayout>
       <div className="pl-2 flex flex-col md:flex-row justify-center">
         <div className="w-full md:w-2/3">
           <SortableSalesTable sales={sales} showNotification={showNotification} />
+
+          <button
+            className="mt-5 bg-blue-500 text-white rounded-md pl-4 pr-4"
+            onClick={() => toPDF()}
+          >
+            Download PDF
+          </button>
+
+          <div ref={targetRef} className="p-10 fixed top-[-2000px]">
+            <SalesPDF sales={sales} />
+          </div>
         </div>
       </div>
     </SidebarLayout>

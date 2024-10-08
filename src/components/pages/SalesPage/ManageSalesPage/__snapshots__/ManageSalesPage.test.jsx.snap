@@ -257,6 +257,112 @@ exports[`ManageSalesPage > should render ManageSalesPage component 1`] = `
                   </div>
                 </div>
               </div>
+              <button
+                class="mt-5 bg-blue-500 text-white rounded-md pl-4 pr-4"
+              >
+                Download PDF
+              </button>
+              <div
+                class="p-10 fixed top-[-2000px]"
+              >
+                <div
+                  class="border-2 border-slate-400 text-xl"
+                >
+                  <div
+                    class="flex justify-center items-center text-center bg-slate-200 h-[75px]"
+                  >
+                    <div
+                      class="w-[130px]"
+                    >
+                      Product Name
+                    </div>
+                    <div
+                      class="w-[130px]"
+                    >
+                      Quantity
+                    </div>
+                    <div
+                      class="w-[130px]"
+                    >
+                      Selling Price
+                    </div>
+                    <div
+                      class="w-[130px]"
+                    >
+                      Date
+                    </div>
+                    <div
+                      class="w-[130px]"
+                    >
+                      Total
+                    </div>
+                  </div>
+                  <div
+                    class="p-1 flex items-center text-center border-b border-gray-400 last:border-b-0"
+                  >
+                    <div
+                      class="w-[140px] md:w-1/4"
+                    >
+                      Smartphone
+                    </div>
+                    <div
+                      class="w-[140px] md:w-1/4"
+                    >
+                      5
+                    </div>
+                    <div
+                      class="w-[140px] md:w-1/4"
+                    >
+                      $880.00
+                    </div>
+                    <div
+                      class="w-[140px] md:w-1/4"
+                    >
+                      21/09/2024
+                    </div>
+                    <div
+                      class="w-[140px] md:w-1/4"
+                    >
+                      $4,400.00
+                    </div>
+                  </div>
+                  <div
+                    class="p-1 flex items-center text-center border-b border-gray-400 last:border-b-0"
+                  >
+                    <div
+                      class="w-[140px] md:w-1/4"
+                    >
+                      Laptop
+                    </div>
+                    <div
+                      class="w-[140px] md:w-1/4"
+                    >
+                      12
+                    </div>
+                    <div
+                      class="w-[140px] md:w-1/4"
+                    >
+                      $1,320.00
+                    </div>
+                    <div
+                      class="w-[140px] md:w-1/4"
+                    >
+                      21/09/2024
+                    </div>
+                    <div
+                      class="w-[140px] md:w-1/4"
+                    >
+                      $15,840.00
+                    </div>
+                  </div>
+                  <div
+                    class="text-xl bg-blue-200 p-1 h-[50px] flex justify-center items-center text-center"
+                  >
+                    Total Sales: 
+                    $20,240.00
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -510,6 +616,112 @@ exports[`ManageSalesPage > should render ManageSalesPage component 1`] = `
                 </div>
                 <div
                   class="text-xl bg-blue-200 p-1 text-center"
+                >
+                  Total Sales: 
+                  $20,240.00
+                </div>
+              </div>
+            </div>
+            <button
+              class="mt-5 bg-blue-500 text-white rounded-md pl-4 pr-4"
+            >
+              Download PDF
+            </button>
+            <div
+              class="p-10 fixed top-[-2000px]"
+            >
+              <div
+                class="border-2 border-slate-400 text-xl"
+              >
+                <div
+                  class="flex justify-center items-center text-center bg-slate-200 h-[75px]"
+                >
+                  <div
+                    class="w-[130px]"
+                  >
+                    Product Name
+                  </div>
+                  <div
+                    class="w-[130px]"
+                  >
+                    Quantity
+                  </div>
+                  <div
+                    class="w-[130px]"
+                  >
+                    Selling Price
+                  </div>
+                  <div
+                    class="w-[130px]"
+                  >
+                    Date
+                  </div>
+                  <div
+                    class="w-[130px]"
+                  >
+                    Total
+                  </div>
+                </div>
+                <div
+                  class="p-1 flex items-center text-center border-b border-gray-400 last:border-b-0"
+                >
+                  <div
+                    class="w-[140px] md:w-1/4"
+                  >
+                    Smartphone
+                  </div>
+                  <div
+                    class="w-[140px] md:w-1/4"
+                  >
+                    5
+                  </div>
+                  <div
+                    class="w-[140px] md:w-1/4"
+                  >
+                    $880.00
+                  </div>
+                  <div
+                    class="w-[140px] md:w-1/4"
+                  >
+                    21/09/2024
+                  </div>
+                  <div
+                    class="w-[140px] md:w-1/4"
+                  >
+                    $4,400.00
+                  </div>
+                </div>
+                <div
+                  class="p-1 flex items-center text-center border-b border-gray-400 last:border-b-0"
+                >
+                  <div
+                    class="w-[140px] md:w-1/4"
+                  >
+                    Laptop
+                  </div>
+                  <div
+                    class="w-[140px] md:w-1/4"
+                  >
+                    12
+                  </div>
+                  <div
+                    class="w-[140px] md:w-1/4"
+                  >
+                    $1,320.00
+                  </div>
+                  <div
+                    class="w-[140px] md:w-1/4"
+                  >
+                    21/09/2024
+                  </div>
+                  <div
+                    class="w-[140px] md:w-1/4"
+                  >
+                    $15,840.00
+                  </div>
+                </div>
+                <div
+                  class="text-xl bg-blue-200 p-1 h-[50px] flex justify-center items-center text-center"
                 >
                   Total Sales: 
                   $20,240.00
