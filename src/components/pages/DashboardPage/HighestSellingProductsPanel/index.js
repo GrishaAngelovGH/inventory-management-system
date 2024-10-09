@@ -1,0 +1,3 @@
+import HighestSellingProductsPanel from "./HighestSellingProductsPanel"
+
+export default HighestSellingProductsPanel
