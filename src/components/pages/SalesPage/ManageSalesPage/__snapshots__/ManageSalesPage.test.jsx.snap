@@ -263,7 +263,7 @@ exports[`ManageSalesPage > should render ManageSalesPage component 1`] = `
                 Download PDF
               </button>
               <div
-                class="p-10 fixed top-[-2000px]"
+                class="p-10 fixed top-[-2100px]"
               >
                 <div
                   class="border-2 border-slate-400 text-xl"
@@ -628,7 +628,7 @@ exports[`ManageSalesPage > should render ManageSalesPage component 1`] = `
               Download PDF
             </button>
             <div
-              class="p-10 fixed top-[-2000px]"
+              class="p-10 fixed top-[-2100px]"
             >
               <div
                 class="border-2 border-slate-400 text-xl"

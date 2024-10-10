@@ -88,7 +88,7 @@ const ManageSalesPage = ({ showNotification }) => {
             Download PDF
           </button>
 
-          <div ref={targetRef} className="p-10 fixed top-[-2000px]">
+          <div ref={targetRef} className="p-10 fixed top-[-2100px]">
             <SalesPDF sales={sales} />
           </div>
         </div>

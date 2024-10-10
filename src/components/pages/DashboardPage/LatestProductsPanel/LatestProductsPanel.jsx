@@ -15,7 +15,7 @@ const LatestProductsPanel = () => {
 
   return (
     <div className="mt-5 pl-2 flex flex-col md:flex-row md:justify-center">
-      <div className="bg-white border border-slate-400 rounded-md md:w-1/2">
+      <div className="bg-white border border-slate-400 rounded-md w-fit md:w-1/2">
         <div className="uppercase text-xl text-center border-b-2 border-blue-500 bg-gray-200 rounded-t-md text-gray-500">Latest products</div>
         <div className="flex justify-evenly text-center bg-slate-300">
           <div className="w-[140px] md:w-1/4">Name</div>
