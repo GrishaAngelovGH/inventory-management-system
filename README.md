@@ -1,12 +1,29 @@
-# React + Vite
+# Inventory Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Front-end project implementing features of Inventory Management System:
+- Home Page
+- Dashboard Page
+  - Total Inventory Value Widget
+  - Total Product Categories Widget
+  - Total Unique Products Widget
+  - Total Sales Widget
+  - Latest Products Report
+  - Top 5 Products by Sales Report
+  - Latest Sales Report
+- Categories page
+  - Add New Category
+  - Manage All Categories
+- Products Page
+  - Add New Product 
+  - Manage Products 
+  - Low Stock Products Report 
+- Sales
+  - Add New Sale
+  - Manage Sales
+    - View all sales with calculated total
+    - Undo Sale
+    - Download PDF report
 
-Currently, two official plugins are available:
+## The project is using the following technologies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img src="https://img.shields.io/badge/vite-%23563D7C.svg?style=flat&logo=vite&color=white" height="30"> <img src="https://img.shields.io/badge/React.JS-%23563D7C.svg?style=flat&logo=react&color=white" height="30"> <img src="https://img.shields.io/badge/Tailwind%20CSS-%23563D7C.svg?style=flat&logo=tailwindcss&color=white" height="30"> <img src="https://img.shields.io/badge/flowbite--react-311C87?style=flat&color=white" height="30"> <img src="https://img.shields.io/badge/react--to--pdf-311C87?style=flat&color=white" height="30"> 
