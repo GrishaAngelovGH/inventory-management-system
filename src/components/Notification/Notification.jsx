@@ -28,7 +28,7 @@ const Notification = ({ children }) => {
 
   return (
     <div>
-      <div className={`md:w-[450px] h-[100px] p-2 ${hasError ? errorClass : successClass} rounded-md fixed top-[1%] right-[1%] z-10 flex gap-2 justify-center items-center duration-[2000ms] delay-500 ${show ? 'opacity-1 translate-y-0' : 'opacity-0 invisible -translate-y-9'}`}>
+      <div className={`md:w-[450px] h-[100px] p-2 ${hasError ? errorClass : successClass} rounded-md fixed top-[1%] right-[1%] z-10 flex gap-2 justify-center items-center duration-[2000ms] delay-500 ${show ? 'opacity-100 translate-y-0' : 'opacity-0 invisible -translate-y-9'}`}>
         <img src={hasError ? '/error-icon.png' : '/success-icon.png'} className="w-[25px] h-[25px]" />
         <div className="text-xl">{message}</div>
       </div>

@@ -122,6 +122,7 @@ exports[`should render HomePage component 1`] = `
               >
                 <a
                   class="bg-orange-500 text-white rounded-full p-2 block mt-5 w-[200px] text-center text-xl hover:scale-125 duration-500"
+                  data-discover="true"
                   href="/dashboard"
                 >
                   Try Our Demo
@@ -251,6 +252,7 @@ exports[`should render HomePage component 1`] = `
             >
               <a
                 class="bg-orange-500 text-white rounded-full p-2 block mt-5 w-[200px] text-center text-xl hover:scale-125 duration-500"
+                data-discover="true"
                 href="/dashboard"
               >
                 Try Our Demo

@@ -1,5 +1,5 @@
-import { render, screen } from '@testing-library/react'
-import userEvent from '@testing-library/user-event'
+import { render, screen, waitFor, fireEvent } from '@testing-library/react'
+
 
 import { MemoryRouter } from 'react-router-dom'
 import { vi } from 'vitest'
@@ -7,7 +7,17 @@ import { vi } from 'vitest'
 vi.mock('persistent/inventory', () => ({
   default: {
     getItems: () => [{ id: '123', name: 'Category123' }],
-    addProductToCategory: vi.fn()
+    getAllProducts: () => [],
+    getProductsForCategory: () => [],
+    getAllSales: () => [],
+    createCategory: vi.fn(),
+    updateCategoryName: vi.fn(),
+    deleteCategory: vi.fn(),
+    addProductToCategory: vi.fn(),
+    updateProduct: vi.fn(),
+    deleteProduct: vi.fn(),
+    createSale: vi.fn(),
+    undoSale: vi.fn()
   }
 }))
 
@@ -36,31 +46,39 @@ describe('AddProductPage', () => {
     )
 
     const productNameInput = screen.getByPlaceholderText('Enter product name')
-    await userEvent.type(productNameInput, 'New Product')
+    fireEvent.change(productNameInput, { target: { value: 'New Product' } })
 
     const productCategorySelect = screen.getByRole('combobox')
-    await userEvent.selectOptions(productCategorySelect, '123')
+    fireEvent.change(productCategorySelect, { target: { value: '123' } })
 
     const productQuantityInput = screen.getByPlaceholderText('Enter product quantity')
-    await userEvent.type(productQuantityInput, '5')
+    fireEvent.change(productQuantityInput, { target: { value: '5' } })
 
     const productBuyingPriceInput = screen.getByPlaceholderText('Enter buying price: 0.00')
-    await userEvent.type(productBuyingPriceInput, '10')
+    fireEvent.change(productBuyingPriceInput, { target: { value: '10' } })
 
     const productSellingPriceInput = screen.getByPlaceholderText('Enter selling price: 0.00')
-    await userEvent.type(productSellingPriceInput, '15')
+    fireEvent.change(productSellingPriceInput, { target: { value: '15' } })
 
     const submitButton = screen.getByRole('button', { name: /Add Product/i })
-    await userEvent.click(submitButton)
+    fireEvent.click(submitButton)
 
-    expect(inventory.addProductToCategory).toHaveBeenCalledTimes(1)
+    await waitFor(() => {
+      expect(inventory.addProductToCategory).toHaveBeenCalledTimes(1)
+    })
 
-    expect(inventory.addProductToCategory).toHaveBeenCalledWith(
-      '123', { name: 'New Product', quantity: 5, buyingPrice: 10, sellingPrice: 15 }
-    )
+    await waitFor(() => {
+      expect(inventory.addProductToCategory).toHaveBeenCalledWith(
+        '123', { name: 'New Product', quantity: 5, buyingPrice: 10, sellingPrice: 15 }
+      )
+    })
 
-    expect(showNotification).toHaveBeenCalledTimes(1)
+    await waitFor(() => {
+      expect(showNotification).toHaveBeenCalledTimes(1)
+    })
 
-    expect(showNotification).toHaveBeenCalledWith('The product is successfully added to the category')
+    await waitFor(() => {
+      expect(showNotification).toHaveBeenCalledWith('The product is successfully added to the category')
+    })
   })
 })

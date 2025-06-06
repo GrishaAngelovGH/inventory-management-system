@@ -19,6 +19,7 @@ test('should render ProductPage component', () => {
       onProductQuantityChange={() => { }}
       onProductBuyingPriceChange={() => { }}
       onProductSellingPriceChange={() => { }}
+      onSubmit={() => { }}
     />
   )
 

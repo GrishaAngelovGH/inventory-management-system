@@ -27,7 +27,7 @@ exports[`should render AddCategoryPanel component 1`] = `
                 class="relative w-full"
               >
                 <input
-                  class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                  class="block w-full border focus:outline-none focus:ring-1 disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 placeholder-gray-500 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500 p-2.5 text-sm rounded-lg"
                   placeholder="Enter category name"
                   type="text"
                   value=""
@@ -37,8 +37,9 @@ exports[`should render AddCategoryPanel component 1`] = `
           </div>
           <div
             class="absolute z-10 inline-block rounded-lg px-3 py-2 text-sm font-medium shadow-sm transition-opacity duration-300 invisible opacity-0 bg-gray-900 text-white dark:bg-gray-700"
+            data-floating-ui-focusable=""
             data-testid="flowbite-tooltip"
-            id=":r0:"
+            id="_r_0_"
             role="tooltip"
             style="position: absolute; top: 0px; left: 0px;"
             tabindex="-1"
@@ -90,7 +91,7 @@ exports[`should render AddCategoryPanel component 1`] = `
               class="relative w-full"
             >
               <input
-                class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                class="block w-full border focus:outline-none focus:ring-1 disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 placeholder-gray-500 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500 p-2.5 text-sm rounded-lg"
                 placeholder="Enter category name"
                 type="text"
                 value=""
@@ -100,8 +101,9 @@ exports[`should render AddCategoryPanel component 1`] = `
         </div>
         <div
           class="absolute z-10 inline-block rounded-lg px-3 py-2 text-sm font-medium shadow-sm transition-opacity duration-300 invisible opacity-0 bg-gray-900 text-white dark:bg-gray-700"
+          data-floating-ui-focusable=""
           data-testid="flowbite-tooltip"
-          id=":r0:"
+          id="_r_0_"
           role="tooltip"
           style="position: absolute; top: 0px; left: 0px;"
           tabindex="-1"

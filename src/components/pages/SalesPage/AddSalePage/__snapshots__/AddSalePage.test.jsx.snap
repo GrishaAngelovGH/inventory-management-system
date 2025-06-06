@@ -17,6 +17,7 @@ exports[`AddSalePage > should render AddSalePage component 1`] = `
             <a
               aria-current="page"
               class="text-slate-400 flex items-center gap-2 mt-4 ms-6"
+              data-discover="true"
               href="/"
               title=""
             >
@@ -32,6 +33,7 @@ exports[`AddSalePage > should render AddSalePage component 1`] = `
             </a>
             <a
               class="text-white flex items-center gap-2 mt-4 ms-6"
+              data-discover="true"
               href="/dashboard"
               title=""
             >
@@ -47,6 +49,7 @@ exports[`AddSalePage > should render AddSalePage component 1`] = `
             </a>
             <a
               class="text-white flex items-center gap-2 mt-4 ms-6"
+              data-discover="true"
               href="/categories"
               title=""
             >
@@ -129,7 +132,7 @@ exports[`AddSalePage > should render AddSalePage component 1`] = `
                   class="relative w-full"
                 >
                   <select
-                    class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                    class="block w-full appearance-none border bg-arrow-down-icon bg-[length:0.75em_0.75em] bg-[position:right_12px_center] bg-no-repeat focus:outline-none focus:ring-1 disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500 p-2.5 text-sm rounded-lg"
                     role="combobox"
                   >
                     <option
@@ -169,6 +172,7 @@ exports[`AddSalePage > should render AddSalePage component 1`] = `
           <a
             aria-current="page"
             class="text-slate-400 flex items-center gap-2 mt-4 ms-6"
+            data-discover="true"
             href="/"
             title=""
           >
@@ -184,6 +188,7 @@ exports[`AddSalePage > should render AddSalePage component 1`] = `
           </a>
           <a
             class="text-white flex items-center gap-2 mt-4 ms-6"
+            data-discover="true"
             href="/dashboard"
             title=""
           >
@@ -199,6 +204,7 @@ exports[`AddSalePage > should render AddSalePage component 1`] = `
           </a>
           <a
             class="text-white flex items-center gap-2 mt-4 ms-6"
+            data-discover="true"
             href="/categories"
             title=""
           >
@@ -281,7 +287,7 @@ exports[`AddSalePage > should render AddSalePage component 1`] = `
                 class="relative w-full"
               >
                 <select
-                  class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+                  class="block w-full appearance-none border bg-arrow-down-icon bg-[length:0.75em_0.75em] bg-[position:right_12px_center] bg-no-repeat focus:outline-none focus:ring-1 disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500 p-2.5 text-sm rounded-lg"
                   role="combobox"
                 >
                   <option

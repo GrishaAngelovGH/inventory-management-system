@@ -17,6 +17,7 @@ exports[`should render DashboardPage component 1`] = `
             <a
               aria-current="page"
               class="text-slate-400 flex items-center gap-2 mt-4 ms-6"
+              data-discover="true"
               href="/"
               title=""
             >
@@ -32,6 +33,7 @@ exports[`should render DashboardPage component 1`] = `
             </a>
             <a
               class="text-white flex items-center gap-2 mt-4 ms-6"
+              data-discover="true"
               href="/dashboard"
               title=""
             >
@@ -47,6 +49,7 @@ exports[`should render DashboardPage component 1`] = `
             </a>
             <a
               class="text-white flex items-center gap-2 mt-4 ms-6"
+              data-discover="true"
               href="/categories"
               title=""
             >
@@ -559,6 +562,7 @@ exports[`should render DashboardPage component 1`] = `
           <a
             aria-current="page"
             class="text-slate-400 flex items-center gap-2 mt-4 ms-6"
+            data-discover="true"
             href="/"
             title=""
           >
@@ -574,6 +578,7 @@ exports[`should render DashboardPage component 1`] = `
           </a>
           <a
             class="text-white flex items-center gap-2 mt-4 ms-6"
+            data-discover="true"
             href="/dashboard"
             title=""
           >
@@ -589,6 +594,7 @@ exports[`should render DashboardPage component 1`] = `
           </a>
           <a
             class="text-white flex items-center gap-2 mt-4 ms-6"
+            data-discover="true"
             href="/categories"
             title=""
           >

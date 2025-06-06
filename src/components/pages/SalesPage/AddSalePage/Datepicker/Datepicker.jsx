@@ -5,10 +5,10 @@ import "./Datepicker.css"
 const DatepickerWrapper = ({ value, onChange }) => (
   <div id="date-picker">
     <Datepicker
-      value={new Date(value).toLocaleDateString("en-GB")}
+      value={new Date(value)}
       placeholder="Select a date"
       weekStart={1}
-      onSelectedDateChanged={date => onChange(date)}
+      onChange={onChange}
     />
   </div>
 )

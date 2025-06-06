@@ -17,6 +17,7 @@ exports[`LowStockPage > should render LowStockPage component with low product qu
             <a
               aria-current="page"
               class="text-slate-400 flex items-center gap-2 mt-4 ms-6"
+              data-discover="true"
               href="/"
               title=""
             >
@@ -32,6 +33,7 @@ exports[`LowStockPage > should render LowStockPage component with low product qu
             </a>
             <a
               class="text-white flex items-center gap-2 mt-4 ms-6"
+              data-discover="true"
               href="/dashboard"
               title=""
             >
@@ -47,6 +49,7 @@ exports[`LowStockPage > should render LowStockPage component with low product qu
             </a>
             <a
               class="text-white flex items-center gap-2 mt-4 ms-6"
+              data-discover="true"
               href="/categories"
               title=""
             >
@@ -164,6 +167,7 @@ exports[`LowStockPage > should render LowStockPage component with low product qu
           <a
             aria-current="page"
             class="text-slate-400 flex items-center gap-2 mt-4 ms-6"
+            data-discover="true"
             href="/"
             title=""
           >
@@ -179,6 +183,7 @@ exports[`LowStockPage > should render LowStockPage component with low product qu
           </a>
           <a
             class="text-white flex items-center gap-2 mt-4 ms-6"
+            data-discover="true"
             href="/dashboard"
             title=""
           >
@@ -194,6 +199,7 @@ exports[`LowStockPage > should render LowStockPage component with low product qu
           </a>
           <a
             class="text-white flex items-center gap-2 mt-4 ms-6"
+            data-discover="true"
             href="/categories"
             title=""
           >
@@ -368,6 +374,7 @@ exports[`LowStockPage > should render LowStockPage component with optimal produc
             <a
               aria-current="page"
               class="text-slate-400 flex items-center gap-2 mt-4 ms-6"
+              data-discover="true"
               href="/"
               title=""
             >
@@ -383,6 +390,7 @@ exports[`LowStockPage > should render LowStockPage component with optimal produc
             </a>
             <a
               class="text-white flex items-center gap-2 mt-4 ms-6"
+              data-discover="true"
               href="/dashboard"
               title=""
             >
@@ -398,6 +406,7 @@ exports[`LowStockPage > should render LowStockPage component with optimal produc
             </a>
             <a
               class="text-white flex items-center gap-2 mt-4 ms-6"
+              data-discover="true"
               href="/categories"
               title=""
             >
@@ -503,6 +512,7 @@ exports[`LowStockPage > should render LowStockPage component with optimal produc
           <a
             aria-current="page"
             class="text-slate-400 flex items-center gap-2 mt-4 ms-6"
+            data-discover="true"
             href="/"
             title=""
           >
@@ -518,6 +528,7 @@ exports[`LowStockPage > should render LowStockPage component with optimal produc
           </a>
           <a
             class="text-white flex items-center gap-2 mt-4 ms-6"
+            data-discover="true"
             href="/dashboard"
             title=""
           >
@@ -533,6 +544,7 @@ exports[`LowStockPage > should render LowStockPage component with optimal produc
           </a>
           <a
             class="text-white flex items-center gap-2 mt-4 ms-6"
+            data-discover="true"
             href="/categories"
             title=""
           >

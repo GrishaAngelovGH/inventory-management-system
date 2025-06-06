@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 div[data-testid="flowbite-tooltip-target"] {
   width: auto;

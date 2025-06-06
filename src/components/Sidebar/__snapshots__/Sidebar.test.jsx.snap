@@ -14,6 +14,7 @@ exports[`Sidebar > should render closed Sidebar component 1`] = `
           <a
             aria-current="page"
             class="text-slate-400 flex items-center gap-2 mt-4 ms-0"
+            data-discover="true"
             href="/"
             title="Home"
           >
@@ -29,6 +30,7 @@ exports[`Sidebar > should render closed Sidebar component 1`] = `
           </a>
           <a
             class="text-white flex items-center gap-2 mt-4 ms-0"
+            data-discover="true"
             href="/dashboard"
             title="Dashboard"
           >
@@ -44,6 +46,7 @@ exports[`Sidebar > should render closed Sidebar component 1`] = `
           </a>
           <a
             class="text-white flex items-center gap-2 mt-4 ms-0"
+            data-discover="true"
             href="/categories"
             title="Categories"
           >
@@ -122,6 +125,7 @@ exports[`Sidebar > should render closed Sidebar component 1`] = `
         <a
           aria-current="page"
           class="text-slate-400 flex items-center gap-2 mt-4 ms-0"
+          data-discover="true"
           href="/"
           title="Home"
         >
@@ -137,6 +141,7 @@ exports[`Sidebar > should render closed Sidebar component 1`] = `
         </a>
         <a
           class="text-white flex items-center gap-2 mt-4 ms-0"
+          data-discover="true"
           href="/dashboard"
           title="Dashboard"
         >
@@ -152,6 +157,7 @@ exports[`Sidebar > should render closed Sidebar component 1`] = `
         </a>
         <a
           class="text-white flex items-center gap-2 mt-4 ms-0"
+          data-discover="true"
           href="/categories"
           title="Categories"
         >
@@ -287,6 +293,7 @@ exports[`Sidebar > should render opened Sidebar component 1`] = `
           <a
             aria-current="page"
             class="text-slate-400 flex items-center gap-2 mt-4 ms-6"
+            data-discover="true"
             href="/"
             title=""
           >
@@ -302,6 +309,7 @@ exports[`Sidebar > should render opened Sidebar component 1`] = `
           </a>
           <a
             class="text-white flex items-center gap-2 mt-4 ms-6"
+            data-discover="true"
             href="/dashboard"
             title=""
           >
@@ -317,6 +325,7 @@ exports[`Sidebar > should render opened Sidebar component 1`] = `
           </a>
           <a
             class="text-white flex items-center gap-2 mt-4 ms-6"
+            data-discover="true"
             href="/categories"
             title=""
           >
@@ -395,6 +404,7 @@ exports[`Sidebar > should render opened Sidebar component 1`] = `
         <a
           aria-current="page"
           class="text-slate-400 flex items-center gap-2 mt-4 ms-6"
+          data-discover="true"
           href="/"
           title=""
         >
@@ -410,6 +420,7 @@ exports[`Sidebar > should render opened Sidebar component 1`] = `
         </a>
         <a
           class="text-white flex items-center gap-2 mt-4 ms-6"
+          data-discover="true"
           href="/dashboard"
           title=""
         >
@@ -425,6 +436,7 @@ exports[`Sidebar > should render opened Sidebar component 1`] = `
         </a>
         <a
           class="text-white flex items-center gap-2 mt-4 ms-6"
+          data-discover="true"
           href="/categories"
           title=""
         >
